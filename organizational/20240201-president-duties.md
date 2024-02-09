@@ -4,7 +4,7 @@
 
 Evolving document of regions of duty for scheduling consideration for MyLife organizational execution.
 
-## Laying Groudwork for Plan of Action
+## Laying Groundwork for Plan of Action
 
 1. Final Categorization **DONE**
 2. Create spreadsheet (prioritization, etc.) [20240205]
