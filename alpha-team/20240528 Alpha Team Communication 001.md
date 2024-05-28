@@ -1,4 +1,4 @@
-# Alpha Team Initial Outreach Eamil
+# Alpha Team Initial Outreach Email
 
 ## Subject: Welcome to MyLife, Alpha Team ${ firstName }!
 
