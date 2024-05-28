@@ -1,4 +1,4 @@
-# MyLife GitHub Repository Documentation
+# MyLife GitHub Documentation
 
 ## Overview
 
