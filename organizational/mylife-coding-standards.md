@@ -8,6 +8,47 @@
 
 ## Code Structure
 
+### Erasing `const` Scoped Arrays
+
+#### Understanding `const` Declaration
+
+- `const` declares a constant reference to an array, meaning the reference cannot be changed, but the contents of the array can be modified.
+
+#### Clearing an Array
+
+- To clear the contents of an array declared with `const`, use the `length` property.
+- Example:
+
+  ```javascript
+  const myArray = [1, 2, 3, 4]
+  myArray.length = 0  // This clears the array
+  ```
+
+#### Nullifying Array Elements
+
+- To ensure that the references within the array are cleared to help with garbage collection, set each element to `null` before clearing the array.
+- Example:
+
+  ```javascript
+  const myArray = [1, 2, 3, 4]
+  for(let i = 0; i < myArray.length; i++){
+    myArray[i] = null
+  }
+  myArray.length = 0
+  ```
+
+#### Official `clearArray` Function
+
+- The official function `clearArray()`, which clears an array with garbage collection assistance, is defined in `this.globals`.
+
+```javascript
+// Usage
+const myArray = [1, 2, 3, 4];
+// ... operations on myArray
+this.globals.clearArray(myArray);
+// myArray is now []
+```
+
 ### Using `String.prototype.includes()` for String Search in JavaScript
 
 The `includes()` method is a built-in JavaScript function that checks if a string contains a specified substring. It returns a boolean value - `true` if the substring is found, and `false` otherwise.
