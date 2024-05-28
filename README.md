@@ -9,28 +9,34 @@ Welcome to the MyLife GitHub document repository. This repository contains all e
 The repository is organized into several folders, each containing specific types of documentation:
 
 ### 1. **Legal and Organizational Documents**
+
 - **Articles of Incorporation**: Outlines the formal establishment of MyLife, its purpose, and foundational legal framework.
 - **Bylaws**: Contains the detailed governance structure, operational procedures, and policies of MyLife.
 - **Constitution**: Sets forth the fundamental principles and values guiding MyLife.
 - **Non-Profit 501(c)(3) Documents**: Includes all necessary documentation for maintaining our tax-exempt status.
 
 ### 2. **Code Standards**
+
 - **Coding Guidelines**: Documents specifying the coding standards and best practices for software development within MyLife.
 - **Review Protocols**: Procedures for code reviews and quality assurance processes.
 
 ### 3. **Alpha Team Management Documentation**
+
 - **Project Management**: Documents outlining the management strategies, roles, and responsibilities of the Alpha team.
 - **Milestones and Roadmaps**: Detailed plans and timelines for project development and key deliverables.
 
 ## Key Documents
 
 ### Articles of Incorporation
+
 This document outlines the formal establishment of MyLife, including its name, purpose, and key officers. It defines MyLife's charitable and educational objectives, ensuring compliance with Section 501(c)(3) of the Internal Revenue Code.
 
 ### Bylaws
+
 The bylaws provide a comprehensive governance framework for MyLife. They detail the structure and duties of the Board of Directors, membership types, fiscal policies, and procedures for meetings and decision-making. The bylaws ensure transparency and accountability in MyLife's operations.
 
 ### Constitution
+
 The constitution sets forth the core values and guiding principles of MyLife. It emphasizes digital dignity, equality, and security, promoting greater introspection, empathy, and personal satisfaction.
 
 ## Usage Guidelines

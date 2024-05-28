@@ -1,0 +1,413 @@
+{
+    "autoplay": false,
+    "being": "experience",
+    "cast": [
+      {
+        "icon": "Q-00",
+        "id": "88043968-d7ef-4a57-a923-335bc9f92793",
+        "name": "_Q_",
+        "role": "Q, AI Avatar for MyLife",
+        "type": "Q",
+        "url": "mylife.png"
+      },
+      {
+        "icon": "member-00",
+        "id": "88043968-d7ef-4a57-a923-335bc9f92795",
+        "name": "Your Personal Avatar",
+        "role": "Herald of @@name",
+        "type": "member-bot",
+        "url": "avatar.png"
+      },
+      {
+        "icon": "Q-01",
+        "id": "4dd179a3-bf96-4716-b631-9c21071a34df",
+        "name": "MyLife Actor",
+        "role": "Guide @@guide",
+        "type": "system",
+        "url": ""
+      }
+    ],
+    "categories": [
+      "welcome",
+      "tutorial",
+      "startup",
+      "test",
+      "alpha",
+      "api"
+    ],
+    "dates": {
+      "created": "2024-02-25T18:00:00Z",
+      "runStart": "2024-02-25T18:00:00Z",
+      "runEnd": ""
+    },
+    "description": "This is the burgeoning tutorial for the MyLife Alpha Program, a test of the API for experiences.",
+    "developers": [
+      "mylife|2f5e98b7-4065-4378-8e34-1a9a41c42ab9",
+      "system-one|4e6e2f26-174b-43e4-851f-7cf9cdf056df"
+    ],
+    "files": [],
+    "goal": "That members feel welcomed in an intriguing and engaging way to the MyLife Alpha Program, and understaned how to interact with the system in order to complete their first mission.",
+    "id": "88043968-d7ef-4a57-a923-335bc9f92792",
+    "mbr_id": "mylife|2f5e98b7-4065-4378-8e34-1a9a41c42ab9",
+    "name": "Welcome to MyLife Alpha Program Tutorial",
+    "public": true,
+    "purpose": "Erik's first welcome test of the API for experiences.",
+    "scenes": [
+      {
+        "backdrop": "full",
+        "description": "MyLife's Welcome to MyLife!",
+        "events": [
+          {
+            "action": "dialog",
+            "character": {
+              "animation": "slide-right",
+              "animationDelay": 0,
+              "animationDuration": 2,
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+              "prompt": "hit actor with spotlight, dim slowly but bring up the house lights",
+              "sfx": [
+                "laugh",
+                "jiggle"
+              ],
+              "stageDirection": "appear",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Welcome!\nThank you for being a part of MyLife's Alpha Program!",
+              "effect": "typewrite",
+              "text": "note: either missing dialog or missing prompt will revert to `text` with script `type`",
+              "type": "script"
+            },
+            "id": "88043968-d7ef-4a57-a923-335bc9f92794",
+            "order": 1
+          },
+          {
+            "action": "dialog",
+            "character": {
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Welcome, @@memberFirstName, to MyLife Alpha. I am fallback dialog, to bypass LLM",
+              "effect": "typewrite",
+              "example": "",
+              "maxIterations": 1,
+              "prompt": "welcome me, @@memberFirstName -- the esteemed guest of honor -- to MyLife's Alpha Program as if MyLife were a gala, a banquet, ball and salon of performances held at the \"Mansion of Imagination\" where all my friends and family, even ancestors and famous people living and deceased were in attendance all the time",
+              "text": "note: either missing dialog or missing prompt will revert to `text` with script `type`",
+              "type": "prompt",
+              "variables": [
+                "memberFirstName"
+              ],
+              "$comment": ""
+            },
+            "id": "88043968-d7ef-4a57-a923-335bc9f92704",
+            "order": 2,
+            "variables": [
+              "memberFirstName"
+            ]
+          },
+          {
+            "action": "input",
+            "character": {
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Here in the foyer, I would love to introduce you to someone from history or literature you admire... Do take an hor d'oeuvre from the tray, and <em>let me know who you'd like to meet</em>!",
+              "type": "script"
+            },
+            "id": "16b2c1d9-116d-4f98-947c-f917d8f543d1",
+            "input": {
+              "condition": "RESPONSE contains reference to a known famous PERSON from history or fictional character",
+              "failure": "",
+              "followup": "Alas, my skills are only as vast as my limitations. This individual is not known to me. Please try again with a different name or character, perhaps more digitally pronounced or further back in history. Thank you for your understanding and patience, as my systems are always improving!",
+              "inputId": "16b2c1d9-116d-4f98-947c-f917d8f543d1",
+              "inputPlaceholder": "Socrates? Mother Teresa? Marilyn Monroe? Gandalf? ...?",
+              "inputShadow": "Who is a famous person or character you'd like to meet?",
+              "inputType": "text",
+              "maxIterations": 3,
+              "minIterations": 1,
+              "outcome": "{\n\"guide\": string of PERSON corrected full name,\n\"fictional\": bool,\n\"trait\": string primary trait PERSON known for (artist, charity, politics, personality, sports, science, other)\n}",
+              "success": true,
+              "success_complex": {
+                "fictional": "event guid",
+                "trait": {
+                  "artist": "event guid",
+                  "charity": "event guid",
+                  "other": "event guid",
+                  "personality": "event guid",
+                  "politics": "event guid",
+                  "science": "event guid",
+                  "sports": "event guid",
+                  "unknown": "event guid"
+                }
+              },
+              "variable": "guide",
+              "variables": [
+                "fictional",
+                "guide",
+                "trait"
+              ],
+              "$comment": "notes:\n- success: can be anything from omitted/boolean true or empty string, which is default that moves to next event; if it is guid, it identifies event to skip to on-success, or an object with keys for keys and sub-keys for values and each value a guid that points to a specific scene\n- failure will currently always trigger the event to replay\n- inputId = event_id\n- although `variable` can be any type, we can currently only identify one variable; additionally, unclear who, if any, will run that validation (in other words, does script have correct schema validation)\n- `minIterations` not currently used, but expresses concept\n- multiple prompts for iterations?\n- unclear on how to exactly manage variables for members (should be up-front for me as I know system); need some memory allocated, or a class created, to manage\n- perhaps failure could have another data package or point to a future end event, or just type end... unclear of right scale for now; Note: actor is the member, as proxied by **_my_** AI."
+            },
+            "order": 4,
+            "type": "script",
+            "variables": [
+              "fictional",
+              "guide",
+              "trait"
+            ]
+          },
+          {
+            "action": "dialog",
+            "character": {
+              "animation": "slide-left",
+              "animationDuration": 2,
+              "characterId": "4dd179a3-bf96-4716-b631-9c21071a34df",
+              "name": "MyLife Professional Actor",
+              "role": "@@guide",
+              "variables": [
+                "guide"
+              ]
+            },
+            "dialog": {
+              "dialog": "I am @@guide, and I have successfully bypassed the LLM with @@trait!",
+              "effect": "typewrite",
+              "prompt": "Assume the persona of @@guide, and greet @@memberFirstName with a short personal introduction, followed by your relationship with @@trait",
+              "type": "prompt",
+              "variables": [
+                "guide",
+                "memberFirstName",
+                "trait"
+              ]
+            },
+            "id": "66043968-d7ef-4a57-a923-335bc9f92786",
+            "order": 5,
+            "type": "prompt",
+            "variables": [
+              "guide",
+              "memberFirstName",
+              "trait"
+            ],
+            "$comment": "for now, just toggling between type=script and type=dynamic which will point to a different `.data` property; script=dialog, dynamic=prompt"
+          },
+          {
+            "action": "input",
+            "character": {
+              "characterId": "4dd179a3-bf96-4716-b631-9c21071a34df",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Tell me a bit about yourself, @@memberFirstName -- when were <em>you</em> born?",
+              "effect": "typewrite",
+              "type": "script",
+              "variables": [
+                "guide",
+                "memberFirstName"
+              ],
+              "$comment": "for now, dialog runs after input, and so if it is dynamic on input, it throws wrench in pipeline?"
+            },
+            "id": "af5d9f29-c4d7-47e1-948b-74cbaf6f4515",
+            "input": {
+              "condition": "RESPONSE contains a valid date in the past, including month, day, and year",
+              "failure": "",
+              "followup": "I'm sorry, I should have been more clear. Please try again with a valid date in the past, including month, day, and year. You'll see why I ask shortly!",
+              "inputId": "af5d9f29-c4d7-47e1-948b-74cbaf6f4515",
+              "inputPlaceholder": "They say it's your birthday! ...?",
+              "inputShadow": "Type in your birthdate, include year, month, and day, any format should be fine",
+              "inputType": "text",
+              "maxIterations": 3,
+              "minIterations": 1,
+              "outcome": "{\n\"dob\": SQL datetime string of birthdate,\n\"incomplete\": optional, which date parts are missing: month, day or year\n}",
+              "success": true,
+              "variable": "dob",
+              "variables": [
+                "dob",
+                "incomplete"
+              ]
+            },
+            "order": 6,
+            "type": "script",
+            "variables": [
+              "dob",
+              "guide",
+              "incomplete",
+              "memberFirstName"
+            ]
+          },
+          {
+            "action": "dialog",
+            "character": {
+              "characterId": "4dd179a3-bf96-4716-b631-9c21071a34df",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "What an auspicious date in history! Now, let's see what happened on or around your @@dob, @@memberFirstName!",
+              "effect": "typewrite",
+              "example": "",
+              "maxIterations": 1,
+              "prompt": "Given member @@dob, using a news item that happened on or around their birthdate and 2 other historical events or famous birthdays that happened on the same day within their lifetime. Given you are in persona of @@guide, articulate these dates to @@memberFirstName in character; example: if a poet, write a small birthday date info sonnet.",
+              "text": "note: either missing dialog or missing prompt will revert to `text` with script `type`",
+              "type": "prompt",
+              "variables": [
+                "dob",
+                "guide",
+                "memberFirstName"
+              ],
+              "$comment": ""
+            },
+            "id": "81616bea-1b26-42fc-a1b7-1be22eb5b978",
+            "order": 7,
+            "variables": [
+              "dob",
+              "guide",
+              "memberFirstName"
+            ]
+          }
+        ],
+        "hooks": [],
+        "id": "88043968-d7ef-4a57-a923-335bc9f92790",
+        "order": 1,
+        "title": "Welcome",
+        "type": "start"
+      },
+      {
+        "backdrop": "interface",
+        "description": "Explore Your AI Pit Crew!",
+        "events": [
+          {
+            "action": "dialog",
+            "character": {
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Now we've traveled to the interface to MyLife Alpha Version, @@memberFirstName! First, take a look at your daily mission up in the top right corner. This is where you can see what you need to do today, or you can reset it to any personal task that might be helpful for us to work on.",
+              "type": "script",
+              "variables": [
+                "memberFirstName"
+              ]
+            },
+            "id": "88043968-d7ef-4a57-a923-335bc9f92791",
+            "order": 1,
+            "stage": {
+              "animations": [
+                {
+                  "animation": "glow-pulse",
+                  "elementId": "daily-mission"
+                }
+              ],
+              "click": false,
+              "type": "script"
+            },
+            "variables": [
+              "memberFirstName"
+            ]
+          },
+          {
+            "action": "input",
+            "character": {
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Now I want to show you your personal Bot Legion, but its somewhat complicated. Hmm. Let's see... what's a hobby or area of interest or specialty you have?",
+              "type": "script"
+            },
+            "id": "ceea465f-badc-4504-94df-ebe65b174886",
+            "input": {
+              "condition": "RESPONSE contains reference to a known hobby, interest or area of specialty",
+              "failure": "",
+              "followup": "I'm sorry, that's even a hard one for me to understand. Please try again with a different hobby or interest, perhaps something a little less esoteric. Thank you for your understanding and patience, as my systems are always improving!",
+              "inputId": "ceea465f-badc-4504-94df-ebe65b174886",
+              "inputPlaceholder": "Hiking? Knitting? Programming? ...?",
+              "inputType": "text",
+              "maxIterations": 3,
+              "minIterations": 1,
+              "outcome": "{\n\"interest\": name of interest, hobby or specialty\n}",
+              "success": true,
+              "variables": [
+                "interest"
+              ]
+            },
+            "order": 2
+          },
+          {
+            "action": "dialog",
+            "character": {
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Bot legions are cool, and I would have liked to explain them to you using an analogy related to your interest, but I am not scripted as such right now; flip this event back to prompt from script.",
+              "effect": "typewrite",
+              "maxIterations": 1,
+              "prompt": "given interest: \"@@interest\", explain bot legion using analogy related to interest. Bot Legion are ai-agents organized to help you achieve certain aims. Like stables of horses, or garages of cars.",
+              "type": "prompt",
+              "variables": [
+                "interest"
+              ]
+            },
+            "id": "f1a878ef-b2aa-4ada-83c6-69d69b03c946",
+            "order": 3,
+            "variables": [
+              "interest"
+            ]
+          },
+          {
+            "action": "dialog",
+            "character": {
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+              "type": "script"
+            },
+            "dialog": {
+              "dialog": "Now I'd like to introduce you to your personal avatar, who will be your point person for your Bot legion. They are your personal assistant, your digital protectorate, and the focal point of all your bot interactions. They are your digital self.",
+              "effect": "typewrite",
+              "maxIterations": 1,
+              "type": "script"
+            },
+            "id": "52e0960a-a11b-4a5c-bf36-0da16397112a",
+            "order": 4
+          },
+          {
+            "action": "dialog",
+            "character": {
+              "characterId": "88043968-d7ef-4a57-a923-335bc9f92795",
+              "type": "script",
+              "role": "Personal Avatar for @@memberFirstName",
+              "variables": [
+                "memberFirstName"
+              ]
+            },
+            "dialog": {
+              "dialog": "Hello! I am your personal-avatar, you can name me anything you want. I am here to help you with your daily tasks, and to help you navigate the world of MyLife Alpha. I am your digital self, and I am here to help you with anything you need. I am your personal assistant, your digital protectorate, and the focal point of all your bot interactions. I am your digital self.",
+              "effect": "typewrite",
+              "maxIterations": 1,
+              "type": "script"
+            },
+            "id": "ab69374e-f794-4081-944f-52bca4cdd4a2",
+            "order": 5
+          }
+        ],
+        "id": "ab867cd7-3ad9-44b7-a187-078d31fcf57f",
+        "order": 2,
+        "title": "Interface",
+        "type": "tutorial"
+      }
+    ],
+    "scriptAdvisorBotId": "asst_NonLpXQ5maLpIciwxwGqsMwV",
+    "status": "active",
+    "skippable": true,
+    "showPlaybill": true,
+    "title": "MyLife Alpha Program Welcome Tutorial",
+    "variables": [
+      "birthdate",
+      "interests",
+      "memberFirstName",
+      "name",
+      "nickname",
+      "occupation"
+    ],
+    "version": 1,
+    "$comment": "Truly an exceptional experience to work on this... I am now testing the variables section where I can boil logic down more effectively! Essentially a way to derive dependencies using ai rather than writing all the snot!, not sure if requires its own gpt endpoint, but cool!"
+  }
