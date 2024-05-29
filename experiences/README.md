@@ -252,11 +252,19 @@ Members can interact with AI agents to generate these JSON scripts. The AI will 
 
 Q is the enlightened "embodiment" of the MyLife Organization and serves as the core avatar for the MyLife platform. When referencing information about MyLife, Q is the go-to cast member.
 
+- Responds to `type: 'Q'` in `.cast`
+
 ### MyLife Improvisational Actor
 
 This actor is designed to present dialog in various situational contexts and constraints, distinct from Q. It acts as a versatile narrator or dynamic cast member suitable for the script's needs.
 
-- Core versatile improv actor: `4dd179a3-bf96-4716-b631-9c21071a34df`
+- Responds to `type: 'system'` in `.cast`
+
+### Member Avatar Bot
+
+Also functioning as `moderator`, the member's primary avatar can play a role in the script on behalf of the member. Currently it is only an echo role, but as the system matures, there will be more incorporation and role for the member's primary avatar.
+
+- Responds to `type` in the following enum: `['avatar', 'personal-avatar', 'member-ai', 'member-bot']`
 
 ### MyLife Script Advisor
 
