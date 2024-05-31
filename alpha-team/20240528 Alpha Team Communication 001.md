@@ -4,7 +4,7 @@
 
 Hello ${firstName}, and welcome to the _MyLife Alpha Team_!
 
-First of all, thank you for joining us on what promises to be a remarkable journey. We deeply appreciate your patience and enthusiasm as we prepare to launch the _MyLife_ member platform for our Alpha Team.
+We deeply appreciate your patience and enthusiasm as we prepare to launch the _MyLife_ member platform for our Alpha Team.
 
 **Why the delay?**
 
@@ -12,7 +12,7 @@ AI models have been evolving rapidly, and we have integrated these advancements 
 
 ### What can you do in the meantime?
 
-You can still chat live with [_MyLife_'s AI-Agent **_Q_** on our homepage](https://humanremebranceproject.org), our intelligent platform agent, on the live site. Additionally, here is a [link to our platform announcement and informational article](https://ewbj.medium.com/mylife-we-save-your-life-480a80956a24).
+You can still chat with [_MyLife_'s AI-Agent **_Q_** on our homepage](https://humanremebranceproject.org) on the live site. Additionally, here is a [link to our platform announcement and informational article](https://ewbj.medium.com/mylife-we-save-your-life-480a80956a24).
 
 ### What _MyLife_ asks of our Alpha Members
 
