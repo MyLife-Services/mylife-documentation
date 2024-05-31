@@ -1,4 +1,6 @@
-**Subject:** Welcome to MyLife, Alpha Team, ${firstName}!
+# MyLife Initial Outreach Email to Alpha Participants
+
+## Subject: Welcome to MyLife, Alpha Team, ${firstName}!
 
 Hello ${firstName}, and welcome to the _MyLife Alpha Team_!
 
