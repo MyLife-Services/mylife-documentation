@@ -10,7 +10,7 @@ AI models have been evolving rapidly, and we have integrated these advancements 
 
 ### What can you do in the meantime?
 
-You can still chat with Q, our intelligent platform agent, on the live site. Additionally, here is a [link to our platform announcement and informational article](#).
+You can still chat live with [_MyLife_'s AI-Agent **_Q_** on our homepage](https://humanremebranceproject.org), our intelligent platform agent, on the live site. Additionally, here is a [link to our platform announcement and informational article](https://ewbj.medium.com/mylife-we-save-your-life-480a80956a24).
 
 ### What _MyLife_ asks of our Alpha Members
 
@@ -24,8 +24,6 @@ You can still chat with Q, our intelligent platform agent, on the live site. Add
 You will hear from our **Alpha Team Coordinator** again in a week with further instructions. This will include an introduction to the alpha tutorial and access to a team of AI assistants who will help you tell your stories, for now and forever.
 
 Thank you again for joining us on this incredible journey. It’s bound to be like _nothing_ you’ve experienced before.
-
-Best regards,
 
 **_MyLife_ Board of Directors**
 
