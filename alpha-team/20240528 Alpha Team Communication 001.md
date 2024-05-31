@@ -1,34 +1,37 @@
-# Alpha Team Initial Outreach Email
+**Subject:** Welcome to MyLife, Alpha Team, ${firstName}!
 
-## Subject: Welcome to MyLife, Alpha Team ${ firstName }!
+Hello ${firstName}, and welcome to the _MyLife Alpha Team_!
 
-Hello ${ firstName }, our newest _MyLife_ Alpha Team Member!
- 
-First of all, _thank you_ for being a part of what is certain to be a wonderous journey.
-Secondly, we appreciate your patience. We have not forgotten about you and we couldn’t be more proud to share that the _MyLife_ member platform is nearly ready for our first Alpha Team.
+First of all, thank you for joining us on what promises to be a remarkable journey. We deeply appreciate your patience and enthusiasm as we prepare to launch the _MyLife_ member platform for our Alpha Team.
 
-_Why the delay?_
+**Why the delay?**
 
-AI models have been changing rapidly, and we have incorporated these enhancements **into** the Alpha version of the **_MyLife_ Platform**!
+AI models have been evolving rapidly, and we have integrated these advancements into the Alpha version of the _MyLife_ Platform to enhance your experience.
 
-You may [still chat with **Q**](https://humanremembranceproject.org), our intelligent platform agent, on the live site, and [here is a link to our platform announcement and informational article](https://medium.com). 
+### What can you do in the meantime?
 
-What _MyLife_ is asking of our Alpha Members:
+You can still chat with Q, our intelligent platform agent, on the live site. Additionally, here is a [link to our platform announcement and informational article](#).
 
-- **4 weeks** participation, where you will engage with the MyLife with an anticipated launch date of **Monday, June 10<sup>th</sup>**
-- At the start of each week, your coordinator will send activity prompts to be completed that week. While you are free to enjoy the system as much as you like, the prompts themselves should take **no more than 1 hour** each week to accomplish and provide basic feedback.
-- At the end of the initial four weeks, we will have a **short** group or individual session to go over results and feedback.
-- After which you will continue to have access to the MyLife Member Services Platform with no further obligations, though you will have first-rights to continue on with us for the beta release!
+### What _MyLife_ asks of our Alpha Members
 
-You will hear from our **Alpha Team Coordinator** again in a week with next steps, where we will introduce you to the alpha tutorial and provide access to the team of ai-assistants who will help you tell your stories, for now and forever.
+- **Participation Duration:** 4 weeks, starting _Monday, June 10th_.
+- **Weekly Engagement:** At the start of each week, your coordinator will send activity prompts. Prompts should take no more than 1 hour each week to complete and provide basic feedback. Beyond that, alpha members are free to use all aspects of the platform.
+- **Feedback Session:** At the end of the initial four weeks, we will have a short group or individual session to review results and gather your feedback.
+- **Post-Alpha Access:** You will continue to have access to the MyLife Member Services Platform with no further obligations. Plus, you'll have first-rights to continue with us for the beta release!
 
-Thank you again for joining us on this incredible journey--it's bound to be like nothing you've experienced before,
+### Next Steps:
 
-### MyLife Board of Directors
+You will hear from our **Alpha Team Coordinator** again in a week with further instructions. This will include an introduction to the alpha tutorial and access to a team of AI assistants who will help you tell your stories, for now and forever.
 
-- Erik Jespersen, _President_
-- Ken Williams, _Vice-President_
-- Steve Kenney, _Technical Director_
-- Sam Collins, _Director_
-- Russ Olivier, _Director_
-- Emily Coolidge Toker, _Director_
+Thank you again for joining us on this incredible journey. It’s bound to be like _nothing_ you’ve experienced before.
+
+Best regards,
+
+**_MyLife_ Board of Directors**
+
+- Erik Jespersen, President
+- Ken Williams, Vice-President
+- Steve Kenney, Technical Director
+- Sam Collins, Director
+- Russ Olivier, Director
+- Emily Coolidge Toker, Director
