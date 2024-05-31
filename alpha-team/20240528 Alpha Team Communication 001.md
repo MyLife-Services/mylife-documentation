@@ -17,7 +17,7 @@ You can still chat live with [_MyLife_'s AI-Agent **_Q_** on our homepage](https
 - **Participation Duration:** 4 weeks, starting _Monday, June 10th_.
 - **Weekly Engagement:** At the start of each week, your coordinator will send activity prompts. Prompts should take no more than 1 hour each week to complete and provide basic feedback. Beyond that, alpha members are free to use all aspects of the platform.
 - **Feedback Session:** At the end of the initial four weeks, we will have a short group or individual session to review results and gather your feedback.
-- **Post-Alpha Access:** You will continue to have access to the MyLife Member Services Platform with no further obligations. Plus, you'll have first-rights to continue with us for the beta release!
+- **Post-Alpha Access:** You will continue to have access to the MyLife Member Services Platform with no further obligations. Plus, you'll have first-rights to continue with us for the _beta release_!
 
 ### Next Steps:
 
