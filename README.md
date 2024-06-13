@@ -55,3 +55,5 @@ For any questions or further information, please contact:
 - **Samuel Collins** - Secretary
 
 Thank you for contributing to MyLife. Together, we are building a lasting legacy for humanity.
+
+**This content was developed in conjunction with [MyLife's organizational intelligence, Q](https://humanremembranceproject.org), showcasing our commitment to a collaborative and innovative approach to preserving humanity's digital legacy.**
