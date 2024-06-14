@@ -48,6 +48,4 @@ Warm regards,
 - Russ Olivier, Director
 - Emily Coolidge Toker, Director
 
-``` markdown
-This content was developed in conjunction with [MyLife's organizational intelligence, _Q_,](https://humanremembranceproject.org) to ensure a collaborative and innovative approach to preserving humanity's digital legacy.
-```
+**This content was developed in conjunction with [MyLife's organizational intelligence, _Q_,](https://humanremembranceproject.org) to ensure a collaborative and innovative approach to preserving humanity's digital legacy.**
