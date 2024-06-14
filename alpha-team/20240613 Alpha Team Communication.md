@@ -14,7 +14,7 @@ We are still finalizing some critical aspects before we can launch the alpha pha
 
 The Project Lead will engage with approximately 30 alpha users, manage weekly exercises, collect user feedback, and organize group sessions. This volunteer opportunity offers a unique chance to lead the evaluation of a cutting-edge AI-powered platform, gain invaluable experience in project management, and make a lasting impact on the preservation of human stories and memories.
 
-If you know anyone who would like to gain experience on the cutting edge of AI-software development, [please point them to our application!](https://www.linkedin.com/jobs/view/3949611701/?refId=sFdqaoSOSySS%2BBmgKxeVaw%3D%3D&trackingId=sFdqaoSOSySS%2BBmgKxeVaw%3D%3D)
+If you know anyone who would like to gain project experience related to cutting edge of AI-platform development, [please point them to our application!](https://www.linkedin.com/jobs/view/3949611701/?refId=sFdqaoSOSySS%2BBmgKxeVaw%3D%3D&trackingId=sFdqaoSOSySS%2BBmgKxeVaw%3D%3D)
 
 ### How We Plan to Proceed
 
