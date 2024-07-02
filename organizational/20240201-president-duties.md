@@ -284,3 +284,20 @@ Each category articulate initial achievable goals in sprint milestone, vision, r
     - Development or integration of automated support tools, such as a Bug-Bot, for immediate user assistance and feedback collection.
     - Processes for regularly reviewing user feedback and technical support interactions to identify common issues and potential improvements.
   - _priority_: **`MEDIUM`**
+
+
+## An Interim Note
+
+From someone self-beknighted as President. Not because I deserve it, and not just because it didn't make sense for anyone else to have adopted the mantle for the better yet. It's a truly terrifying pleasure to get to preside over this nascent entity, literally borne of our hands and minds, all of us together, like any idea, like any idea or instinct communicated from one generation to the next. Kin and unkin. Held and unheld. It's a terrible world outside, and left alone naked in the wood is a death sentence. I'm here and you're here because so many others gave of themselves for the betterment of all. Even if selfishly, why not? Why should we not give selfishly of our compassion, charity and devotion to what we truly cherish? Why should that spigot be governed?
+
+MyLife, or perhaps best said, those humans among us that contribute to it, are deeply excited to be not only a _part_ of the global transformation of the human condition through the use of artificially intelligent tools, devices and systems, but at the forefront of connecting mission with realizable technology. We spend our days trying to both _first_ understand and imagine for ourselves the positive and optimistic possibilities such a transformation can bring, while trying to quickly portray, invent and innovate platforms and systems that can _achieve_ the outcomes that we, as a species, most desperately need at what is seeming an increasingly dangerous point in our development.
+
+MyLife, at the deepest core of its mission, believes that we are better together than we are alone. That these human lessons learned, the shape of our existence that we ourselves cherish, the generosity of people who made our difficult lives better, all of this stored from the first-person and then animated and made accessible, made _vital_ to future humanity, to our own posterity, and to the precise wishes of our own consent, our contributions never stop. What we can share with others never need flicker out so long as there is someone we, or our avatars once we're long past, can touch in a way that makes _their_ lives better, and makes them feel understood.
+
+Our history is moving quickly. A lot of this will be forgotten if we don't act. The experience of what living as a human in the world _before_ AI and _after_ AI will be sought out knowledge. Your stories of your own humanity will be the most precious gold imaginable to so many future entities, and if we do our job to our best ability now, their existences will be the so much better for what we've done. It wasn't looking like that around climate change...!
+
+What you love is what matters most. These next few years are going to be chaotic, turbulent, confusing, and deeply challenging to all of us as human people. The only way I can figure that any of us will get through this is with the light of our aspirations, and the truthful and honest reckoning of who we are.
+
+**When** we are Gods, and we can bring to life anything we want, our person and legacy will be defined by precisely what we _chose_ to bring to life. I am thus far ecstatic to stand on the shores of MyLife and say, I choose to contribute by helping bring _this_ to life, with all of you.
+
+Let me tell about this thing I did and didn't die. (Was there (could there!) ever be another retelling of _any_ story where this beating heart wasn't the truest underbelly?!) I'd love to hear, it will make all of our lives easier, even beyond the end of time.
