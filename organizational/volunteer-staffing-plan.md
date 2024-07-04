@@ -2,13 +2,11 @@
 
 ## MyLife Volunteerism
 
-Even at it's core, as one could infer from a lot of the organizational documentation and in the animation of its vision and principles, MyLife observes _any_ contribution of self, even something as simple as the act of sharing a memory with posterity, as an exceptional gift. 
+Even at its core, as one can infer from much of the organizational documentation and the articulation of its vision and principles, MyLife values any contribution of self. Something as simple as sharing a memory with posterity is considered an exceptional gift. This belief underpins our commitment to preserving and celebrating individual experiences, which collectively contribute to the tapestry of human history.
 
-Dreictly give make lives better: SK-codes, generous contirbutions, standard models, all pointing to a potential UBI reality that we'd been discussing for a year, and don't mind Musk stealing our thunder on this particular matter. but also we aim to innovate IN-PLATFORM models for giving that we've likely never seen before--that's the underlying nature and power of AI.
+There are currently a number of ways, albeit too few at the moment, for people to contribute financially to help realize this vision. From SK-codes to generous contributions through standard models, MyLife aims to expand gifting opportunities, both for the organization and individuals across the globe, within the platform. The goal is to implement smart and innovative initiatives that broaden the scope and impact of donations. Implementable ideas range from sponsorships of the organization and individuals to token-based gifting systems. Introducing token-based gifting would allow members to earn tokens through platform engagement, which can then be donated to support MyLife's projects or other members in need. Additionally, avatar-facilitated direct-anonymous-target identification could enable members to identify and support specific causes or individuals anonymously, preserving privacy while fostering generosity.
 
-Then there are those who will give of their time to directly support the organization. That's what this document is about. Thanking you for the effort you've placed or are interested in engaging in order ideate and assist _realizing_ technology that **works for all of us**.
-
-By humans (and AI) _for_ humans (and _not_ the AI... get your _own_ platform, bub! [kisses, love you!]).
+This document is dedicated to those who give their time to directly support the organization. We thank you for the effort you have placed or are interested in engaging in to ideate and assist in realizing technology that **works for all of us**. Your dedication helps us advance our mission of ensuring digital dignity, equity, and justice for every individual, making a lasting impact on humanity.
 
 ### Current process
 
@@ -33,3 +31,5 @@ By humans (and AI) _for_ humans (and _not_ the AI... get your _own_ platform, bu
 MyLife is always evolving as it represents what we, _humanity,_ want to build for ourselves and extend that invitation for the same, to any human who would have affinity with our mission and ethos and therefore have interest in supporting the services we offer.
 
 The opporunities inside and outside of such a platform as MyLife will only become more interesting and more vast. Humans will not only _get_ to pursue productivity as their interests and whims see fit, we will be defined by that which we _choose_ to pursue.
+
+By humans (and AI) _for_ humans (and _not_ the AI... get your _own_ platform, bub! [kisses, love you!]).
