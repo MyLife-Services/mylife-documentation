@@ -6,7 +6,7 @@
 
 The purpose of this document is to outline the functional and cosmetic requirements for the MyLife Alpha Pilot. This document serves as a comprehensive guide for the development team, volunteers, and board members involved in the project, detailing the essential features, user experience elements, and technical specifications necessary to deliver the minimum viable product (MVP). The objective is to ensure that all stakeholders have a clear understanding of the project goals and the requirements needed to achieve a successful alpha pilot.
 
-#### Role of This Document
+### Role of This Document
 
 This document fulfills several critical functions:
 
@@ -35,8 +35,6 @@ This document is intended for the staff of volunteers and board members involved
 - **Technical Staff:** Developers, designers, and IT personnel who will be responsible for the technical implementation, coding, and testing of the platform.
 
 By catering to a diverse audience, this document aims to bridge the gap between the conceptual goals of the MyLife platform and the technical execution required to bring those goals to fruition.
-
-### MyLife Alpha Pilot Technical Documentation
 
 ## MyLife Alpha Product Overview
 
@@ -126,41 +124,41 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
 
 ### Feature List
 
-1. Member Registration and Account Creation
+1. **Member Registration and Account Creation**
    - Via MyLife's corporate intelligence _Q_, pilot team will register and create their accounts
    - login and explore interface
-2. Capture/Collect Memories
+2. **Capture and Collect Memories**
    - Allows members to upload and interactively input their memories, which are then stored in a secured data memory bank.
    - Upload photos, videos, and documents.
    - Interactive intelligent biographer that guides members through the memory input process with prompts and questions.
-3. Improve Memories
+3. **Improve Memories**
    - Enables members to edit their memories directly or use rotating prompts to enhance and stir memories, relating them to photos and other media.
    - Inline editing capabilities.
    - Rotating prompts to help recall additional details.
    - Add and relate media files to specific memories.
-4. Relive Memories
+4. **Relive Memories**
    - The intelligent biographer performs the member's story, allowing them to interject and update in real-time, creating a dynamic reliving experience.
    - AI-driven storytelling.
    - Real-time interjections ability for updates by the member.
    - Integration of multimedia elements into the performance.
-5. Share Memories
+5. **Share Memories**
    - Similar to reliving, but tailored to sharing another member's memory. Experiences can be crafted for posterity or specific audiences.
    - Sharing settings to control audience access.
    - AI-driven narrative performances of shared memories.
    - Customizable experience based on member preferences and natural language specifications.
-6. Build Memories
+6. **Build Memories**
    - Allows collaborative updating and fleshing out of memories, creating a network of interconnected stories, lessons, and ideas/
    - Collaboration tools for multiple members.
    - Shared editing and contribution features.
    - Notification and version control for updates.
-7. Forget Memories
+7. **Forget Memories**
    - Deletion or dismissing of bots, threads or memories
 
 ### User Stories
 
-1. **Old Person in Nursing Home Losing Memory:**
-   - **User Story:** As an elderly person in a nursing home who is experiencing memory loss, I want to use the interactive intelligent biographer to capture and preserve my memories before they fade, so my family and I can relive and cherish them in the future.
-   - **Acceptance Criteria:**
+1. **Elderly Person in Nursing Home Losing Memory**
+   - _User Story_: As an elderly person in a nursing home who is experiencing memory loss, I want to use the interactive intelligent biographer to capture and preserve my memories before they fade, so my family and I can relive and cherish them in the future.
+   - Acceptance Criteria
      - Ability to easily input and save memories with guided prompts.
      - Option to review and update memories later.
      - Secure storage of all data to ensure privacy and protection.
@@ -172,7 +170,7 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
      - Tools to collaborate with family members on building and refining stories.
      - Ability to export collected memories into a format suitable for school presentations.
 
-3. **Middle-Aged Person Wanting to Create a Time Capsule for Their Child:**
+3. **Middle-Aged Person Wanting to Create a Time Capsule for Their Newborn:**
    - **User Story:** As a middle-aged parent, I want to create a digital time capsule filled with memories and lessons for my child, so they can access it when they are older and understand their family history and my experiences.
    - **Acceptance Criteria:**
      - Easy-to-use features for adding and editing memories over time.
@@ -322,3 +320,5 @@ After the MVP launch, the following steps will be taken:
 - **Continued Development:** Continue developing new features and capabilities based on user needs and feedback, iterating towards a more comprehensive and polished product.
 
 ## Appendix
+
+- MyLife Pre-Pilot raw bug tracking and assessment: https://1drv.ms/x/s!Asw9c7yc92_HhcUiv48m1w7KJPUKjA?e=GjShTE
