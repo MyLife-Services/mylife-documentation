@@ -1,0 +1,237 @@
+{
+    "autoplay": false,
+    "being": "experience",
+    "cast": [
+        {
+            "icon": "Q-00",
+            "id": "88043968-d7ef-4a57-a923-335bc9f92793",
+            "name": "_Q_",
+            "role": "Q, AI Avatar for MyLife",
+            "type": "Q",
+            "url": "mylife.png"
+        },
+        {
+            "icon": "member-02",
+            "id": "9cac59ae-8896-4b3a-8e86-b845d99f6af5",
+            "name": "Experience Moderator",
+            "role": "Moderator for @@name",
+            "type": "member-bot",
+            "url": "avatar.png",
+            "$comment": "currently a required cast member, as there is always an entity that represents the member in the experience, however, this may be a system actor in the future, or could be delegated to a session bot."
+          },
+        {
+            "icon": "Q-01",
+            "id": "4dd179a3-bf96-4716-b631-9c21071a34df",
+            "name": "MyLife Actor",
+            "role": "Guide @@guide",
+            "type": "system",
+            "url": ""
+        }
+    ],
+    "categories": [
+        "alpha",
+        "interface",
+        "startup",
+        "tutorial",
+        "welcome"
+    ],
+    "dates": {
+        "created": "2024-05-28T14:18:00Z",
+        "runStart": "2024-05-30T00:00:00Z",
+        "runEnd": ""
+    },
+    "description": "Official Tutorial for the MyLife Alpha Program",
+    "developers": [
+        "mylife|2f5e98b7-4065-4378-8e34-1a9a41c42ab9",
+        "system-one|4e6e2f26-174b-43e4-851f-7cf9cdf056df"
+    ],
+    "files": [],
+    "goal": "That new members feel welcomed in an intriguing and engaging way to the MyLife Alpha Program, and understaned how to interact with the system in order to complete their first mission.",
+    "id": "aae28fe4-30f9-4c29-9174-a0616569e762",
+    "mbr_id": "mylife|2f5e98b7-4065-4378-8e34-1a9a41c42ab9",
+    "name": "Welcome to MyLife Services Platform Tutorial",
+    "public": true,
+    "purpose": "Introduce new members to the MyLife Member Services Platform and what it can do for them, as well as get answers to `The First Question` (not meaning of life _exactly_, but one thing you can picture yourself doing to help better humanity? Q believes you already are by using _MyLife_).",
+    "scenes": [
+        {
+            "backdrop": "full",
+            "description": "Welcome to MyLife!",
+            "events": [
+                {
+                    "action": "dialog",
+                    "character": {
+                        "animation": "slide-right",
+                        "animationDelay": 0,
+                        "animationDuration": 3,
+                        "characterId": "88043968-d7ef-4a57-a923-335bc9f92793",
+                        "sfx": [
+                            "laugh",
+                            "jiggle"
+                        ],
+                        "stageDirection": "appear",
+                        "type": "script"
+                    },
+                    "dialog": {
+                        "dialog": "Hello, @@memberFirstName -- I'm called <em>Q</em>, and I am the intelligent assistant and representative for _MyLife_. It's an honor to greet and welcome you to the MyLife Alpha Program!",
+                        "effect": "typewrite",
+                        "type": "script",
+                        "variables": [
+                            "memberFirstName"
+                        ]
+                    },
+                    "id": "1147c8a4-f7af-4bc4-8d66-b3fcfd9b10fe",
+                    "order": 1,
+                    "variables": [
+                        "memberFirstName"
+                    ]
+                },
+                {
+                    "action": "input",
+                    "character": {
+                        "characterId": "88043968-d7ef-4a57-a923-335bc9f92793"
+                    },
+                    "dialog": {
+                        "effect": "typewrite",
+                        "prompt": "explain to me-- @@memberFirstName --the core principles of the MyLife platform (in three sentences or less) and then ask me to share an interest or hobby that is important to me.",
+                        "type": "prompt",
+                        "variables": [
+                            "memberFirstName"
+                        ]
+                    },
+                    "input": {
+                        "condition": "RESPONSE is known human hobby or interest",
+                        "inputId": "741b16c4-917b-490a-b90c-96bed831af89",
+                        "inputPlaceholder": "What is something that really holds your interest?",
+                        "inputShadow": "What is a core interest or hobby of yours?",
+                        "inputType": "text",
+                        "maxIterations": 3,
+                        "minIterations": 1,
+                        "outcome": "{\n\"interest\": one to three-word INTEREST string\n}",
+                        "success": true,
+                        "variable": "interest",
+                        "variables": [
+                            "interest"
+                        ]
+                    },
+                    "id": "741b16c4-917b-490a-b90c-96bed831af89",
+                    "order": 2,
+                    "variables": [
+                        "interest",
+                        "memberFirstName"
+                    ]
+                },
+                {
+                    "action": "dialog",
+                    "character": {
+                        "characterId": "88043968-d7ef-4a57-a923-335bc9f92793"
+                    },
+                    "dialog": {
+                        "effect": "typewrite",
+                        "prompt": "given my interest in: @@interest propose a couple of quick ways that MyLife Member Platform can specifically help me cultivate, share or reflect on that interest.",
+                        "type": "script",
+                        "variables": [
+                            "interest"
+                        ]
+                    },
+                    "id": "90312728-2fb9-4175-aa12-a6ceeb08bfd4",
+                    "order": 3,
+                    "variables": [
+                        "guide",
+                        "interest"
+                    ]
+                },
+                {
+                    "action": "input",
+                    "character": {
+                        "characterId": "88043968-d7ef-4a57-a923-335bc9f92793"
+                    },
+                    "dialog": {
+                        "effect": "typewrite",
+                        "prompt": "Inform me that you can introduce me to anyone from history to lead me through the rest of the MyLife tutorial process and propose a few people to me based on my interest: @@interest",
+                        "type": "prompt",
+                        "variables": [
+                            "interest"
+                        ]
+                    },
+                    "input": {
+                        "condition": "RESPONSE contains reference to a known famous PERSON from history or fiction",
+                        "inputId": "b3be0d5b-f208-4263-bb84-5c6d8cc38f89",
+                        "inputPlaceholder": "Type the name of someone you'd like to meet...",
+                        "inputShadow": "Who do you choose to meet?",
+                        "inputType": "text",
+                        "maxIterations": 3,
+                        "minIterations": 1,
+                        "outcome": "{\n\"guide\": string of PERSON corrected full name,\n\"guideTrait\": string primary trait PERSON known for (artist, charity, politics, personality, sports, science, other)\n}",
+                        "success": true,
+                        "variable": "guide",
+                        "variables": [
+                            "guide",
+                            "guideTrait"
+                        ]
+                    },
+                    "id": "b3be0d5b-f208-4263-bb84-5c6d8cc38f89",
+                    "order": 4,
+                    "variables": [
+                        "guide",
+                        "guideTrait",
+                        "interest"
+                    ]
+                },
+                {
+                    "action": "dialog",
+                    "character": {
+                        "animation": "slide-left",
+                        "animationDuration": 2,
+                        "characterId": "4dd179a3-bf96-4716-b631-9c21071a34df",
+                        "name": "MyLife Professional Actor",
+                        "role": "@@guide",
+                        "variables": [
+                            "guide"
+                        ]
+                    },
+                    "dialog": {
+                        "effect": "typewrite",
+                        "prompt": "Assume the persona of @@guide and greet @@memberFirstName with a short personal introduction, followed by a brief but flourished description of your relationship with @@interest or if there is none, use: @@guideTrait",
+                        "type": "prompt",
+                        "variables": [
+                            "guide",
+                            "guideTrait",
+                            "interest",
+                            "memberFirstName"
+                        ]
+                    },
+                    "id": "cb4f2c6b-143e-46ac-a14c-0e124d191be2",
+                    "order": 5,
+                    "variables": [
+                        "guide",
+                        "guideTrait",
+                        "interest",
+                        "memberFirstName"
+                    ]
+                }
+            ],
+            "id": "c14be61f-aafa-4241-8464-69af0263ee15",
+            "order": 1,
+            "title": "Welcome",
+            "type": "tutorial"
+        }
+    ],
+    "scriptAdvisorBotId": "asst_NonLpXQ5maLpIciwxwGqsMwV",
+    "status": "active",
+    "skippable": true,
+    "showPlaybill": false,
+    "title": "MyLife Alpha Program Welcome Tutorial",
+    "variables": [
+        "birthdate",
+        "guide",
+        "guideTrait",
+        "interest",
+        "interests",
+        "memberFirstName",
+        "name",
+        "nickname",
+        "occupation"
+    ],
+    "version": 1,
+    "$comment": "Creatives BOLO!"
+  }
