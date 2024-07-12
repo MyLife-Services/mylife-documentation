@@ -160,21 +160,20 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
 
 1. **Elderly Person in Nursing Home Losing Memory**
    - _User Story_: As an elderly person in a nursing home who is experiencing memory loss, I want to use the interactive intelligent biographer to capture and preserve my memories before they fade, so my family and I can relive and cherish them in the future.
-   - Acceptance Criteria
+   - _Acceptance Criteria_
      - Ability to easily input and save memories with guided prompts.
      - Option to review and update memories later.
      - Secure storage of all data to ensure privacy and protection.
-
-2. **Young Person Doing a Family Report:**
-   - **User Story:** As a young student working on a family history report, I want to collect and organize stories from my relatives using the platform, so I can create a comprehensive and engaging presentation for my project.
-   - **Acceptance Criteria:**
+2. **Young Student Preparing a Family Report:**
+   - _User Story_: As a young student working on a family history report, I want to collect and organize stories from my relatives using the platform, so I can create a comprehensive and engaging presentation for my project. I also want to be able to teach them how to use `MyLife` so that their stories don't get lost, and we can shape and build those memories together as I get older.
+   - _Acceptance Criteria_
      - User-friendly interface for uploading and organizing different media files.
      - Tools to collaborate with family members on building and refining stories.
      - Ability to export collected memories into a format suitable for school presentations.
-
-3. **Middle-Aged Person Wanting to Create a Time Capsule for Their Newborn:**
-   - **User Story:** As a middle-aged parent, I want to create a digital time capsule filled with memories and lessons for my child, so they can access it when they are older and understand their family history and my experiences.
-   - **Acceptance Criteria:**
+     - Interactive tutorials (experiences)
+3. **First-time Parent Wanting to Create a Time Capsule for Their Newborn:**
+   - _User Story_: As a new parent, I want to create a digital time capsule filled with memories and lessons for my child, so they can access it when they are older and understand their family history and my experiences. I want it to be dynamic and relevant to their lives, and engage their imagination about what our lives were _really_ like when they were an infant.
+   - _Acceptance Criteria_
      - Easy-to-use features for adding and editing memories over time.
      - Ability to organize memories chronologically or by theme.
      - Secure sharing options to control when and how the time capsule is accessed.
@@ -183,30 +182,26 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
 
 Here are _Q_'a rankings, the board version and more are in excel file. Though at first glance I tend to agree, which gives me pause around memory-prompts I've coded as `shadows`.
 
-1. **Capture/Collect Memories:**
-   - **Importance:** High
-   - **Impact:** High
-   - **Reason:** Fundamental feature for the platform’s functionality, enabling users to start building their memory bank.
-
-2. **Relive Memories:**
-   - **Importance:** High
-   - **Impact:** High
-   - **Reason:** Enhances user engagement by allowing users to experience their memories dynamically.
-
-3. **Improve Memories:**
-   - **Importance:** Medium
-   - **Impact:** High
-   - **Reason:** Provides significant value by enhancing the quality and detail of stored memories.
-
-4. **Share Memories:**
-   - **Importance:** Medium
-   - **Impact:** Medium
-   - **Reason:** Encourages community interaction and enhances the social aspect of the platform.
-
-5. **Build Memories:**
-   - **Importance:** Medium
-   - **Impact:** Medium
-   - **Reason:** Facilitates collaborative storytelling and enriches the collective memory network, but can be developed further after initial launch.
+1. **Capture and Collect Memories**
+   - _Importance_: High
+   - _Impact_: High
+   - _Reason_: Fundamental feature for the platform’s functionality, enabling users to start building their memory bank.
+2. **Relive Memories**
+   - _Importance_: High
+   - _Impact_: High
+   - _Reason_: Enhances user engagement by allowing users to experience their memories dynamically.
+3. **Improve Memories**
+   - _Importance_: Medium
+   - _Impact_: High
+   - _Reason_: Provides significant value by enhancing the quality and detail of stored memories.
+4. **Share Memories**
+   - _Importance_: Medium
+   - _Impact_: Medium
+   - _Reason_: Encourages community interaction and enhances the social aspect of the platform.
+5. **Build Memories**
+   - _Importance_: Medium
+   - _Impact_: Medium
+   - _Reason_: Facilitates collaborative storytelling and enriches the collective memory network, but can be developed further after initial launch. Incurs comparatively larger technical construction resource cost.
 
 ## MyLife Alpha Pilot Platform Technical Documentation
 
@@ -217,7 +212,7 @@ The system architecture for the MyLife Alpha Pilot is designed to ensure scalabi
 - **Frontend**
   - A web-based user interface that allows members to interact with the MyLife platform. It is built using modern web technologies such as React for dynamic and responsive user experiences.
 - **Distributable Headless Intelligent API Platform**
-  - The Distributable Intelligent API Backend is designed to be a versatile and modular server-side application that can seamlessly integrate with and extend the capabilities of MyLife Member Avatars. This backend is built with Node.js and Koa.js, handling all business logic, API requests, and interactions with the database.
+  - The current Distributable Intelligent API Backend is designed to be a versatile and modular server-side application that can seamlessly integrate with and extend the capabilities of MyLife Member Avatars. This backend is built with Node.js and Koa.js, handling all business logic, API requests, and interactions with the database.
     1. Server-Side Application
        - _Node.js and Koa.js_: The backend is developed using Node.js for its asynchronous, event-driven architecture and Koa.js for its lightweight, expressive framework. This combination ensures efficient handling of business logic and API requests.
     2. Detachable and Distributable
@@ -228,7 +223,7 @@ The system architecture for the MyLife Alpha Pilot is designed to ensure scalabi
        - _On-Demand Service Points_: Any MyLife Member Avatar can dynamically become a headless API service point. This transformation can occur instantly when the Avatar connects with another intelligent platform or consumer, such as another AI-driven system or intelligent avatar.
     4. Future Vision
        - _Interoperability_: The ultimate goal is to enable seamless interoperability between MyLife Member Avatars and non-MyLife intelligent entities. By doing so, Member Avatars can serve as intelligent conduits for data exchange and service provision, extending the MyLife platform's functionality beyond its native environment.
-  - **Detailed Concept**
+  - Detailed Concept
     - _Dynamic API Services_: Imagine a scenario where a MyLife Member Avatar needs to interact with an external AI system. The Avatar can request access to the Distributable Intelligent API Backend, which then provisions the necessary logic and services to the Avatar.
       - _Example_: MyLife Member Avatar connects with an intelligent Google avatar that "Exploited Ernesta" has paid for to access it's premium services. But, while in communication, MyLife Member Avatar can be requested to `register` Ernesta (with their consent, validation and presence) and, without 'redirection' can perform the function immediately and successfully for Ernesta while retaining a level (or dialed-in preference) MyLife "branding" and knowledgevase.
     - _Headless Mode_: In headless mode, the backend can receive requests, process them, and return responses without requiring a traditional user interface. This allows it to function as an API endpoint for other intelligent systems.
@@ -270,15 +265,34 @@ The system architecture for the MyLife Alpha Pilot is designed to ensure scalabi
 
 ### APIs and Integrations
 
-- **Internal APIs:**
-  - User Registration and Authentication API: Handles user registration, login, and session management.
-  - Memory Management API: Allows users to capture, store, edit, and retrieve memories.
-  - AI Interaction API: Facilitates interactions with the intelligent biographer and other AI-driven features.
-  - Collaboration API: Supports collaborative editing and sharing of memories among users.
-  - Notifications API: Manages user notifications and alerts.
+The API structure is ready for a conscious refactor to harmonize the disparate avenues that manifested over the course of development in order to accommodate the advance of LLM models offerings _via_ API, most notably OpenAI. We chose OpenAI initially due to the extraordinary power of GPT 3.5 and its ability to sketch out technical conceptual models, and was excellent for that, as it became clear that creating our own internal model from GPT-2 level technology was a non-starter for my skills.
+
+The code reveals heritage of functionality tracing back to few-shot learning prior to `role` development. In specific for this codebase, I am referring to the "system" role value that allowed us to _contextually_ bloat the small context window (at the time), _although only payload by payload_--the first "instruction" field I had seen--which would clearly (even then it was clear) obviate the need for few-shot learning.
+
+Being unclear on the vast and growing majority of models that are out there, it would seem both feasible and reasonable to refactor the code down to 0-shot learning with memory. Memory might we require that we revisit an internal embedding solution for membership (we are currently leveraging OpenAIs agent-incorporated variant, which is sufficient for current scope), so I would consider this a vulnerability, but not an inconquerable one; dynamically attaching files to messages, threads is still workable in OpenAI if not directly referencing internal information.
+
+- **Internal API Infrastructure**
+  - Guest API:
+    - Access to Corporate Intelligence
+    - User Registration and Authentication API: Handles user registration, login, and session management
+    - Consensual Access to Member Avatar |_under development_|
+    - _Methods_: GET, POST
+  - Member API (logged in Member Avatar shortcut pathway, human-operater condoned "assured")
+    - All current frontend conversation excluding `experiences` (below).
+    - _Methods_: GET, POST
+  - AI API (intelligent API Consumer pathway)
+    - Facilitates interactions with the intelligent API consumers, and by design incorporates the following functionality and more:
+      - Experiences
+        - Natural-Language (via scriptDeveloperBot) event-driven theater-play scripting with dynamic conditional pathways and intelligent improvisational actors
+        - Drive Reliving and Sharing solutions
+        - Drive tutorials
+      - Relationship Manager (AI-to-AI, intentionally abstracting member-to-member)
+        - Additionally supports collaborative editing and sharing of memories among users
+      - Memory Team: Allows users to capture, store, edit, and retrieve memories.
+    - _Methods_: GET, PATCH
 - **External Integrations:**
-  - **OpenAI:** For advanced natural language processing and AI capabilities, such as generating memory prompts, storytelling, and content summarization.
-  - **Azure Cosmos DB:** For scalable and secure data storage.
+  - _OpenAI_: For advanced natural language processing and AI capabilities, such as generating memory prompts, storytelling, and content summarization.
+  - _Azure Cosmos DB_: For scalable and secure data storage.
 
 ### Data Management
 
