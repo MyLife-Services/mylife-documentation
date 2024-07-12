@@ -321,6 +321,8 @@ After the MVP launch, the following steps will be taken:
 - **Prepare for Open Alpha:** Use the insights gained from the closed alpha pilot to prepare for a broader open alpha, ensuring the platform is robust and ready for a larger user base.
 - **Continued Development:** Continue developing new features and capabilities based on user needs and feedback, iterating towards a more comprehensive and polished product.
 
+**This content was developed in conjunction with [MyLife's organizational intelligence, _Q_,](https://humanremembranceproject.org) to ensure a collaborative and innovative approach to preserving humanity's digital legacy.**
+
 ## Appendix
 
 - MyLife Pre-Pilot raw bug tracking and assessment: https://1drv.ms/x/s!Asw9c7yc92_HhcUiv48m1w7KJPUKjA?e=GjShTE
