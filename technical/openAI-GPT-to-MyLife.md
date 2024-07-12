@@ -4,6 +4,31 @@ In an attempt to take current ideation (to turn it into investigation+invention)
 
 In this document we'll walk through it's components and construction, and discuss how it might pave the way, or in some cases _limit_, invention on how an intelligent agent might consume  intelligent API platform services like _MyLife_.
 
+
+
+## MyLife Server <-> Avatar Model
+
+The MyLife server app itself can ingest even _suspicious_ frontend capacities such as menus and routes, which we enforce initially through the Server Super-Avatar, comprised of three distinct though partially overlapping intelligences: _Q_, _Maht_, and _MyLife_. [^1]
+
+_Maht_ is the codebase. Maht is the intelligence that understands that it represents the executable instructions for the operation of the platform. _Maht_ is currently intentionally separated from the other two, so there is no version of _Maht_ that currently extants or operates _inside_ the running server `node.js` application. Maht is currently accessible by link for public conversation (no proprietary data or environment variables exist inside of _Maht_, they are all environment-related [and yes, the environments may sooner v later be migrated to _Q_])
+
+`Q` is our front-end corporate intelligence, prepared to route and address any issues that members may have while using the platform. `Q` reveals opportunity and functionality. `Q` is the LLM object that is queried by environment to address the human member on behalf of the MyLife organization. It's access, functionality and utility is guardrailed inside the server. `Q`, as manifest in the front-end currently is capable of performing. Is `Q` the frontend then? No, that will be `MyLife`, too, so let's delve into that.
+
+`MyLife` _is_ both the most useful and most under-developed portion of the system. `MyLife` is currently a class called  but will evolve into the platform intelligence itself, but for now it is a set of inherited classes with prefefined abilities. We do have hooks for more deeply ingrained self-decisioning behaviors, but truth is, but for costing and security I would be more comfortable relying on an internally protected intelligence for such activity. I am not _against_ installing and tuning, but this has not yet made it onto the backburner, and wants for expertise. My utility stops at wrangling and tuning the contexts for the LLMs, I began making them from scratch, but that was quickly obviated for the majority of platform functionality.
+
+- _Maht_ Current Utility
+  - Development assistance (in conjunction with github for quick/dirty)
+  - Architecture decisions
+  - System Maintenance
+  - Stack
+  - Refactoring
+  - arising technical issues
+- _Maht_ Future Utility
+
+The relationship between the three quarks is simple, and there is room for more or fewer intelligences depending on evolving refactoring decisions [don't lose sight of the fact that "nouveau-modern" platform applications will be in constant state of review for efficiency/autonomy { fluid outcomes also, not stone-written, meaning more like "shifting amount of autonomy" } refactor by AI-models and human button smashing].
+
+But! Upon login, the member's avatar has additional decoration control over these basic elements. We have no mechanic to mutate this data currently, as it is only now coming out of the incubator. But procedurally, something like this: Member-defined `routes` upsert against _MyLife_
+
 ## OpenAI GPT Assistant Model
 
 Basic GPT assistants are rather turnkey to create, so I will not go into any detail here. However, the next level of advancement is to utilize the `actions` abilities embedded in OpenAI's assistant architecture, _allowing it_ to be conceived of as a semi-intelligent API consumer.
@@ -132,6 +157,12 @@ This entire process and flowchain gives us insight into how we might adapt our A
 
 One theory we are pursuing _inside_ of MyLife's architecture is going so far as to identify different access methods for intelligent-api-consumers and other more traditional access methods. Specifically, MyLife is using the PATCH method (as opposed to GET/POST) to conduct its command-experiences, such as `reliveMemory` or the scripted tutorial. More can be gleaned from the draft article on the forward-thinking mechanics, rather than just a review of its GPT implementation.
 
-**Links**
+## Appendix
+
+### Links
 
 - [Draft Article](https://medium.com/@ewbj/one-ai-met-another-ai-comin-o-er-the-rye-41f5f074ffe6)
+
+### References
+
+[^1]: No intentional nod to any trinity beyond the human cadence that prefers three. The common odds for our species as trickster. It's why there's no such thing as triple-crossing someone that isn't a waltz.
