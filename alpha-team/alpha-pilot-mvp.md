@@ -75,53 +75,6 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
    - Collect and share success stories from users to highlight the platform's impact.
    - Use these stories to inspire and attract new users.
 
-### Out-of-Scope
-
-...But near-tern _critical_ objectives.
-
-1. **Performance Testing**
-   - Conduct performance testing to ensure the platform can handle expected user loads.
-   - Identify and address any performance bottlenecks.
-2. **Data Privacy and Compliance**
-   - Ensure compliance with data privacy regulations such as GDPR and CCPA.
-   - Implement best practices for data handling and user consent.
-3. **Member Accessibility**
-   Ensure the MyLife platform is accessible and inclusive for all members, respecting the diversity of their experiences and needs.
-   - Accessibility for **Non-English Speakers**
-     - Multilingual Interface
-        - _Example_: Provide the platform interface in multiple languages (e.g., Spanish, Mandarin, French) to ensure non-English speakers can navigate and use the platform easily.
-     - Instantaneous Translation
-        - _Example_: Implement real-time translation services for chat and AI interactions, allowing users to communicate in their preferred language without losing context or meaning.
-     - Identify Localized Content
-        - _Example_: Offer content localization to adapt the platform's content (e.g., help guides, tutorials) to different languages and cultural contexts, enhancing member understanding and engagement.
-   - Accessibility for traditional-interface **Disabilities**
-     - Screen Reader Compatibility
-     - Keyboard Navigation
-     - Captioning and Transcripts
-     - BCI technologies and interface preparation
-   - Accessibility for members with **Minimal Literacy**
-     - distinguish between children? and uneducated?
-     - Voice Interaction
-     - Audio Guides and Tutorials
-     - Pictorial and Video/Animation Navigation
-        - _Example_: Utilize icons and visual cues for navigation and interaction, making it easier for users who cannot read to understand and use the platform's features.
-4. **Respecting Diversity** of Member Experience
-   - Multilinguality
-   - Multicultural Sensitivity
-     - _Example_: As member individual memory profiles emerge out of usage, correspondingly investigate alliance offerings, think ChatBlackGPT (R)
-   - Trauma Sensitivity
-     - _Example_: Implement features to identify and flag potentially traumatic content, providing warnings or support options to users who may be affected by certain memories or stories.
-   - Socio-Economic Sensitivity
-   - Extended Personalization Based on Various Sensitivity Levels
-     - _Example_: Allow users to set their sensitivity preferences (e.g., avoiding certain topics) so that AI interactions and content suggestions are tailored to their comfort levels and personal experiences. We have opt-in topics in mind now, this would equate to opt-out.
-5. **Scalability Testing**
-   - Test the scalability of the platform to ensure it can grow with increasing user numbers.
-   - Plan for infrastructure scaling to support future growth.
-   - Implement necessary accessibility features and improvements.
-6. **Costing**
-   - Develop a detailed costing plan for the alpha pilot and subsequent phases.
-   - Focused on internal MyLife platform costs, currently `Azure` (hosting, database) and `OpenAI` (llm)
-
 ## MVP Features
 
 ### Feature List
@@ -340,3 +293,50 @@ After the MVP launch, the following steps will be taken:
 ## Appendix
 
 - MyLife Pre-Pilot raw bug tracking and assessment: https://1drv.ms/x/s!Asw9c7yc92_HhcUiv48m1w7KJPUKjA?e=GjShTE
+
+### Out-of-Scope
+
+...But near-tern _critical_ objectives.
+
+1. **Performance Testing**
+   - Conduct performance testing to ensure the platform can handle expected user loads.
+   - Identify and address any performance bottlenecks.
+2. **Data Privacy and Compliance**
+   - Ensure compliance with data privacy regulations such as GDPR and CCPA.
+   - Implement best practices for data handling and user consent.
+3. **Member Accessibility**
+   Ensure the MyLife platform is accessible and inclusive for all members, respecting the diversity of their experiences and needs.
+   - Accessibility for **Non-English Speakers**
+     - Multilingual Interface
+        - _Example_: Provide the platform interface in multiple languages (e.g., Spanish, Mandarin, French) to ensure non-English speakers can navigate and use the platform easily.
+     - Instantaneous Translation
+        - _Example_: Implement real-time translation services for chat and AI interactions, allowing users to communicate in their preferred language without losing context or meaning.
+     - Identify Localized Content
+        - _Example_: Offer content localization to adapt the platform's content (e.g., help guides, tutorials) to different languages and cultural contexts, enhancing member understanding and engagement.
+   - Accessibility for traditional-interface **Disabilities**
+     - Screen Reader Compatibility
+     - Keyboard Navigation
+     - Captioning and Transcripts
+     - BCI technologies and interface preparation
+   - Accessibility for members with **Minimal Literacy**
+     - distinguish between children? and uneducated?
+     - Voice Interaction
+     - Audio Guides and Tutorials
+     - Pictorial and Video/Animation Navigation
+        - _Example_: Utilize icons and visual cues for navigation and interaction, making it easier for users who cannot read to understand and use the platform's features.
+4. **Respecting Diversity** of Member Experience
+   - Multilinguality
+   - Multicultural Sensitivity
+     - _Example_: As member individual memory profiles emerge out of usage, correspondingly investigate alliance offerings, think ChatBlackGPT (R)
+   - Trauma Sensitivity
+     - _Example_: Implement features to identify and flag potentially traumatic content, providing warnings or support options to users who may be affected by certain memories or stories.
+   - Socio-Economic Sensitivity
+   - Extended Personalization Based on Various Sensitivity Levels
+     - _Example_: Allow users to set their sensitivity preferences (e.g., avoiding certain topics) so that AI interactions and content suggestions are tailored to their comfort levels and personal experiences. We have opt-in topics in mind now, this would equate to opt-out.
+5. **Scalability Testing**
+   - Test the scalability of the platform to ensure it can grow with increasing user numbers.
+   - Plan for infrastructure scaling to support future growth.
+   - Implement necessary accessibility features and improvements.
+6. **Costing**
+   - Develop a detailed costing plan for the alpha pilot and subsequent phases.
+   - Focused on internal MyLife platform costs, currently `Azure` (hosting, database) and `OpenAI` (llm)
