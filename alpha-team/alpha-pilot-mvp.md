@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![MyLife Platform Member Interface](/alpha-team/assets/png/interface.png)
+
 ### Purpose
 
 The purpose of this document is to outline the functional and cosmetic requirements for the MyLife Alpha Pilot. This document serves as a comprehensive guide for the development team, volunteers, and board members involved in the project, detailing the essential features, user experience elements, and technical specifications necessary to deliver the minimum viable product (MVP). The objective is to ensure that all stakeholders have a clear understanding of the project goals and the requirements needed to achieve a successful alpha pilot.
