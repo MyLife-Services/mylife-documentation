@@ -111,20 +111,22 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
 
 ### User Stories
 
+Develop use cases (these are only illustrative and preliminary) to outline functionality relevancy to various audiences.
+
 1. **Elderly Person in Nursing Home Losing Memory**
    - _User Story_: As an elderly person in a nursing home who is experiencing memory loss, I want to use the interactive intelligent biographer to capture and preserve my memories before they fade, so my family and I can relive and cherish them in the future.
    - _Acceptance Criteria_
      - Ability to easily input and save memories with guided prompts.
      - Option to review and update memories later.
      - Secure storage of all data to ensure privacy and protection.
-2. **Young Student Preparing a Family Report:**
+2. **Young Student Preparing a Family Report**
    - _User Story_: As a young student working on a family history report, I want to collect and organize stories from my relatives using the platform, so I can create a comprehensive and engaging presentation for my project. I also want to be able to teach them how to use `MyLife` so that their stories don't get lost, and we can shape and build those memories together as I get older.
    - _Acceptance Criteria_
      - User-friendly interface for uploading and organizing different media files.
      - Tools to collaborate with family members on building and refining stories.
      - Ability to export collected memories into a format suitable for school presentations.
      - Interactive tutorials (experiences)
-3. **First-time Parent Wanting to Create a Time Capsule for Their Newborn:**
+3. **First-time Parent Wanting to Create a Time Capsule for Their Newborn**
    - _User Story_: As a new parent, I want to create a digital time capsule filled with memories and lessons for my child, so they can access it when they are older and understand their family history and my experiences. I want it to be dynamic and relevant to their lives, and engage their imagination about what our lives were _really_ like when they were an infant.
    - _Acceptance Criteria_
      - Easy-to-use features for adding and editing memories over time.
