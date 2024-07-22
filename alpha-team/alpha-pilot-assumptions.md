@@ -92,6 +92,7 @@ https://www.census.gov/library/visualizations/interactive/parents-living-arrange
 - **Parents living arrangements:** Around 90 million
 
 ### Who She Is:
+
 Anna is a dedicated professional and a loving parent. She balances her time between her engineering job, caring for her children, supporting her spouse, and being there for her aging parents. She uses various applications daily for leisure, work, and managing household tasks. She enjoys reading and writing, and places a high value on the education and well-being of her children and family.
 
 ### Motivation to Use MyLife:
