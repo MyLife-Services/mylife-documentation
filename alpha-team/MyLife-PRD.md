@@ -1,8 +1,8 @@
 # MyLife Member Services Platform Product Requirements Documentation
 
 **Product Name:** MyLife Member Services Platform  
-**Authors:** EWJ & Q  
-**Contributors:** [Team Members]
+**Initial Authors:** @Mookse, @sheikita, Q (MyLife corporate intelligence)
+**Contributors:** @stratfordCircle
 
 ## About
 
