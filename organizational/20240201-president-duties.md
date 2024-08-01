@@ -2,37 +2,44 @@
 
 ## Q1: 20240101-20240331
 
-Evolving document of regions of duty for scheduling consideration for MyLife organizational execution.
+Evolving document of regions of duty for scheduling consideration for MyLife organizational execution. Focus remained on product and technical architecture.
+
+## Q2: 20240401-20240630
+
+Developing and articulating the platform successfully led to outreach via LinkedIn to engage initial round of volunteers. Initial fundraising vehicles put in place by @stratfordCircle.
+
+## Q3: 20240701-20240930
+
+Focused on success along two pronged priorities, the first more directly connected with a search for interim guidance or executive directorship to grow the organization to the next phase of supporting full-time staffing.
+
+- **Product Definition**: Define and develop MyLife platform specifications and document(s) for multi-channel presentation for:
+  - fundraising
+  - staffing
+  - volunteerism
+  - education and informational
+- **Projectizing Platform Functionality**: In order to test and validate the development and evolution of the MyLife platform, we intend to projectize the various governed releases to reach full membership version. We are currently in the process of having expanded the internal testing to Project volunteers, and with them, preparing to launch the pilot by September.
+  - internal volunteers
+  - alpha pilot (closed)
+  - open limited alpha (include press)
+  - closed beta
+  - open beta
+  - launch
 
 ## Laying Groundwork for Plan of Action
-
-1. Final Categorization **DONE**
-2. Create spreadsheet (prioritization, etc.) [20240205]
-3. Meet and Confirm Prioritization/schedule/operations [20240208]
-4. Find out what works via trial _ongoing_
-
-Figure out how to work in breaks/insertions about incorporation into the infrastructure
-
-@russ We need the output story
-
-- alpha -> beta
-- see output mechanic
 
 ### active todo
 
 @todo:
 
-- [ ] EWJ calendar/schedule/sprint
 - [ ] permenant.org - Robert, await confirmation
   - goal: initiate outreach, fashion next steps with partner
 - [ ] Grant/opportunity research and applying
-  - Converge-2
+- [ ] Define Executive Director priorities, scope of position, compensation mechanic, expectations, preliminary metrics, areas of expertise
+- [ ] Establish cohesion around Alpha Pilot Plan
+
+As implied, one of the primary todo's at the moment is to find support from our networks or advertised channels to find a "mentor" volunteer to help shepherd us through the initial growth instance of finding someone to take on an interim executive mantle, and how we could quickly react to and enact them getting compensated for their flywheel efforts.
 
 **notes**
-Have different dashboards for roles in addition to gpt
-for coding I have Maht, for org, I have MyLife
-purchased team for collaboration
-
 topic has to-do list and is time-blocked, afford an update period at the end of the block in order to capture what was NOT complete during interim
 
 Each category articulate initial achievable goals in sprint milestone, vision, rough prioritization, skills and interests? [ewj versus mylife]
