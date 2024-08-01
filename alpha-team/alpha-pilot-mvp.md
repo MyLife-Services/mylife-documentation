@@ -132,6 +132,11 @@ Develop use cases (these are only illustrative and preliminary) to outline funct
      - Easy-to-use features for adding and editing memories over time.
      - Ability to organize memories chronologically or by theme.
      - Secure sharing options to control when and how the time capsule is accessed.
+4. **Someone like me that just wants to do something to give back and leave this world better than forcing all the same struggles I endured carelessly and ceaselessly upon others**
+   - _User Story_: For some of us, there's only one way out now. There's a need to take responsibility for the state of progress and address the grave deviation from principles that bind us together in empathy. To address and fix the injustices unnecessarily imposed upon each of us from systems of domination and control through physical threat, captivity or as extortion for our liberty and safety. Someone who believes we are better together than split apart, that what each of us can accomplish when supported by and contributing to the whole is precious, brilliant and exquisite. The belief in rising tides and a post-scarcity super-intelligent humanity.
+   - _Acceptance Criteria_
+     - Easy-to-use features for adding and editing memories over time
+     - "Farting-Against-The-Wind" button on member avatar
 
 ### Feature Prioritization
 
