@@ -610,27 +610,22 @@ Understanding and defining our customer segments is crucial for tailoring MyLife
    - Demographics: Individuals with early-stage dementia, Alzheimer's, or other memory-related conditions; senior citizens, retirees, and older adults; caregivers and family members.
    - Needs: Secure and accessible platform to preserve memories, aid in cognitive exercises, and provide a sense of continuity; easy-to-use features for preserving life stories and sharing with family.
    - Channels for Outreach: Healthcare providers, memory care centers, support groups, Alzheimer's and dementia organizations, senior centers, retirement communities, AARP, local community organizations, targeted social media campaigns, and partnerships with memory care apps and senior-focused tech initiatives.
-
 2. Self-Education and Self-Exploration
    - Demographics: Individuals who live alone, including the elderly, single adults, students, and those undergoing (re-)training or self-education.
    - Needs: A platform to document and share their life experiences, connect with others, engage in self-exploration, and ensure their stories are not lost; tools for preserving educational journeys and combating loneliness.
    - Channels for Outreach: Social services, loneliness support groups, online forums, community centers, educational institutions, social media, partnerships with organizations addressing social isolation, and collaborations with e-learning platforms.
-
 3. Tech Advocates and AI Enthusiasts
    - Demographics: Early adopters of technology, tech-savvy individuals, gadget enthusiasts, and individuals interested in artificial intelligence and machine learning.
    - Needs: Advanced features, seamless integrations, and cutting-edge technology for managing and preserving digital content; innovative AI-driven features for content curation, analysis, and preservation.
    - Channels for Outreach: Tech blogs and websites, tech and AI conferences, social media platforms like Twitter, Reddit, and LinkedIn, tech influencer partnerships, academic institutions, and collaborations with AI research organizations.
-
 4. Humanists, Ethicists, and Religious Communities
    - Demographics: Individuals and organizations passionate about human rights, ethics, moral philosophy, and religious values.
    - Needs: A platform that aligns with their values of digital dignity, privacy, preserving human stories, and respecting ethical and religious principles.
    - Channels for Outreach: Human rights organizations, ethical and moral philosophy forums, religious institutions and communities, humanities academic departments, nonprofits focused on ethics and religion, social media, and conferences and events focused on human rights, ethics, and religious studies.
-
 5. Digital Archivists (Personal and Communal)
    - Demographics: Individuals and organizations focused on archiving personal or communal histories and digital content, including family historians and cultural networks.
    - Needs: Robust tools for organizing, preserving, and sharing digital archives, with a focus on long-term accessibility and security.
    - Channels for Outreach: Archival societies, historical preservation groups, libraries, museums, academic institutions, social media platforms like LinkedIn, and partnerships with digital preservation initiatives.
-
 6. Grief Support
    - Demographics: Individuals and groups coping with loss who wish to preserve memories of loved ones.
    - Needs: A compassionate platform to document and share the stories of loved ones, providing comfort and a sense of continuity.
@@ -814,12 +809,14 @@ MyLife provides William with a user-friendly platform to document his memories a
 
 ### Use Cases
 
-@Mookse- It is not clear what the difference is between the general and the compelling use cases. How these use cases map to the alpha customer segments? The goal is get to the example below. @sheikita
- 
-Memory Loss and Elderly
-   - Life Story Documentation: Preserves personal histories for future generations. --> A Grandparent’s Legacy for Future Generations
-   - Memory Stimulation: Aids in recalling and sharing past experiences.
-   - Family Sharing: Facilitates sharing memories with family members.
+@Mookse How do these use cases map to the alpha customer segments? The goal is get to the example below. @sheikita
+
+- Memory Loss and Elderly
+  - Life Story Documentation: Preserves personal histories for future generations. --> A Grandparent’s Legacy for Future Generations
+  - Memory Stimulation: Aids in recalling and sharing past experiences.
+  - Family Sharing: Facilitates sharing memories with family members.
+
+**Can do**. Will patch up Miro first
 
 #### General Categories of Use Cases
 
@@ -967,11 +964,7 @@ MyLife provides a platform for the collection, curation, preservation, and share
     - Anonymized Data for Political and Cultural Research
     - Advancing Human Understanding and Society's Betterment
 
-### Compelling Use Cases for MyLife
-
-### Use Cases
-
-#### General Categories of Use Cases
+#### Use Cases by Category
 
 MyLife provides a platform for the collection, curation, preservation, and shared presentation of personal memories, ensuring digital dignity, equity, and posterity. Here are the various use cases that MyLife supports, covering a wide range of interests and demographics.
 
