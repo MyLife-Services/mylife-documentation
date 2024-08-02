@@ -1,7 +1,9 @@
 # MyLife Member Services Platform Product Requirements Documentation
 
-Product Name: MyLife Member Services Platform  
+Product Name: MyLife Member Services Platform
+
 Initial Authors: @Mookse, @sheikita, Q (MyLife corporate intelligence)
+
 Contributors: @stratfordCircle
 
 ## Executive Summary
@@ -13,7 +15,7 @@ Contributors: @stratfordCircle
 2. [Market Insights](#market-insights)
    - Analysis of the market landscape, both collaborative and competitor offerings, and potential customer segments.
 3. [The Problem](#the-problem)
-   = Identification of the core issues and pain points that MyLife aims to address.
+   - Identification of the core issues and pain points that MyLife aims to address.
 4. [The Solution](#the-solution)
    - Examination of the technological landscape and the tools and frameworks to be utilized.
    - Detailed description of the proposed features and functionalities of the MyLife platform
