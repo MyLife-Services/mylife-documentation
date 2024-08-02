@@ -4,7 +4,34 @@ Product Name: MyLife Member Services Platform
 Initial Authors: @Mookse, @sheikita, Q (MyLife corporate intelligence)
 Contributors: @stratfordCircle
 
-## About
+## Executive Summary
+
+## Table of Contents
+
+1. [About MyLife Member Services Platform](#about-mylife-member-services-platform)
+   - Overview of the platform and vision
+2. [Market Insights](#market-insights)
+   - Analysis of the market landscape, both collaborative and competitor offerings, and potential customer segments.
+3. [The Problem](#the-problem)
+   = Identification of the core issues and pain points that MyLife aims to address.
+4. [The Solution](#the-solution)
+   - Examination of the technological landscape and the tools and frameworks to be utilized.
+   - Detailed description of the proposed features and functionalities of the MyLife platform
+   - Includes the MVP for Alpha
+5. [Requirements](#requirements)
+   - Specifications overview both technical and non-technical
+6. [Challenges](#challenges)
+   - Potential obstacles and risk management strategies to overcome them.
+7. [Positioning](#positioning)
+   - Comparison of use cases, pain points, and solutions to demonstrate the impact.
+8. [Measuring Success](#measuring-success)
+   - Metrics and key performance indicators to evaluate the platform’s effectiveness.
+9. [Launching](#launching)
+   - Roll-out strategy and communication plan with stakeholders and users.
+
+This document serves as a guide for the development team, stakeholders, and contributors, ensuring a clear understanding of the project's goals and requirements as we move towards the September 1 launch of the MyLife Member Services Platform alpha version.
+
+## About MyLife Member Services Platform
 
 ### Overview of MyLife
 
@@ -25,25 +52,6 @@ The alpha version meets the mission by offering intuitive input methods, interac
 This Product Requirements Document (PRD) outlines the specific requirements and goals for the MyLife Member Services Platform, with a focus on the alpha pilot version. It serves a dual purpose: to guide the development team with detailed technical and functional specifications, and to showcase to donors and the general public how the platform aligns with MyLife's nonprofit humanist mission.
 
 The document aims to provide a comprehensive overview of the platform's intended features, functionalities, and user experience. It highlights how the alpha version will support MyLife's commitment to preserving personal stories, fostering empathy, and ensuring digital dignity for all individuals. By detailing the platform's vision, market insights, user personas, and strategic goals, this PRD demonstrates the impact and value of MyLife's initiative in creating a lasting digital legacy for humanity.
-
-The PRD includes:
-
-1. [Market Insights](#market-insights)
-   - Analysis of the market landscape, competitor offerings, and potential customer segments.
-2. [The Problem](#the-problem)
-   = Identification of the core issues and pain points that MyLife aims to address.
-3. [The Solution](#the-solution)
-   - Detailed description of the proposed features and functionalities of the MyLife platform.
-4. [Technology Analysis]()
-   - Examination of the technological landscape and the tools and frameworks to be utilized.
-   - Specifications and MVP
-5. [Challenges]()
-   - Potential obstacles and risk management strategies to overcome them.
-6. Positioning: Comparison of use cases, pain points, and solutions to demonstrate the impact.
-7. Measuring Success: Metrics and key performance indicators to evaluate the platform’s effectiveness.
-8. Launching: Roll-out strategy and communication plan with stakeholders and users.
-
-This document serves as a guide for the development team, stakeholders, and contributors, ensuring a clear understanding of the project's goals and requirements as we move towards the September 1 launch of the MyLife Member Services Platform alpha version.
 
 ## Market Insights
 
@@ -567,7 +575,7 @@ Again, this category is vast, here are a few known players:
 
 By understanding and aligning with these market trends, MyLife can strategically position itself to meet the growing demand for secure, personalized, and long-term digital preservation solutions, ensuring that personal stories and legacies are preserved for posterity.
 
-### Market Technology Analysis
+### Technology Analysis
 
 While we have discussed various technological aspects in the context of collaboration and competition, a dedicated market technology analysis can still provide valuable insights. This section can highlight the broader technological landscape, emerging trends, and innovations that could impact MyLife's strategy and development.
 
