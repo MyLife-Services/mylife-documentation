@@ -1269,96 +1269,99 @@ When analyzing the pain points associated with MyLife's use cases, it's importan
    - Cannot Contribute to Your Own Culture in Any Digital Meaningful Way: Feeling excluded from contributing valuable personal narratives to cultural history.
    - Cannot Learn from Other Cultures Where Language is a Barrier: The challenge of understanding and learning from other cultures due to language differences.
 
-
 ### Addressing Pain Points
 
 By identifying these categories of pain points, MyLife can develop targeted strategies to address the specific needs and challenges of its users. This involves designing features and services that alleviate these pain points, providing a seamless and supportive experience for memory preservation and digital legacy management. For each use case, MyLife can offer tailored solutions that mitigate the identified pain points, ensuring that users feel supported and empowered in their journey to document and share their life stories.
 
 ### Problem Statement - @Mookse- I am assuming this has not been finalized. The expectation is that this section tells how mylife will solve the identified problems/paintpoins at a more high-level. Example: "Mylife aims to simplify and enhance the process of documenting and preserving personal memories across diverse user segments by providing interactive, AI-powered guidance and tools
 
-Students spend too much time figuring out what and how to study, leading to suboptimal learning outcomes and frustration.
+
 
 ### Hypotheses and Mission Statement
-By introducing AI Study Buddy, we will make personalized learning more efficient and enjoyable, helping students achieve better academic results.
 
 ## The Solution
 
-### Ideation
+### MyLife Member Services Platform
 
-- AI-Powered Study Plans: Tailored schedules based on individual performance and learning speed.
-- Instant Feedback System: AI-driven responses to student queries and progress reports.
-- Virtual Tutoring Sessions: AI tutors available 24/7 to assist with difficult topics.
+### Leveraging Artificial Intelligence
 
-### Leveraging AI
 AI is essential for creating personalized learning experiences, providing instant feedback, and offering round-the-clock tutoring, all of which are impossible to achieve manually at scale.
 
 ### Feature Prioritization
-Using the RICE framework:
 
-1. Personalized Study Plans
-   - Reach: 80
-   - Impact: 9
-   - Confidence: 7
-   - Effort: 6
-   - Score: 84 = (r * I * c) / E
-
-2. Use Case 2
-
-3. Use Case 3
-
-### AI MVP
-The AI MVP will include:
-- A simple personalized study plan generator using reinforcement learning.
-- A basic instant feedback system leveraging natural language processing (NLP).
-- Initial virtual tutoring sessions powered by predefined AI algorithms.
+### MVP
 
 ### Roadmap
-- Q1: Develop and test the personalized study plan generator.
-- Q2: Implement the instant feedback system and conduct user testing.
-- Q3: Launch the virtual tutoring sessions and gather feedback for improvements.
+
+- FY2024
+  - Q3: 
+    - Initial volunteer outreach (PM)
+    - Define MVP
+    - Develop and test Alpha Pilot internally
+    - Define PRD
+    - Conduct Alpha Pilot Program
+  - Q4:
+    - Conduct Open Alpha
+    - Interim Executive Director
+    - Fundraising
+    - Staffing
 
 ### Technical Architecture
-- Frontend: React.js for the user interface.
-- Backend: Node.js with Express for API services.
-- AI Models: TensorFlow for machine learning algorithms.
-- Database: MongoDB for storing user data and interactions.
-- API
+
+- Webapp Hosting: MS Azure (paid)
+- Frontend: HTML5, CSS, Animations, javascript (open)
+- API Backend: Node.js with Koa (open)
+- AI Models: OpenAI GPT Assistant Technology with custom functions and actions (paid)
+- Embedding Service: OpenAI Vectorstore and File Storage (paid)
+- Database: Cosmos NoSQL for storing user data and interactions (paid)
+- Assets: Flat asset file storage for images and video (tbd)
 
 ### Assumptions and Constraints
+
 - Users have access to the internet and compatible devices.
 - AI algorithms will require regular updates and training with new data.
+- Codebase evolves through frequent refactor
+- Rely on as much intelligent interoperation as functionally feasible
 
 ### Risks
-- Data Privacy: Ensuring user data is securely stored and managed.
-- Algorithm Bias: Continuous monitoring to avoid any bias in AI recommendations.
+
+- Data Privacy: Ensuring user data is securely stored and managed
 
 ## Requirements
 
-#### Functional Requirements
+### Functional Requirements
 
-- User registration and profile management.
-- AI-driven personalized study plan creation.
-- Real-time feedback mechanism.
-- Virtual tutoring session interface.
+- Secure Login
+- Digital Self Avatar
+- Memory Team
+  - Capture and Collect
+  - Improve, Bolster and Enhance
+  - Relive Memories
+  - Share Memories
+  - Build Collective Memories
+- Experience Framework
+  - Mechanic for dynamically reliving or sharing memories
+- Help Framework
+- Account Management
 
-#### Non-functional Requirements
+### Non-functional Requirements
 
 - High availability and scalability.
 - Secure user authentication and data encryption.
 - Responsive and user-friendly interface.
 
-#### Data Requirements
+### Data Requirements
 
 - User performance data for personalized study plans.
 - Real-time interaction data for feedback and tutoring sessions.
 
-### Challenges
+## Challenges
 
 - Ensuring the AI models are accurate and unbiased.
 - Acquiring enough quality data for training the models.
 - Maintaining user engagement over time.
 
-### Positioning
+## Positioning
 
 | Use Case              | Pain Point                      | Possible Solutions              | Impact of Solution           |
 |-----------------------|---------------------------------|---------------------------------|------------------------------|
@@ -1366,28 +1369,28 @@ The AI MVP will include:
 | Use Case 2            |                                 |                                 |                              |
 | Use Case 3            |                                 |                                 |                              |
 
-### Measuring Success
+## Measuring Success
 
-#### Metrics
+### Metrics
 
 - User Engagement: Daily active users (DAU), session duration.
 - Retention: Monthly retention rate.
 
-#### AI-specific Metrics
+### AI-specific Metrics
 
 - Model Accuracy: Precision and recall of AI recommendations.
 - Response Time: Average time to provide feedback.
 
-#### North Star Metric
+### North Star Metric
 
 - User Success Rate: Percentage of users achieving their study goals.
 
-### Launching
+## Launching
 
-#### Stakeholders & Communication
+### Stakeholders & Communication
 - Regular updates to investors and educational partners.
 - Clear communication with users through newsletters and in-app notifications.
 
-#### Roll-out Strategy
+### Roll-out Strategy
 - Beta Launch: Initial release to a selected group of users for feedback.
 - Public Launch: Full launch with marketing campaigns targeting students and educators.
