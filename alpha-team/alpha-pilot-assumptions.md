@@ -210,3 +210,5 @@ William wants to create a detailed biography and document his memories while he 
 - Gradual loss of memory and changes in identity due to Alzheimer's disease.
 - Difficulty in maintaining consistent relationships and perceptions as the disease progresses.
 - The need to preserve his personal history and experiences in a way that remains true to his own perspective
+- 
+Testiing permissions
