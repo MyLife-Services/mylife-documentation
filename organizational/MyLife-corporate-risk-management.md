@@ -15,6 +15,12 @@
 
 Organizational Risks and Challenges
 
+#### Data Breach & Deep Fakes
+
+I combine these two because they represent a loss of integrity and control for organization. Deep fakes could range from I guess fake news of data breach to actual faux layer of interface.
+
+Again, copyright agents would be a valuable asset in uncovering some redundant internet material unless all gateways are similarly blocked by intelligences that block intelligences. Ah, to Avani's thought, this would be a particularly good place for `blockchain` given that the negotiated terms of engagement would need become some public record.
+
 #### Protecting MyLife's Reputation
 
 Placeholder for ideating:
