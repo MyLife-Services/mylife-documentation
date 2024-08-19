@@ -1,6 +1,4 @@
-Hello Gina Paola!
 
-Here is your content - fantastic work! 
 
 ## User Personas
 
@@ -9,67 +7,10 @@ Here is your content - fantastic work!
 ## Persona Profiles
 
 ### 1. Anna "My Children's Time Capsule"
-
-- **Age:** 35 years old
-- **Role:** Engineer, mother, wife, and daughter
-
-#### 1.1 Population Context
-
-- Mothers: Approximately 77 million in 2021
-- Parents living arrangements: Around 90 million
-
-#### 1.2 Who She Is
-
-Anna is a dedicated professional and a loving parent. She balances her time between her engineering job, caring for her children, supporting her spouse, and being there for her aging parents. She uses various applications daily for leisure, work, and managing household tasks. She enjoys reading and writing, and places a high value on the education and well-being of her children and family.
-
-#### 1.3 Motivation to Use MyLife
-
-Anna wants to save her biography and memories for herself, her children, and future generations. She aims to transmit her wisdom, viewpoints, and advice in a way that can be preserved and accessed by her descendants. While she currently shares these insights through verbal communication, she finds it challenging to reach and impact future generations due to busy schedules, different life stages, and distractions like technology.
-
-#### 1.4 Challenges
-
-- Finding quality time for meaningful conversations amidst the demands of her job and family responsibilities.
-- Connecting with her children and future generations who are often busy with studies, technology, and other activities.
-- Preserving her memories and wisdom in a format that is accessible and engaging for her family.
-
-#### 1.5 How MyLife Helps
-
-MyLife offers an easy-to-access platform where Anna can document and share her memories, thoughts, and experiences. Her family can access this repository at any time, allowing them to learn about their heritage and understand her perspectives. This platform helps bridge the gap created by busy lives and technological distractions, fostering deeper connections and understanding within the family.
-
-### 2. William
-
-- **Age:** 65 years old
-- **Role:** Retiree, father, husband, and grandparent
-
-#### 2.1 Population Context
-
-- Approximately 6.9 million Americans suffer from Alzheimer's or other forms of dementia (according to the Alzheimer's Association).
-
-#### 2.2 Who He Is
-
-William is a retired professional who now enjoys spending time with his family, including his children and grandchildren. He has recently been diagnosed with early-stage Alzheimer's disease. Fully aware of the disease's progression and its impact on his life, William is proactive in finding ways to manage his condition and maintain his sense of self.
-
-#### 2.3 Motivation to Use MyLife
-
-William wants to create a detailed biography and document his memories while he is still in the early stages of Alzheimer's. His goal is to preserve his identity and personal history from his perspective, ensuring that he can recall significant moments and experiences even as the disease progresses. Additionally, he aims to provide a legacy for his family, allowing them to understand his life story and maintain a connection with him despite the changes that the disease will bring.
-
-#### 2.4 Challenges
-
-- Gradual loss of memory and changes in identity due to Alzheimer's disease.
-- Difficulty in maintaining consistent relationships and perceptions as the disease progresses.
-- The need to preserve his personal history and experiences in a way that remains true to his own perspective.
-
-#### 2.5 How MyLife Helps
-
-MyLife offers William a platform to document his memories, thoughts, and experiences, ensuring that his identity and personal history are preserved. By creating a digital biography, he can remind himself of who he is and share his life story with his family. This tool helps William maintain a sense of continuity and connection with his loved ones, even as his condition evolves.
-
-### 3. Young Person Doing a Family Report
-
+### 2. John "Creatin my family report"
+### 3. Louis "Influencing my family new generations"
 ### 4. Middle-age person DINK wants to strengthen relationship and legacy with partner
-
 ### 5. Aging unmarried person desiring a cohesive legacy portrayal, avid social media user
-
-### 6. 
 
 
 ### References
@@ -78,8 +19,9 @@ Template: https://www.alexandercowan.com/tutorial-personas-problem-scenarios-use
 https://www.alz.org/alzheimers-dementia/facts-figures
 https://www.census.gov/newsroom/stories/mothers-day.html
 https://www.census.gov/library/visualizations/interactive/parents-living-arrangements.html" (edited) 
+https://www.census.gov/library/stories/2023/05/2020-census-united-states-older-population-grew.html
 
-## Persona: Anna
+## Persona 1: Anna
 
 **Age:** 35 years old  
 **Role:** Engineer, mother, wife, and daughter
@@ -189,29 +131,6 @@ John is motivated to use MyLife to create a comprehensive family report, a recen
 - The collaborative features will enhance his family's participation in the project, making it a more enriching experience.
 - The ability to export the report will streamline his workflow, allowing him to present his findings effectively.
 
-## Persona: William
-
-**Age:** 65 years old  
-**Role:** Retiree, father, husband, and grandparent
-
-### Population Context
-
-- Approximately 6.9 million Americans suffer from Alzheimer's or other forms of dementia (according to the Alzheimer's Association).
-
-### Who He Is
-
-William is a retired professional who now enjoys spending time with his family, including his children and grandchildren. He has recently been diagnosed with early-stage Alzheimer's disease. Fully aware of the disease's progression and its impact on his life, William is proactive in finding ways to manage his condition and maintain his sense of self.
-
-### Motivation to Use MyLife
-
-William wants to create a detailed biography and document his memories while he is still in the early stages of Alzheimer's. His goal is to preserve his identity and personal history from his perspective, ensuring that he can recall significant moments and experiences even as the disease progresses. Additionally, he aims to provide a legacy for his family, allowing them to understand his life story and maintain a connection with him despite the changes that the disease will bring.
-
-### Challenges
-
-- Gradual loss of memory and changes in identity due to Alzheimer's disease.
-- Difficulty in maintaining consistent relationships and perceptions as the disease progresses.
-- The need to preserve his personal history and experiences in a way that remains true to his own perspective
-
 ### Persona 3: Louis
 
 - **Age:** 67 years old 
@@ -242,9 +161,7 @@ He want to transmit his experience and knowledge to his loved ones He wants to s
 
 ### Hypothesis
 
-> If Louis uses MyLife to document and share his life experiences, wisdom, and values, then his family will have more opportunities to engage with and appreciate his legacy at their own pace. This platform will help Louis communicate more effectively across generations, bridging the gap between his traditional experiences and the technology-driven lives of his loved ones. As a result, his family members will gain valuable insights into their heritage, leading to richer family connections and a better understanding of the importance of balancing modern life with nature and meaningful traditions.
-
-This hypothesis suggests that MyLife can help Louis share his legacy in a way that resonates with his family, despite their busy lives and the generational differences. The platform's features will support him in preserving his stories and fostering deeper connections with his loved ones.
+> If Louis uses MyLife to document and share his life experiences, wisdom, and values, then his family will have more opportunities to engage with and appreciate his legacy at their own pace. This platform will help Louis communicate more effectively across generations, bridging the gap between his traditional experiences and the technology-driven lives of his loved ones.
 
 ### Key Components of the Hypothesis
 
@@ -260,18 +177,17 @@ Appreciation of Heritage: The degree to which Louis’s family values and incorp
 
 | Hypothesis        | Metrics                                                                                               | Measure of Success                                                                                                                                                                                                                                                                                                         |
 |--------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jhon is using Mylife to create his family report for this reason he should enrich his report in the following weeks until finish it| Frecuency. Active User Rate. Organic Growth Rate. |**Frequency:** Edit or create 3 objects a week. **Active User rate:** 10% of users who used My life after 2 weeks of his first usage. **Organic Growth Rate:** >10% new users are acquired relying on factors like word-of-mouth referrals, social media, or organic search traffic.|
-|After 2 weeks of use, John is happy with the results and he is willing to refer the product to his classmates.  | **Net Promoter Score**(Percentage of Promoters: (Number of Promoters/Total Respondents)×100, Percentage of Detractors: (Number of Detractors/Total Respondents)×100 Calculate NPS: NPS = Percentage of Promoters - Percentage of Detractors | **Expected NPS:** >0. How willing are you to recommend Mylife to your friends or classmates?|
-| John is working in his family report he found a lot of help using MyLife to write it, creating and editing memories and uploading files to present his homework | Easy of Use.Text Completion Accuracy.| **Expected Easy of Use** >3 in questions with answers with the Scale 1 to 5 and Yes in binary questions. **Suggested Questions Interview for EoU:** 1. How easy was using Mylife? Scale 1 to 5. 2. How easy was organizing file and media? Scale 1 to 5 3.How easy was to share the report family with your teacher or evaluator 4.Do you receive meaningful assistant to create content? Yes/No 5.Do you feel MyLife helps you to enrich your text or generate ideas? Yes/No 6.What difficulties do you experienced using my life? Text                                               |
-| Jhon effectively completed and presented his family report to his evaluator | Performance grader| **Expected performance grader:** >70%                                                                                 |
+| Louis finds the MyLife AI platform easy to use, then he will regularly document his memories and upload files.| Frecuency. Active User Rate. Organic Growth Rate. |**Frequency:** Edit or create 1 object a week. **Active User rate:** 10% of users who used My life after 2 months of his first usage. **Organic Growth Rate:** >10% new users are acquired relying on factors like word-of-mouth referrals, social media, or organic search traffic.|
+|After 2 weeks of use, Louis is happy with the results and he is willing to refer the product to his family and friends.  | **Net Promoter Score** (Percentage of Promoters: (Number of Promoters/Total Respondents)×100, Percentage of Detractors: (Number of Detractors/Total Respondents)×100 Calculate NPS: NPS = Percentage of Promoters - Percentage of Detractors | **Expected NPS:** >0. How willing are you to recommend Mylife to your friends or classmates?|
+| Louis is working is documentating his memories he found a lot of help using MyLife to write it | Easy of Use.Text Completion Accuracy.| **Expected Easy of Use** >3 in questions with answers with the Scale 1 to 5 and Yes in binary questions. **Suggested Questions Interview for EoU:** 1. How easy was using Mylife? Scale 1 to 5. 2. How easy was organizing file and media? Scale 1 to 5 3.Do you receive meaningful assistant to create content? Yes/No 5.Do you feel MyLife helps you to enrich your text or generate ideas? Yes/No 6.What difficulties do you experienced using my life? Text   
 
 ### Expected Outcomes
 
-- John will find MyLife's interface more intuitive and beneficial for gathering his research than conventional office tools.
-- The collaborative features will enhance his family's participation in the project, making it a more enriching experience.
-- The ability to export the report will streamline his workflow, allowing him to present his findings effectively.
-
-## Persona: William
+- Louis'family members will gain valuable insights into their heritage, leading to richer family connections and a better understanding of the importance of balancing modern life with nature and meaningful traditions
+- Louis feels confortable and he is enthusiasthic sharing his legacy in a way that resonates with his family, despite their busy lives and the generational differences
+- Louis stories fostering deeper connections with his loved ones.
+___________________________________
+## Persona: William TO BE RESUMED IN THE FUTURE
 
 **Age:** 65 years old  
 **Role:** Retiree, father, husband, and grandparent
