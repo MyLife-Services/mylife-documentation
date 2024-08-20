@@ -643,6 +643,8 @@ These personae help inform decisions about user interface design, feature priori
 - [John](#2-persona-john), _Family History Report_
 - [Louis](#3-persona-louis), _Influencing New Generations_
 - [William](#4-persona-william), _Trouble Remembering the Past_
+- [Derek](#5-persona-derek), _What Do I Leave Behind?_
+- [Eileen](#6-persona-eileen), _A Deeper Connection with My Teenage Nieces_
 
 @todo - @Mookse I understand that you want to be through and show the potential Mylife to reach out to at least 6 customer segments but for the alpha, specificity is key, Which selected customer segments are you pursuing? How are they related to the below personas?
 
@@ -874,6 +876,41 @@ MyLife provides William with a user-friendly platform to document his memories a
 - William will find MyLife's interface intuitive and beneficial for documenting his biography and memories.
 - The documentation process will provide emotional and cognitive benefits, helping William maintain a sense of identity and continuity.
 - William's family will value the documented legacy, feeling a stronger connection to his life story and experiences, which will help them maintain a bond with him as the disease progresses.
+
+#### 5. Persona: Derek
+
+- **Age**: 54 years old
+- **Role**: Corporate Librarian, husband, no children,interested in philosophy and humanism, has scattered creative, relationship and work artifacts they wish to collect for remembrance and posterity.
+
+##### 5.1 Population Context
+
+- TBD
+
+##### 5.2 Who They Are
+
+Derek is a working professional whose wife also works. They do not have any children and enjoy life in the suburbs where they often see members of one anothers' families. Derek enjoys his work, but hopes to leave something of his legacy of memories, artstic thoughts, ideas, and works of poetry behind for his extended family, but most importantly for anyone who might be interested or helped by the creative. Derek wishes he were more proactive in storing and capturing his memories, worried that the impacts he'll make in his small milieu will not endure him.
+
+##### 5.3 Motivation to Use MyLife
+
+``` markdown
+insert content about Derek below
+```
+
+William wants to create a detailed biography and document his memories while he is still in the early stages of Alzheimer's. His goal is to preserve his identity and personal history from his perspective, ensuring that he can recall significant moments and experiences even as the disease progresses. Additionally, he aims to provide a legacy for his family, allowing them to understand his life story and maintain a connection with him despite the changes that the disease will bring.
+
+##### 5.4 Challenges
+
+- Gradual loss of memory and changes in identity due to Alzheimer's disease.
+- Difficulty in maintaining consistent relationships and perceptions as the disease progresses.
+- The need to preserve his personal history and experiences in a way that remains true to his own perspective.
+
+##### 5.5 How MyLife Helps
+
+MyLife provides William with a user-friendly platform to document his memories and life experiences. The software allows him to create a detailed biography, which can be accessed and cherished by his family. This helps William maintain his sense of identity and ensures that his personal history is preserved accurately. The platform also offers tools to help him organize his thoughts and memories, making it easier for him to document his life story despite the challenges posed by Alzheimer's disease.
+
+##### 5.6 Hypothesis
+
+#### 6. Persona: Eileen
 
 ## The Problem
 
