@@ -643,6 +643,8 @@ These personae help inform decisions about user interface design, feature priori
 - [John](#2-persona-john), _Family History Report_
 - [Louis](#3-persona-louis), _Influencing New Generations_
 - [William](#4-persona-william), _Trouble Remembering the Past_
+- [Derek](#5-persona-derek), _What Do I Leave Behind?_
+- [Eileen](#6-persona-eileen), _A Deeper Connection with My Teenage Nieces_
 
 @todo - @Mookse I understand that you want to be through and show the potential Mylife to reach out to at least 6 customer segments but for the alpha, specificity is key, Which selected customer segments are you pursuing? How are they related to the below personas?
 
@@ -688,7 +690,7 @@ MyLife offers an easy-to-access platform where Anna can document and share her m
 ##### 1.6 Key Components of the Hypothesis
 
 - Independent Variable
-  - The use of MyLife software by Anna to document her biography and memories.
+  - The use of MyLife platform by Anna to document her biography and memories.
 - Dependent Variables
   - The extent to which Anna feels she has preserved her wisdom and experiences.
   - The perceived impact on family connections and interactions as a result of using the platform.
@@ -781,7 +783,7 @@ Louis is an elderly man who worked most of his life in the countryside. This phy
 
 ##### 3.3 Motivation to Use MyLife
 
-He want to transmit his experience and knowledge to his loved ones He wants to start writing about his own life, memories, and lessons learned with the hope that it contributes to and enriches his family lives.
+He wants to transmit his experience and knowledge to his loved ones He wants to start writing about his own life, memories, and lessons learned with the hope that it contributes to and enriches his family lives.
 
 ##### 3.4 Challenges
 
@@ -847,11 +849,11 @@ William wants to create a detailed biography and document his memories while he 
 
 ##### 4.5 How MyLife Helps
 
-MyLife provides William with a user-friendly platform to document his memories and life experiences. The software allows him to create a detailed biography, which can be accessed and cherished by his family. This helps William maintain his sense of identity and ensures that his personal history is preserved accurately. The platform also offers tools to help him organize his thoughts and memories, making it easier for him to document his life story despite the challenges posed by Alzheimer's disease.
+MyLife provides William with a user-friendly platform to document his memories and life experiences. The platform allows him to create a detailed biography, which can be accessed and cherished by his family. This helps William maintain his sense of identity and ensures that his personal history is preserved accurately. The platform also offers tools to help him organize his thoughts and memories, making it easier for him to document his life story despite the challenges posed by Alzheimer's disease.
 
 ##### 4.6 Hypothesis
 
-> If William uses the MyLife software to document his biography and memories, then he will be able to preserve his identity and personal history, providing a valuable legacy for his family. This will help his family maintain a connection with him and understand his life story, even as Alzheimer's disease progresses and impacts his memory and identity. It will help William himself maintain some level of continuity of self through the progression of the disease.
+> If William uses the MyLife platform to document his biography and memories, then he will be able to preserve his identity and personal history, providing a valuable legacy for his family. This will help his family maintain a connection with him and understand his life story, even as Alzheimer's disease progresses and impacts his memory and identity. It will help William himself maintain some level of continuity of self through the progression of the disease.
 
 ##### 4.6 Key Components of the Hypothesis
 
@@ -875,409 +877,92 @@ MyLife provides William with a user-friendly platform to document his memories a
 - The documentation process will provide emotional and cognitive benefits, helping William maintain a sense of identity and continuity.
 - William's family will value the documented legacy, feeling a stronger connection to his life story and experiences, which will help them maintain a bond with him as the disease progresses.
 
+#### 5. Persona: Derek
+
+- **Age**: 54 years old
+- **Role**: Corporate Librarian, husband, no children,interested in philosophy and humanism, has scattered creative, relationship and work artifacts they wish to collect for remembrance and posterity.
+
+##### 5.1 Population Context
+
+- TBD
+
+##### 5.2 Who They Are
+
+Derek is a working professional whose wife also works. They do not have any children and enjoy life in the suburbs where they often see members of one anothers' families. Derek enjoys his work, but hopes to leave something of his legacy of memories, artstic thoughts, ideas, and works of poetry behind for his extended family, but most importantly for anyone who might be interested or helped by the creative. Derek wishes he were more proactive in storing and capturing his memories, worried that the impacts he'll make in his small milieu will not endure him.
+
+##### 5.3 Motivation to Use MyLife
+
+Derek wants to explore possibilities for what he can leave behind for humanity beyond a cemetary gravestone. Much of his work, and most of his modern adult art is either scanned or digital by nature. His goal is to preserve his identity and personal history from his perspective, so that what he cherished could resonate with others who might find emotional or intellectual value from his works. He realizes that he will leave behind digital ghosts and traces of himself whether _he_ intends to or not, so would rather store for posterity first-hand accounting of his experiences.
+
+##### 5.4 Challenges
+
+- Few universal and no sophisticated platforms to store one's digital remains for posterity
+- The desire to preserve his personal history and experiences in a way that remains true to his own perspective
+- No desirable human-to-human connectivity platform in social media milieu
+- Strict values about how his data should be used and cataloged
+- Important to express _both_ his professional and artistic sides
+
+##### 5.5 How MyLife Helps
+
+MyLife provides Derek with a user-friendly platform to document his memories, personal digital artifacts, and experiences. The platform allows him to create a detailed biography, as well as generate collections of his works for sharing. MyLife's nonprofit membership model assures Derek that his data will be preserved for posterity and that each member is a core stakeholder in the platform, even after death. Knowing his experiences can be shared across time and space to help others in need gives Derek a sense of appreciation and wholeness for being able to give back; his lessons learned can give comfort to others, and his art can be appreciated for eternity.
+
+##### 5.6 Hypothesis
+
+> If Derek uses the MyLife platform to document his biography, creative works and memories, he will experience greater peace of mind that he can create a viable, valuable legacy for others to appreciate and gain solace or inspiration from. As Derek's personas are represented through his avatars, and his artwork and memories are performed according to _his_ choices and settings, he has faith that an accurate depiction of himself and his aims will be captured for posterity. MyLife's nonprofit membership model assures Derek that his data will be preserved for posterity.
+
+##### 5.6 Key Components of the Hypothesis
+
+- Independent Variable: The use of MyLife by Derek to document his biography and memories.
+- Dependent Variables:
+  - Derek's perceived ease of use and ability to document his artwork and memories.
+  - The emotional benefits experienced by Derek through the use of MyLife.
+  - Other Member awareness and interaction with Derek's documented legacy.
+
+##### 5.6 Testing Our Hypothesis
+
+| Description | Method | Expected Outcome |
+|-------------|--------|------------------|
+| Derek logs in to the MyLife platform on a near-daily basis to add and update his recent memories, art and other contributions. | - User Engagement<br>- Avatar Fidelity<br>- Availability | **Frequency of Logins** > 3x / week<br>**Functionality Engaged** > 3 per type<br>Review Derek's artifact collection item numbers by type<br>**Level of Interest** > `3`<br>What is your overall satisfaction with the MyLife Platform? `Scale 1 to 5` |
+| Derek is happy with his MyLife membership and refers the platform to family and friends. | **Net Promoter Score**: <br>**% of Promoters** =<br>_(Number of Promoters / Total Respondents) × 100_<br>**% of Detractors** =<br>_(Number of Detractors / Total Respondents) × 100_<br>**Calculate NPS**:<br>_NPS_ = % of Promoters - % of Detractors | **Expected NPS:** > 0<br>**Suggested question for Members:** How willing are you to recommend Mylife to your friends or family and why? |
+| Derek has shared his memories and artwork through Mylife with his family and friends, and allowed other members with similar iterests to view some of his poetry. | **Qualitative outcomes**: Interview Derek to assess his perspective on the effectiveness of MyLife in enhancing communication with his network and sharing of art and ideas. |**Expected answer**: `Yes` to at least one of the first questions.<br>**Suggested questions for a user's interview/survey:**<br>1. Did you receive any comments or feedback from your family or friends about your memories? _Yes/No_.<br>2. Were there any reported improvements in family discussions about heritage and memories, or increased interest from your children in learning about their family's background? _Yes/No_.<br>3. If yes, could you describe your experience a bit? _Long Text_ |
+| Derek has used Mylife and has found a lot of value in engaging with the various team bots to record and capture his cherished ideas and media. | - Easy to use<br>- Text Completion Accuracy<br>- Platform Functionality<br>- Avatar Fidelity | **Expected Ease of Use** > `3` and `Yes`<br>**Suggested Questions for Ease of Use:**<br>1. How easy was using Mylife? _Scale 1 to 5_<br>2. How easy was organizing file and media? _Scale 1 to 5_<br>3. Did you receive meaningful assistance to create content? _Yes/No_<br>4. Do you feel MyLife helps you to enrich your text or generate ideas? _Yes/No_<br>5. What difficulties do you experienced using my life? _Long Text_ |
+
+##### 5.6 Expected Outcomes
+
+- Derek will find MyLife's interface intuitive and beneficial for documenting his biography and memories.
+- The documentation process will provide emotional and cognitive benefits, helping Derek maintain a sense of identity.
+- Derek feels comforted and empowered by the notion that his legacy will be available to posterity, extending his ability to virtually connect with others across time, language and space.
+
+#### 6. Persona: Eileen
+
 ## The Problem
 
 ### Use Cases
 
-@Mookse How do these use cases map to the alpha customer segments? The goal is get to the example below. @sheikita
+Arranged by audience segment; @sheikita I'm going to move some of these around now that I have Derek as a persona I'll use him for #2 for now and I've updated Louis' persona to yield fruit under #3. Make sense?
 
-- Memory Loss and Elderly
-  - Life Story Documentation: Preserves personal histories for future generations. --> A Grandparent’s Legacy for Future Generations
-  - Memory Stimulation: Aids in recalling and sharing past experiences.
-  - Family Sharing: Facilitates sharing memories with family members.
-
-**Can do**. Will patch up Miro first
-
-#### General Categories of Use Cases
-
-MyLife provides a platform for the collection, curation, preservation, and shared presentation of personal memories, ensuring digital dignity, equity, and posterity. Here are the various use cases that MyLife supports, covering a wide range of interests and demographics.
-
-1. Personal Biographical Data
-   - Birthdates, names, and other personal identifiers
-   - Life milestones and significant events
-   - Family relationships and genealogy information
-   - Personal stories and life journeys
-   - Significant achievements and milestones
-2. Media Content
-   - Photographs and videos
-   - Audio recordings and oral histories
-   - Scanned documents and letters
-   - Digital scrapbooks and photo albums
-   - Multimedia presentations
-3. Creative Works
-   - Artwork and digital art
-   - Written works, poetry, and stories
-   - Musical compositions
-   - Avant-garde intelligent improvisational performances
-   - Creative project portfolios
-4. Health and Wellness Data
-   - Genetics, health histories, and medical records
-   - Real-time measurement capture and diagnostics
-   - Wellness and fitness journeys
-   - Mental health and emotional well-being
-   - Health goals and progress tracking
-5. Cultural and Ancestral Heritage
-   - Traditions and cultural practices
-   - Stories and histories passed down through generations
-   - Artifacts and heirlooms
-   - Cultural celebrations and rituals
-   - Heritage recipes and culinary traditions
-6. Education, Ideas and Lessons Learned
-   - Diplomas, certificates, and transcripts
-   - Academic projects and research papers
-   - Learning experiences and achievements
-   - Educational goals and milestones
-   - Personal reflections on education
-7. Professional and Career
-   - Resumes and CVs
-   - Professional achievements and awards
-   - Work experiences and job roles
-   - Career development and training
-   - Professional networking and mentorship
-8. Travel and Adventure Logs
-   - Travel itineraries and destinations
-   - Stories and experiences from travels
-   - Photographs and memorabilia from trips
-   - Travel tips and recommendations
-   - Reflections on cultural encounters
-9. Daily Life and Personal Reflections
-   - Daily journals and diaries
-   - Reflections and personal insights
-   - Life lessons and wisdom
-   - Personal growth and self-exploration
-   - Daily routines and habits
-10. Spiritual and Religious
-    - Spiritual journeys and religious experiences
-    - Rituals and practices
-    - Personal reflections and religious writings
-    - Sacred texts and prayers
-    - Stories of faith and transformation
-11. Events and Celebrations
-    - Documentation of significant events (weddings, birthdays, etc.)
-    - Photographs and videos from celebrations
-    - Invitations and programs
-    - Event planning and memories
-    - Reflections on meaningful gatherings
-12. Friendships and Relationships
-    - Stories and experiences with friends
-    - Relationship milestones
-    - Correspondences and communications
-    - Reflections on friendships and connections
-    - Celebrations of important relationships
-13. Personae
-    - Represent different aspects of your person
-    - Identity expression
-    - Coherent but stove-piped consensually permissioned
-    - Multiple identities and roles
-    - Personal branding and expression
-14. Hobbies and Interests
-    - Documentation of hobbies and passions
-    - Collections and related memorabilia
-    - Achievements and milestones in hobbies
-    - Community involvement and group activities
-    - Personal projects and creations
-15. Legacy and Posterity
-    - Personal wishes and legacies
-    - Ethical wills and final messages
-    - Arrangements for digital legacy preservation
-    - Memorials for loved ones and pets
-    - Tributes to mentors and influential figures
-    - Stories and reflections on loss
-16. Ideas and Reflections
-    - Collections of favorite quotes
-    - Personal reflections and philosophies
-    - Inspirational stories and messages
-    - Reflections on current events
-    - Personal thoughts on future aspirations
-17. Pet Data
-    - Stories and photographs of pets
-    - Veterinary records and health histories
-    - Memorials and tributes
-    - Training and care logs
-    - Pet achievements and activities
-18. Historical and Temporal Context
-    - Life experiences in different eras
-    - Historical events and their impact on personal life
-    - Societal changes and personal adaptations
-    - Reflections on cultural and technological shifts
-    - Personal contributions to historical records
-19. Communal History and Truth
-    - Contribute your perspective on world events
-    - Multi-faceted vision of collective humanity
-    - Shared experiences and communal stories
-    - Collaborative historical documentation
-    - Diverse narratives and truths
-20. Research and Anthropology
-    - Facilitate connections between research organizations (medical, sociological, political, etc.) and MyLife to provide anonymized first-hand source material.
-    - Contributions to Academic and Scientific Knowledge
-    - Ethnographic Records and Field Notes
-    - Supporting Medical and Sociological Studies
-    - Anonymized Data for Political and Cultural Research
-    - Advancing Human Understanding and Society's Betterment
-
-#### Use Cases by Category
-
-MyLife provides a platform for the collection, curation, preservation, and shared presentation of personal memories, ensuring digital dignity, equity, and posterity. Here are the various use cases that MyLife supports, covering a wide range of interests and demographics.
-
-#### 1. Personal Biographical Data
-
-1. Preserving a Lifetime of Memories
-2. Creating a Visual Biography
-3. Digital Dignity: Honoring Life Stories with Respect
-4. Creating a Digital Memory Book for Children and Grandchildren
-5. Capturing the Stories of Everyday Heroes
-6. Chronicles of My Childhood
-7. Life’s Journey: A Detailed Biography
-8. Milestones of My Career
-9. A Grandparent’s Legacy for Future Generations
-10. Personalized Digital Time Capsules
-
-#### 2. Media Content
-
-1. Writing My Life Story
-2. Recording Family History
-3. Creating a Family Tree
-4. Documenting Family Traditions
-5. Capturing Milestones and Achievements
-6. Preserving Family Recipes
-7. Recording Audio Memories
-8. Creating Video Memories
-9. Collecting Family Photos
-10. Writing Letters to Future Generations
-
-#### 3. Creative Works
-
-1. Sharing Creative Works and Artistic Expressions
-2. Preserving Digital Art and Creative Projects
-3. My Art Gallery: A Digital Collection
-4. Anthology of My Poems
-5. My Musical Compositions
-6. Creative Writing Portfolio
-7. Showcasing My Digital Art
-8. Documenting Volunteer and Community Service Work
-9. Creating a Tribute to Mentors and Influential Figures
-10. Capturing the Evolution of a Passion or Hobby
-
-#### 4. Health and Wellness Data
-
-1. Tracking My Health Journey
-2. Fitness Milestones and Achievements
-3. Documenting My Wellness Goals
-4. My Mental Health Diary
-5. Genetic Insights and Health Records
-6. Chronicling Health and Wellness Journeys
-7. Sharing Inspirational Stories and Experiences
-8. Stories of Resilience and Overcoming Challenges
-9. Health Goals and Progress Tracking
-10. Creating a Digital Pet Memorial
-
-#### 5. Cultural and Ancestral Heritage
-
-1. Preserving Cultural and Ancestral Heritage
-2. Celebrating Family Traditions
-3. Stories from My Ancestors
-4. Cultural Practices Passed Down Generations
-5. Artifacts and Heirlooms: Their Stories
-6. Capturing the Stories Behind Family Heirlooms
-7. Sharing Stories of Friendships and Relationships
-8. Recording Histories via Personal Interviews
-9. Capturing the Essence of Daily Life in Different Cultures
-10. A Digital Chronicle of Academic Pursuits and Learning
-
-#### 6. Education, Ideas, and Lessons Learned
-
-1. Documenting Educational and Academic Achievements
-2. Lessons from My Educational Journey
-3. Academic Achievements: Diplomas and Certificates
-4. My Research Projects
-5. Reflections on Learning Experiences
-6. Learning Experiences and Achievements
-7. Ideas and Innovations I’ve Explored
-8. Recording Educational and Academic Achievements
-9. Personal Growth and Self-Exploration Narratives
-10. Creating a Personal Digital Library
-
-#### 7. Professional and Career
-
-1. Documenting Your Professional Journey
-2. Career Highlights and Achievements
-3. My Professional Journey
-4. Mentorship and Career Development
-5. Work Projects and Contributions
-6. Building My Professional Network
-7. A Digital Journal of Career and Professional Development
-8. Sharing the Journey of Building a Business or Startup
-9. Creating a Tribute to Mentors and Influential Figures
-10. Preserving Stories of Resilience and Overcoming Challenges
-
-#### 8. Travel and Adventure Logs
-
-1. Chronicling a Life’s Worth of Travels
-2. Travel Itineraries and Destinations
-3. Adventures in Nature
-4. Cultural Encounters from My Travels
-5. Memories from Family Vacations
-6. Photographic Journey of My Travels
-7. A Traveler’s Journal: Stories from Around the World
-8. Recording Adventures and Outdoor Experiences
-9. Stories and Experiences from Travels
-10. Photographs and Memorabilia from Trips
-
-#### 9. Daily Life and Personal Reflections
-
-1. A Digital Diary: Recording Daily Reflections
-2. Daily Journals: My Personal Thoughts
-3. Reflecting on Life Lessons
-4. Personal Growth and Self-Exploration
-5. Documenting Daily Routines
-6. Life Wisdom and Insights
-7. Daily Reflections and Insights
-8. Sharing Life Lessons and Wisdom
-9. Capturing the Impact of Technology on Personal Life
-10. Personal Reflections and Philosophies
-
-#### 10. Spiritual and Religious
-
-1. Sharing Your Spiritual Journey
-2. My Spiritual Journey
-3. Reflections on Faith and Religion
-4. Rituals and Religious Practices
-5. Sacred Texts and Prayers
-6. Stories of Spiritual Transformation
-7. Spiritual Journeys and Religious Experiences
-8. Personal Reflections and Religious Writings
-9. Creating a Digital Pet Memorial
-10. Spiritual Transformation Stories
-
-#### 11. Events and Celebrations
-
-1. Documenting Significant Events (Weddings, Birthdays, etc.)
-2. Weddings: Capturing the Special Day
-3. Birthday Memories: Yearly Celebrations
-4. Family Gatherings and Reunions
-5. Documenting Holiday Traditions
-6. Graduations and Academic Milestones
-7. Event Planning and Memories
-8. Reflections on Meaningful Gatherings
-9. Invitations and Programs
-10. Photographs and Videos from Celebrations
-
-#### 12. Friendships and Relationships
-
-1. Celebrating Friendships
-2. Stories of Lifelong Friendships
-3. Milestones in My Relationships
-4. Letters and Messages from Friends
-5. Reflections on Important Connections
-6. Friendship Milestones
-7. Personal Correspondences and Letters
-8. Sharing Stories of Friendships and Relationships
-9. Recording Educational and Academic Achievements
-10. Personal Growth and Self-Exploration Narratives
-
-#### 13. Personae
-
-1. Exploring Different Aspects of Myself
-2. Identity Through Different Roles
-3. Creating Multiple Digital Personae
-4. Expressing Identity in Diverse Ways
-5. Managing Consensually Permissioned Identities
-6. Curating Your Digital Identity
-7. Reflecting on Personal Growth
-8. Documenting Personal Transformations
-9. Personal Branding and Expression
-10. Capturing the Evolution of Identity
-
-#### 14. Hobbies and Interests
-
-1. My Hobbies: A Digital Collection
-2. Achievements in My Favorite Pastimes
-3. Community Involvement in Hobbies
-4. Documenting My Personal Projects
-5. Reflections on My Passions
-6. Creating a Hobby Journal
-7. Showcasing My Collections
-8. Milestones in My Hobbies
-9. Personal Projects and Creations
-10. Reflections on Passion Projects
-
-#### 15. Legacy and Posterity
-
-1. Digital Posterity: Ensuring Your Story Lives On
-2. My Ethical Will
-3. Final Messages for Loved Ones
-4. Arranging My Digital Legacy
-5. Tributes to Mentors and Influential Figures
-6. Reflections on Loss and Memorials
-7. Memorializing Loved Ones
-8. Creating a Digital Pet Memorial
-9. Legacy Planning and Preservation
-10. Personal Wishes and Legacies
-
-#### 16. Ideas and Reflections
-
-1. A Personal Anthology of Favorite Quotes and Reflections
-2. My Collection of Favorite Quotes
-3. Personal Philosophies and Reflections
-4. Stories of Inspiration
-5. Thoughts on Current Events
-6. Future Aspirations and Dreams
-7. Inspirational Stories and Messages
-8. Reflections on Current Events
-9. Personal Thoughts on Future Aspirations
-10. Reflections on Personal Philosophies
-
-#### 17. Pet Data
-
-1. Stories and Photographs of Pets
-2. Veterinary Records and Health Histories
-3. Memorials and Tributes to Pets
-4. Pet Achievements and Activities
-5. Training Logs and Care Routines
-6. Documenting the Life of My Pets
-7. Health Records of My Pets
-8. Sharing Stories of My Pets
-9. Capturing Milestones in My Pet’s Life
-10. Pet Memorials and Tributes
-
-#### 18. Historical and Temporal Context
-
-1. Life Experiences in Different Eras
-2. Impact of Historical Events on My Life
-3. Adapting to Societal Changes
-4. Personal Contributions to History
-5. Reflections on Cultural and Technological Shifts
-6. Living Through Different Eras
-7. Historical Events and Personal Impact
-8. Societal Changes and Adaptations
-9. Personal Historical Contributions
-10. Documenting Decade-Specific Trends and Changes
-
-### 19. Communal History and Truth
-
-1. Contributing to Community Historical Projects
-2. Documenting Local Events and Experiences
-3. Capturing Diverse Narratives from My Community
-4. Collaborative Storytelling of World Events
-5. Recording Oral Histories from Community Members
-6. Sharing Personal Perspectives on Global Events
-7. Multi-Faceted Vision of Collective Humanity
-8. Contributing to Public Archives with Personal Stories
-9. Ensuring Accurate Representation of Community Stories
-10. Creating a Collective Memory Book for Community Events
-
-### 20. Research and Anthropology
-
-1. Participating in Medical Research Studies
-2. Sociological Observations and Insights
-3. Political Views and Historical Impact
-4. Contributing to Anthropological Records
-5. Supporting Scientific and Academic Research
-6. Providing Anonymized Data for Cultural Studies
-7. Recording Ethnographic Observations and Field Notes
-8. Facilitating Connections Between Researchers and First-Hand Sources
-9. Documenting Personal Experiences for Sociopolitical Research
-10. Enhancing Understanding of Human Behavior Through Personal Narratives
+1. Stories in Jeopardy: The elderly, culturally underprivileged, etc. This covers William's persona and to an extent Louis.
+   - _Arranging My Digital Legacy_: `Personal Preservation`
+     - Louis is able to write his biography in his own terms while maintaining his sense of identity
+   - _A Grandparent’s Legacy for Future Generations_: `Wisdom Preservation`
+     - Preserves personal histories for future generations
+   - _Memory Stimulation_: `Memory Preservation`
+     - Aids in recalling and sharing past experiences
+     - Real-time tracking of mental exercises that can help protect against age-related losses
+2. Desire for Self–Awareness and Self-Expression
+   - Creative Sharing: Facilitates sharing memories with family members → Life lessons and wisdom
+   - Personal Storytelling: Encourages sharing experiences with others by making them more relatable and using a more engaging tone →Stories and histories passed down through generations
+   - Daily Journaling: Promotes self-expression → Personal growth and self-exploration
+3. Struggling with Grief and Connection
+   - Louis
+4. Tech-Savvy Parents
+   - Family Events: Documents vacations, birthdays, and special occasions → Capturing Milestones and Achievements
+   - Digital Self Creation → Planting the seeds on how to be remembered → Preserving a Lifetime of Memories
+   - Children/Parent/Family Hobbies: Documents the hobbies/activities that family members pursue → Documentation of hobbies and passions
+5. Tech Resourceful GenZ Teenagers
+   - _Identity Wardrobe_: Youth can explore (similar to #2 above) personal identity in a private and safe space
+   - _Here's Me!_: Member avatar personae that can be shared amongst friends and family
+   - _School Assignment_: School Projects, Guides in organizing and completing assignments → My Research Projects
 
 ### Identifying Pain Points
 
