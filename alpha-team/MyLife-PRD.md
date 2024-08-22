@@ -880,7 +880,7 @@ MyLife provides William with a user-friendly platform to document his memories a
 #### 5. Persona: Derek
 
 - **Age**: 54 years old
-- **Role**: Corporate Librarian, husband, no children,interested in philosophy and humanism, has scattered creative, relationship and work artifacts they wish to collect for remembrance and posterity.
+- **Role**: Corporate librarian, husband, no children,interested in philosophy and humanism, has scattered creative, relationship and work artifacts they wish to collect for remembrance and posterity.
 
 ##### 5.1 Population Context
 
@@ -888,7 +888,7 @@ MyLife provides William with a user-friendly platform to document his memories a
 
 ##### 5.2 Who They Are
 
-Derek is a working professional whose wife also works. They do not have any children and enjoy life in the suburbs where they often see members of one anothers' families. Derek enjoys his work, but hopes to leave something of his legacy of memories, artstic thoughts, ideas, and works of poetry behind for his extended family, but most importantly for anyone who might be interested or helped by the creative. Derek wishes he were more proactive in storing and capturing his memories, worried that the impacts he'll make in his small milieu will not endure him.
+Derek is a working professional whose wife also works. They do not have any children and enjoy life in the suburbs where they often see members of one anothers' families. Derek enjoys his work, but hopes to leave something of his legacy of memories, artstic thoughts, ideas, and works of poetry behind for his extended family, but most importantly for anyone who might be interested or helped by the creative. Derek wishes he were more proactive in storing and capturing his memories, worried that the impacts he'll make in his small milieu will not endure him. Morally, he does not wish to leave his legacy to corporate interests that will outlast his ability to pay.
 
 ##### 5.3 Motivation to Use MyLife
 
