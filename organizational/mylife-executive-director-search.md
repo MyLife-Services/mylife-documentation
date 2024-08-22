@@ -4,9 +4,9 @@
 
 ### Seeking Volunteer Interim Executive Director for Nonprofit AI-Enabled Platform
 
-Visionary Non-Profit AI startup, _MyLife_, seeks a Volunteer Executive Director who desires to utilize their experience, skills and passions to help drive the ethical and responsible development and adoption of transformative artificial intelligence technology in the digital remembrance space.
+Visionary Non-Profit AI startup, _MyLife_, seeks a Volunteer Executive Director who desires to utilize their experience, skills, and passions to help drive the ethical and responsible development and adoption of transformative artificial intelligence technology in the digital remembrance space.
 
-_MyLife_, founded in 2021 in Boston MA, has embarked on a mission to preserve digital legacies by providing a free, secure, and enduring internet-based intelligent platform that assists members in collecting, curating, and ultimately sharing their personal stories and life narratives. _MyLife_ promises to grant each of us an immortal legacy to be shared with all who follow, and envisions an accessible digital legacy of members to foster interconnection, understanding, tolerance and ultimately societal growth.
+_MyLife_, founded in 2021 in Boston MA, has embarked on a mission to preserve digital legacies by providing a free, secure, and enduring internet-based intelligent platform that assists members in collecting, curating, and ultimately sharing their personal stories and life narratives. _MyLife_ promises to grant each of us a place where our immortal digital legacy can be shared with all who follow. We envision an accessible human network of members that fosters interconnection, tolerance, understanding, and compassion for all, and ultimately societal growth.
 
 #### _MyLife_’s Visionary Goals
 
@@ -15,7 +15,7 @@ _MyLife_, founded in 2021 in Boston MA, has embarked on a mission to preserve di
 - **Inspire introspection, empathy, and comprehension** by fostering engagement and understanding between generations, cultures, societies, and individuals
 - **Build a human-network** by joining an ecosystem of technologies that empower humanity to collectively steer the future and promise of AI for our mutual benefit
 
-_MyLife_ has already coded and developed the first-gen intelligent API architecture and the alpha version of its interface and is in need of a seasoned executive who can work with the board to lead the team through:
+_MyLife_ has already coded and developed the first-gen intelligent API architecture and the alpha version of its interface. We are in need of a seasoned executive who can work with the MyLife Board and volunteer teams to:
 
 - **Drive delivery of the MyLife platform and go-to-market strategies**
 - **Plan and launch public education and awareness**
@@ -23,9 +23,9 @@ _MyLife_ has already coded and developed the first-gen intelligent API architect
 - **Develop and drive partnerships**
 - **Design long-term organizational and management plans**
 
-Although the Executive Director position would initially be an unpaid role, we envision a transition to paid full-time staff as we ramp up the program and onboard current volunteers, partners and benefactors.
+Although the Executive Director position would initially be an unpaid role, the MyLife Board envisions a transition to paid full-time staff as we ramp up the program and onboard current volunteers, partners and benefactors.
 
-The optimal candidate would be someone who desires to utilize strong organizational and leadership skills, as well as former non-profit leadership and fund-raising experience to work with a forward thinking, altruistic organization in a fast-growing technology space. Although technology experience is not required, someone who recognizes and is excited about the potential of AI technology to do good, and indeed benefit all of humanity, is a must. 
+The optimal candidate would be someone who desires to utilize strong organizational and leadership skills, as well as former non-profit leadership and fund-raising experience to work with a forward thinking, altruistic organization in a fast-growing technology space. Although technology experience is not required, someone who recognizes and is excited about the potential of AI technology to do good, and indeed benefit all of humanity, is a must.
 
 We look forward to meeting you.
 
