@@ -771,7 +771,7 @@ John is motivated to use MyLife to create a comprehensive family report, a recen
 #### 3. Persona: Louis
 
 - **Age:** 67 years old
-- **Role:** Grandparent, husband, and father.
+- **Role:** Grandparent, widower, and father.
   
 ##### 3.1 Population Context
 
@@ -779,7 +779,7 @@ John is motivated to use MyLife to create a comprehensive family report, a recen
 
 ##### 3.2 Who They Are
 
-Louis is an elderly man who worked most of his life in the countryside. This physical work made him strong in character. However, it also wore out his joints, so he is no longer able to work as he used to and depends economically on his children. He observes that the younger generations of his family are more interested in technology than in the land and nature. He worries that his children and grandchildren are jeopardizing their mental health for their jobs and their physical health due to their sedentary lifestyles. As well, this accelerated way of life abstracts them from the socially important matters. 
+Louis, recent widower, is an elderly man who worked most of his life in the countryside. This physical work made him strong in character. However, it also wore out his joints, so he is no longer able to work as he used to and depends economically on his children. He observes that the younger generations of his family are more interested in technology than in the land and nature. He worries that his children and grandchildren are jeopardizing their mental health for their jobs and their physical health due to their sedentary lifestyles. As well, this accelerated way of life abstracts them from the socially important matters. 
 
 ##### 3.3 Motivation to Use MyLife
 
@@ -939,7 +939,7 @@ MyLife provides Derek with a user-friendly platform to document his memories, pe
 
 ### Use Cases
 
-Arranged by audience segment; @sheikita I'm going to move some of these around now that I have Derek as a persona I'll use him for #2 for now and I've updated Louis' persona to yield fruit under #3. Make sense?
+Arranged by audience segment; @sheikita I'm going to move some of these around now that I have Derek as a persona I'll use him for #2 for now and I've updated Louis' persona to yield fruit under #3. Make sense? @Mookse: It does. For now, I will suggest that we focus on the Eldery (60+) customer segment for 1 and remove culturally underpriviliged.
 
 1. Stories in Jeopardy: The elderly, culturally underprivileged, etc. This covers William's persona and to an extent Louis.
    - _Arranging My Digital Legacy_: `Personal Preservation`
@@ -949,7 +949,7 @@ Arranged by audience segment; @sheikita I'm going to move some of these around n
    - _Memory Stimulation_: `Memory Preservation`
      - Aids in recalling and sharing past experiences
      - Real-time tracking of mental exercises that can help protect against age-related losses
-2. Desire for Self–Awareness and Self-Expression
+2. Desire for Self–Awareness and Self-Expression --> @Mookse: What do you think if this customer segment is renamed to "Personal Growth Enthusiasts" (refering to people that engage regularly in self-reflection and are interested in tools that help them document their thoughts and experiences in their own terms. Individuals that are motivatied to share them to fulfill their interest of mantaining meaningful connections with fam/friends. Targeting 25-55 individuals with moderate to high level of education). The corresponding customer segment will need to be updated)
    - Creative Sharing: Facilitates sharing memories with family members → Life lessons and wisdom
    - Personal Storytelling: Encourages sharing experiences with others by making them more relatable and using a more engaging tone →Stories and histories passed down through generations
    - Daily Journaling: Promotes self-expression → Personal growth and self-exploration
@@ -959,7 +959,7 @@ Arranged by audience segment; @sheikita I'm going to move some of these around n
    - Family Events: Documents vacations, birthdays, and special occasions → Capturing Milestones and Achievements
    - Digital Self Creation → Planting the seeds on how to be remembered → Preserving a Lifetime of Memories
    - Children/Parent/Family Hobbies: Documents the hobbies/activities that family members pursue → Documentation of hobbies and passions
-5. Tech Resourceful GenZ Teenagers
+5. Tech Resourceful GenZ Teenagers -@Mookse- Lets add the specific details of this customer segment in the corresponding section (demographics, needs, channels for outreach) 
    - _Identity Wardrobe_: Youth can explore (similar to #2 above) personal identity in a private and safe space
    - _Here's Me!_: Member avatar personae that can be shared amongst friends and family
    - _School Assignment_: School Projects, Guides in organizing and completing assignments → My Research Projects
