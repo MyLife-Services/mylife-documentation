@@ -383,3 +383,64 @@ MyLife provides a platform for the collection, curation, preservation, and share
 8. Facilitating Connections Between Researchers and First-Hand Sources
 9. Documenting Personal Experiences for Sociopolitical Research
 10. Enhancing Understanding of Human Behavior Through Personal Narratives
+
+## Use Case Templates
+
+@mookse my assumption is that we can build in these as issues inside of GitHub and can be attached to this documentation project repo.
+
+## Use Case Template Variant 1
+
+From @Vudum
+This template outlines the basic structure for writing use cases. An example is provided below to illustrate how to use the template.
+
+| Use Case ID | Assigned use case id |
+|-------------|----------------------|
+| Title | A brief title describing the use case |
+| Goal | Briefly describe the main goal the member wants to achieve |
+| Preconditions | State any conditions that must be true before the use case starts |
+| Main Flow | Outline the basic steps the member takes and how the system responds |
+| Postconditions | Describe the expected result or state after the use case is completed |
+
+### Example Variant 1
+
+| Use Case ID | UC-0001 |
+|-------------|---------|
+| Title | Retrieve member memory |
+| Goal | Retrieve a member memory |
+| Preconditions | - The member is successfully logged into the MyLife app<br>- The member has at least one memory saved under Scrapbook > Memories |
+| Main Flow | - Go to the chat input box<br>- Enter a command to recall the memory<br>- The system processes the request and retrieves the memory |
+| Postconditions | MyLife displays the retrieved memory to the member |
+
+### Use Case Tracker
+
+This template from @sheikita would assist us in tracking the development against a use case object under technical development.
+
+| Field | Details |
+|-------|---------|
+| Use Case ID | A unique identifier for each use case |
+| Title | A brief title describing the use case |
+| Description | A detailed description of what the use case entails |
+| Type | Classify the use case status |
+| Owners | Staff or representatives assigned to use case |
+| Current status | Priority (e.g., _draft_, _in development_, _closed_) |
+| Importance level | e.g., _high_, _medium_, _low_ |
+| Pain Point | Pain point it addresses |
+| Possible Solutions | Addressing the specific problem or need that the use case represents |
+| Solution Impact | How the solution will impact the member experience |
+| Business Impact | Expected impact on the business (e.g., Increase in revenue, Customer satisfaction, etc.) |
+| Potential Challenges | Foreseeable obstacles |
+| Feedback Loop | How feedback is collected and integrated into the use case |
+
+### Example Use Case Tracker Item
+
+| Use Case ID | UC-001 |
+|-------|---------|
+| Title | Improve Customer Onboarding |
+| Description | A detailed description of what the use case entails |
+| Type | Customer Support |
+| Owners | J. Doe |
+| Status | in development |
+| Priority | high |
+| Business Impact | Increase retention rate by 10% |
+| Potential Challenges | Member guide completion, CRM integration, Technical integration issues |
+| Feedback Loop | Monthly surveys |
