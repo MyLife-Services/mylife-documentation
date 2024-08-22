@@ -4,9 +4,9 @@
 
 ### Seeking Volunteer Interim Executive Director for Nonprofit AI-Enabled Platform
 
-Visionary Non-Profit AI startup, _MyLife_, seeking Volunteer Executive Director who desires to utilize their experience, skills and passions to help drive the ethical and responsible development and adoption of transformative artificial intelligence technology in the digital remembrance space.
+Visionary Non-Profit AI startup, _MyLife_, seeks a Volunteer Executive Director who desires to utilize their experience, skills and passions to help drive the ethical and responsible development and adoption of transformative artificial intelligence technology in the digital remembrance space.
 
-_MyLife_, founded in 2021 in Boston MA, has embarked on a mission to preserve digital legacies by providing a free, secure, and enduring internet-based platform to allow members to collect, curate, and ultimately share their personal stories and life narratives. _MyLife_ promises to grant each of us an immortal legacy to be shared with all who follow, and envisions an accessible digital library of members to foster interconnection, understanding, tolerance and ultimately societal growth.
+_MyLife_, founded in 2021 in Boston MA, has embarked on a mission to preserve digital legacies by providing a free, secure, and enduring internet-based intelligent platform that assists members in collecting, curating, and ultimately sharing their personal stories and life narratives. _MyLife_ promises to grant each of us an immortal legacy to be shared with all who follow, and envisions an accessible digital legacy of members to foster interconnection, understanding, tolerance and ultimately societal growth.
 
 #### _MyLife_’s Visionary Goals
 
@@ -17,15 +17,17 @@ _MyLife_, founded in 2021 in Boston MA, has embarked on a mission to preserve di
 
 _MyLife_ has already coded and developed the first-gen intelligent API architecture and the alpha version of its interface and is in need of a seasoned executive who can work with the board to lead the team through:
 
-- Drive final software development, testing and rollout
-- Plan and launch public education and awareness
-- Begin fund raising campaigns
-- Develop and drive Partnerships opportunities
-- Design long term Organizational and resource management plan
+- **Drive delivery of the MyLife platform and go-to-market strategies**
+- **Plan and launch public education and awareness**
+- **Further fundraising efforts**
+- **Develop and drive partnerships**
+- **Design long-term organizational and management plans**
 
-Although the Executive Director position would initially be an unpaid role, we envision a transition from all volunteers, to paid, full-time staff as we ramp up the program and onboard current volunteers, partners and benefactors.
+Although the Executive Director position would initially be an unpaid role, we envision a transition to paid full-time staff as we ramp up the program and onboard current volunteers, partners and benefactors.
 
-The optimum candidate would be someone who desires to utilize strong organizational and leadership skills, as well as former non-profit leadership and fund-raising experience to work with a forward thinking, altruistic organization in a fast-growing technology space. Although technology experience is not required, someone who recognizes and is excited about the potential of AI technology to do good, and indeed benefit all of humanity, is a must.
+The optimum candidate would be someone who desires to utilize strong organizational and leadership skills, as well as former non-profit leadership and fund-raising experience to work with a forward thinking, altruistic organization in a fast-growing technology space. Although technology experience is not required, someone who recognizes and is excited about the potential of AI technology to do good, and indeed benefit all of humanity, is a must. 
+
+We look forward to meeting you.
 
 [Link to `About MyLife`](https://humanremembranceproject.org/about)
 
