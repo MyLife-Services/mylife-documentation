@@ -25,7 +25,7 @@ _MyLife_ has already coded and developed the first-gen intelligent API architect
 
 Although the Executive Director position would initially be an unpaid role, we envision a transition to paid full-time staff as we ramp up the program and onboard current volunteers, partners and benefactors.
 
-The optimum candidate would be someone who desires to utilize strong organizational and leadership skills, as well as former non-profit leadership and fund-raising experience to work with a forward thinking, altruistic organization in a fast-growing technology space. Although technology experience is not required, someone who recognizes and is excited about the potential of AI technology to do good, and indeed benefit all of humanity, is a must. 
+The optimal candidate would be someone who desires to utilize strong organizational and leadership skills, as well as former non-profit leadership and fund-raising experience to work with a forward thinking, altruistic organization in a fast-growing technology space. Although technology experience is not required, someone who recognizes and is excited about the potential of AI technology to do good, and indeed benefit all of humanity, is a must. 
 
 We look forward to meeting you.
 
