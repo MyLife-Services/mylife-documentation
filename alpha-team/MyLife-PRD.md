@@ -711,10 +711,18 @@ MyLife offers an easy-to-access platform where Anna can document and share her m
 - Her children will engage with the platform, fostering a greater understanding of their family's history and values.
 - The documentation process will help Anna feel fulfilled in preserving her legacy, despite her busy schedule. This hypothesis can be the foundation for developing an MVP of MyLife that meets Anna's specific needs, allowing you to gather insights and iterate on the product based on user feedback.
 
-#### 2. Persona: John
+#### 2. Persona: Jhon
 
-- **Age**: 15 years old
-- **Role**: 10<sup>th</sup> grade high school student
+- **Age**: 16 years old
+- **Role**: High school sophomore, younger sister, stable home
+- **Known Inclinations**
+  - avid journaler in diary
+  - needs support and strength while questioning identity
+  - interested in privacy and security
+- **Known Obstacles and Disinclinations**
+  - limited time
+  - not generally interested in technology
+  - underperforming student
 
 ##### 2.1 Population Context
 
@@ -722,16 +730,15 @@ MyLife offers an easy-to-access platform where Anna can document and share her m
 
 ##### 2.2 Who They Are
 
-John is a disciplined and autonomous 10<sup>th</sup> grade student at a high school in the United States. With both of his parents working, John has developed a strong sense of responsibility and independence when it comes to completing his school assignments. He frequently searches for innovative and efficient tools online to help him with his homework and projects.
+Jhon is a reserved, disciplined but poorly-performing sophomore at a high school in the United States. Both of their parents work, leaving limited time to directly manage the household. Jhon has been struggling with issues of self-identity and how they conform to social norms. This struggle has taken up a lot of their mindshare, and they spend a great deal of private time thinking and journaling about their experiences. Their parents know that they have chosen to be called `they`, but the majority of their struggles intentionally remain private.
 
 ##### 2.3 Motivation to Use MyLife
 
-John is motivated to use MyLife to create a comprehensive family report, a recent assignment given by his social studies teacher.
+@todo - more detail
+
+Jhon, having used _MyLife_ scholastically to create a family report, is curious to use the `journal` functionality to explore
 
 ##### 2.4 Challenges
-
-- John found it challenging to compile his family report using traditional office tools like word processors and presentation software. The process of writing, interviewing, and structuring the report was cumbersome and time-consuming.
-- Managing and merging various files and media collected during his research was difficult with conventional office tools.- John considers himself more visual than verbal, and would like to portray his family history in something other than text and flat photogtaphs.
 
 ##### 2.5 How MyLife Helps
 
@@ -742,7 +749,7 @@ John is motivated to use MyLife to create a comprehensive family report, a recen
 
 ##### 2.6 Hypothesis
 
-> If John uses MyLife to create his comprehensive family report, then he will find the process of compiling, organizing, and presenting his information easier and more efficient, leading to improved performance on his assignment and increased engagement in the learning process.
+> If Jhon uses _MyLife_ to explore identity then they will achieve greater satisfaction with personal decisions, find themselves open to alternatives, engage in meaningul self-development with bot, experience what it is like to encounter some of her experiences in the third person, granting greater perspective to their manifestation in the world.
 
 ##### 2.6 Key Components of the Hypothesis
 
@@ -772,6 +779,15 @@ John is motivated to use MyLife to create a comprehensive family report, a recen
 
 - **Age:** 67 years old
 - **Role:** Grandparent, widower, and father.
+- **Known Inclinations**
+  - highly motivated to share narratives and history
+  - interested in connection
+  - interested in privacy and consent
+  - few time constraints
+- **Known Obstacles**
+  - not tech-savvy
+  - limited connectivity
+  - device limitations
   
 ##### 3.1 Population Context
 
@@ -779,7 +795,7 @@ John is motivated to use MyLife to create a comprehensive family report, a recen
 
 ##### 3.2 Who They Are
 
-Louis, recent widower, is an elderly man who worked most of his life in the countryside. This physical work made him strong in character. However, it also wore out his joints, so he is no longer able to work as he used to and depends economically on his children. He observes that the younger generations of his family are more interested in technology than in the land and nature. He worries that his children and grandchildren are jeopardizing their mental health for their jobs and their physical health due to their sedentary lifestyles. As well, this accelerated way of life abstracts them from the socially important matters. 
+Louis, recent widower, is an elderly man who worked most of his life in the countryside. This physical work made him strong in character. However, it also wore out his joints, so he is no longer able to work as he used to and depends economically on his children. He observes that the younger generations of his family are more interested in technology than in the land and nature. He worries that his children and grandchildren are jeopardizing their mental health for their jobs and their physical health due to their sedentary lifestyles. As well, this accelerated way of life abstracts them from the socially important matters.
 
 ##### 3.3 Motivation to Use MyLife
 
@@ -826,8 +842,17 @@ Appreciation of Heritage: The degree to which Louis’s family values and incorp
 
 #### 4. Persona: William
 
-- Age: 65 years old  
-- Role: Retiree, father, husband, and grandparent
+@todo - indicate sense of memory loss, no diagnoses
+
+- **Age**: 65 years old  
+- **Role**: Retiree, father, husband, and grandparent suffering memory loss
+- **Known Inclinations**
+  - highly motivated to share narratives and history
+  - interested in precision and persistence
+  - interested in privacy and consent
+- **Known Obstacles**
+  - not tech-savvy
+  - suspicious of artificial intelligence (?)
 
 ##### 4.1 Population Context
 
@@ -880,7 +905,21 @@ MyLife provides William with a user-friendly platform to document his memories a
 #### 5. Persona: Derek
 
 - **Age**: 54 years old
-- **Role**: Corporate librarian, husband, no children,interested in philosophy and humanism, has scattered creative, relationship and work artifacts they wish to collect for remembrance and posterity.
+- **Role**
+  - Corporate librarian (employed)
+  - Husband
+  - No children
+  - Unpublished poet
+- **Known Inclinations**
+  - motivated to share narratives and artwork
+  - wants versatility and dynamism in a legacy solution
+  - suspicious of corporate interests
+  - creative ability
+  - tech enthusiast
+  - interested in philosophy and humanism
+- **Known Obstacles and Disinclinations**
+  - limited time
+  - widely diverse interests
 
 ##### 5.1 Population Context
 
@@ -888,7 +927,7 @@ MyLife provides William with a user-friendly platform to document his memories a
 
 ##### 5.2 Who They Are
 
-Derek is a working professional whose wife also works. They do not have any children and enjoy life in the suburbs where they often see members of one anothers' families. Derek enjoys his work, but hopes to leave something of his legacy of memories, artstic thoughts, ideas, and works of poetry behind for his extended family, but most importantly for anyone who might be interested or helped by the creative. Derek wishes he were more proactive in storing and capturing his memories, worried that the impacts he'll make in his small milieu will not endure him. Morally, he does not wish to leave his legacy to corporate interests that will outlast his ability to pay.
+Derek is a working professional whose wife also works. They do not have any children and enjoy life in the suburbs where they often see members of one anothers' families. Derek enjoys his work and has overseen very positive technology implementations at his library. He hopes to leave something of his legacy of memories, thoughts, ideas, and works of poetry behind for his extended family, but as importantly for anyone who might be interested or helped by the his ideas and inspirations. Derek wishes he were more proactive in storing and capturing his memories, worried that the impacts he'll make in his small milieu will not endure him. Morally, he does not wish to leave his legacy to corporate interests that will outlast his ability to pay.
 
 ##### 5.3 Motivation to Use MyLife
 
@@ -949,7 +988,7 @@ Arranged by audience segment; @sheikita I'm going to move some of these around n
    - _Memory Stimulation_: `Memory Preservation`
      - Aids in recalling and sharing past experiences
      - Real-time tracking of mental exercises that can help protect against age-related losses
-2. Desire for Self–Awareness and Self-Expression --> @Mookse: What do you think if this customer segment is renamed to "Personal Growth Enthusiasts" (refering to people that engage regularly in self-reflection and are interested in tools that help them document their thoughts and experiences in their own terms. Individuals that are motivatied to share them to fulfill their interest of mantaining meaningful connections with fam/friends. Targeting 25-55 individuals with moderate to high level of education). The corresponding customer segment will need to be updated)
+2. Personal Growth --> @Mookse: What do you think if this customer segment is renamed to "Personal Growth Enthusiasts" (refering to people that engage regularly in self-reflection and are interested in tools that help them document their thoughts and experiences in their own terms. Individuals that are motivatied to share them to fulfill their interest of mantaining meaningful connections with fam/friends. Targeting 25-55 individuals with moderate to high level of education). The corresponding customer segment will need to be updated)
    - Creative Sharing: Facilitates sharing memories with family members → Life lessons and wisdom
    - Personal Storytelling: Encourages sharing experiences with others by making them more relatable and using a more engaging tone →Stories and histories passed down through generations
    - Daily Journaling: Promotes self-expression → Personal growth and self-exploration
@@ -959,7 +998,7 @@ Arranged by audience segment; @sheikita I'm going to move some of these around n
    - Family Events: Documents vacations, birthdays, and special occasions → Capturing Milestones and Achievements
    - Digital Self Creation → Planting the seeds on how to be remembered → Preserving a Lifetime of Memories
    - Children/Parent/Family Hobbies: Documents the hobbies/activities that family members pursue → Documentation of hobbies and passions
-5. Tech Resourceful GenZ Teenagers -@Mookse- Lets add the specific details of this customer segment in the corresponding section (demographics, needs, channels for outreach) 
+5. Resourceful Gen-Z Teenagers -@Mookse- Lets add the specific details of this customer segment in the corresponding section (demographics, needs, channels for outreach); agreed - I'll intend to review John (the student) in this context.
    - _Identity Wardrobe_: Youth can explore (similar to #2 above) personal identity in a private and safe space
    - _Here's Me!_: Member avatar personae that can be shared amongst friends and family
    - _School Assignment_: School Projects, Guides in organizing and completing assignments → My Research Projects
