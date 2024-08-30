@@ -1,8 +1,18 @@
 # MyLife AI Open Development Sessions
 
+- [Episodes](#episodes)
+  - [current session](#20240830)
+  - [archives](#session-archives)
+
 ## About MyLife
 
-MyLife is a headless, intelligent api platform to tell your story for posterity and experience past humanity.
+MyLife is a 501c3 nonprofit member organization--established in 2021 near Boston--that offers its membership free to any humans. MyLife provides its membership with an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives.
+
+## About MyLife Platform
+
+MyLife's technical backbone is an open-source headless, intelligent api platform server. This backend service is built entirely in `node.js` leveraging the open-source server technology `Koa` and currently the OpenAI SDK for its LLM services.
+
+The frontend is currently a "work-in-progress" and in need of much improvement (I'll talk more about getting involved later). It represents a relatively minimalistic cisual interface for our membership to interact with the intelligent platform. The frontend itself currently is a combination of HTML5, CSS and javascript. It is endeavoring upon emerging GenUI principles of _Consent and Control_ architecture, so that a frontend intelligence can negotiate an array of interactional experiences with an intelligent API service. We'll get more into that in the coming months, though I'll shortly show an example of this.
 
 ## About MyLife AI Open Development Sessions
 
@@ -17,9 +27,12 @@ Join us for free and be part of the movement to ensure every human legacy is dig
 ## Dev Session Format
 
 - Brief introduction to the MyLife Platform [powerpoint] & [MyLife-Website](https://humanremembranceproject.org)
-  - MyLife Mission
-  - Theme: AI for All of Us
-  - Demo? Yes one per session in my own _personal_ bio, since I'm doing it and it's true
+  - Introduce Self
+  - Introduce MyLife (mission slide)
+  - Introduce MyLife Tech (what it is slide)
+  - Introduce Theme and Segueway (interface slides)
+  - Demo
+    - Yes one per session in my own _personal_ bio, since I'm doing it and it's true
 - Learning Objectives
   - put a birdbrain on it!
 - Practical Session
@@ -28,10 +41,14 @@ Join us for free and be part of the movement to ensure every human legacy is dig
   - demonstrate engagement with products and bots
   - Include **Maht** in development
 - Wrap-Up
+  - Thank you! For watching!
   - how contribute?
+    - Volunteers!
   - why contribute?
   - [github repository](https://github.com/MyLife-Services/mylife-maht)
   - call for talent
+
+- [ ] Create backup slip - Focus on thanks and volunteer appreciation
 
 ## Presentation
 
@@ -41,19 +58,23 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 ## Episodes
 
-### 20240830 - Initial live version
+### 20240830
 
-#### 20240830 Format
+- Initial live version
 
-Outline of presentation
+#### 20240830 Outline
 
-- Brief introduction to the MyLife Platform
-  - MyLife Powerpoint
-    - Discuss MyLife Mission
-    - Theme: AI for All of Us
+- Brief introduction to the MyLife Platform **MAX** _15m_ @2:15pm
+  - Introduce Self, current president and co-founder
+  - Introduce MyLife (mission `slide`) [click here to access content](#about-mylife)
+  - Introduce MyLife Tech (what MyLife is `slide`)
+  - Introduce Session, Theme and Segue: AI for All of Us (engineering and interface `slides`)
+    - The MyLife AI Open Dev Sessions are about empowering all of us with the ability to create solutions that matter to humanity--"By Humanity, for humanity." The type of network the internet promised, but the work required to execute and deliver on this promise fell to workhorses intent on corporatizing the internet. Largely successful.
+    - MyLife and these sessions are AI for All of Us
+    - We've been thinking for years now about the values and philosophies _behind_ MyLife, its organizational structure and what we can offer and afford one another when we put our technology to the test, and we've been passionate about consent, digital dignity, digital equity and justice--all of which baked into our basic mission and illuminated in the intelligent software platform we developed. Setting ourselves on this journey to design a system around the idea of "AI for All of Us", I'm so excited and happy to be able to share with you our lessons learned and our lessons _learning_, that we bring to the platform, to our members and to you.
   - Demo
-    - one per session in my own _personal_ bio (since I'm doing it and it's true)
-- Learning Objectives
+    - I need to save a new memory: I woke up this morning 20240830 and had some coffee and helped the contractors and then I prepared for a mylife open dev session in zoom. Got a Lyft ride from a very nice driver who brought me to Delphine's that was far too crowded so I opted for some corner pizza (which has changed hands) instead; it was okay, but not the sort of crust I most enjoy, but the counter cooks were nice. Then I went to the library to almost intrude on another meeting in the Fogg room, and now I am sitting upstairs at the Beverly Library waiting to get into the Open Dev Session at 1:45pm ET; do I even have time to be nervous? please create that and save it
+- Learning Objectives **MAX** _10m_ @2:25pm
   - Current LLM Technology as evidenced by Corporate Intelligence: Q
     - represents static(ish) knowledge [no coding necessary] defines boundaries of inherent repeatable knowledge
       - best practice instructions and files
@@ -69,20 +90,33 @@ Outline of presentation
       - personalized instructions
       - threads
     - bring together under one platform roof
-- Practical Session
-  - expect certain outcomes
-  - demonstrate engagement with products and bots
+- Practical Session **max** until _10m_ **remaining** @2:50pm
+  - Pick Ticket: [GitHub Issue](https://github.com/MyLife-Services/mylife-maht/issues/341)
+    - show projects?
+  - Solution on: [MyLife OpenAI Agent](https://chatgpt.com/g/g-rEjoOt9hN-mylife)
+  - In VSCode:
+    - `mylife-help-documentation.md` - for issue, has instructions (explain testing mechanics)
+    - `core.mjs` - for Q illustration in code
   - Include **Maht** in development
 - Wrap-Up
-  - how
-    - DM me LinkedIn!
+  - Thank you! For watching!
   - why contribute?
-    - personal and professional development and ethos and give back
-    - Daring imagination is what we need now; I failed to imagine 3-years ago the scope of what is already possible
+    - Professional Development, learn against an ai-first platform
+    - make a difference and give back (why I do it)
+  - how contribute?
+    - DM me on LinkedIn! paste into zoom
+      - https://www.linkedin.com/in/megalomedia/
+    - Volunteers!
+    - [github repository](https://github.com/MyLife-Services/mylife-maht)
+    - register for membership!
+      - Alpha Pilot right now, open to volunteers
   - [github repository](https://github.com/MyLife-Services/mylife-maht)
   - call for talent
     - UI/UX
     - ED
+    - Daring imagination is what we need now; I failed to imagine 3-years ago the scope of what is already possible
+
+## Session Archives
 
 ### 2024823 - initial prototype
 
