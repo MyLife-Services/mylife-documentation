@@ -37,7 +37,7 @@ The **Main Chat System** is the central hub for interactive communication with t
 
 ## 3. Sidebar
 
-Currently the sidebar is comprised of the Member's avatar bot and then a divider for the bot memory team, which currently consists of a Biographer Bot and a Scrapbook collection. Members can select which bot is active, and access their options through this sidebar. Bots are selected by using the circular icon to the left of their type listing in the blue bars.
+Currently the right-hand sidebar is comprised of the Member's avatar bot and then a divider for the bot memory team, which currently consists of a Biographer Bot and a Scrapbook collection. Members can select which bot is active, and access their options through this sidebar. Bots are selected by using the circular icon to the left of their type listing in the blue bars.
 
 Here are the elements listed in order with nesting.
 
