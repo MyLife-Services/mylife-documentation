@@ -1,6 +1,28 @@
 # Volunteer Interim Executive Director
 
-## Board Version
+## Post for LinkedIn 20240901
+
+🌍 **Exciting Opportunity to Lead in AI-Driven Nonprofit**
+
+Are you passionate about using your leadership skills to make a real difference in the world? MyLife, a visionary AI-powered non-profit, is on a mission to preserve individual human digital legacies for posterity in the interests of fostering greater global interconnection, empathy, and understanding. We're seeking a Volunteer Interim Executive Director to guide us through a pivotal phase of growth and development.
+
+Since our founding in 2021 in Boston, MA, MyLife has been dedicated to creating a free, secure, and enduring platform that allows individuals to share their life stories with future generations. Our vision is to build a human-network that champions digital justice, equality, and dignity, while empowering humanity to shape the future of AI for the benefit of all.
+
+As our Volunteer Interim Executive Director, you will:
+
+- Lead the delivery of our platform and go-to-market strategies
+- Drive public education and awareness initiatives
+- Expand our fundraising efforts
+- Develop strategic partnerships
+- Collaborate with the MyLife Board and volunteers to design long-term organizational plans
+
+This role is currently unpaid, but with the potential for transitioning to a full-time, compensated position as we scale. If you have a strong background in non-profit leadership and fundraising, and you're excited about the potential of AI to advance humanity, we want to hear from you.
+
+🌟 _Ready to make a lasting impact?_ **Apply now** to join MyLife on this transformative journey!
+
+#Leadership #Nonprofit #AI #ExecutiveDirector #TechnologyForGood #DigitalLegacy #HumanNetwork #MyLife
+
+## Job Listing LinkedIn 20240901
 
 ### Seeking Volunteer Interim Executive Director for Nonprofit AI-Enabled Platform
 
@@ -31,7 +53,10 @@ We look forward to meeting you.
 
 [Link to `About MyLife`](https://humanremembranceproject.org/about)
 
-## Q-Version
+
+## Appendix
+
+### Job Listing LinkedIn 20240901 Q-Version
 
 ### Opening
 
