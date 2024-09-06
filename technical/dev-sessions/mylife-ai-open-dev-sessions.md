@@ -1,18 +1,42 @@
 # MyLife AI Open Development Sessions
 
 - [Episodes](#episodes)
-  - [current session](#20240830)
+  - [current session](#20240906)
   - [archives](#session-archives)
 
 ## About MyLife
 
-MyLife is a 501c3 nonprofit member organization--established in 2021 near Boston--that offers its membership free to any humans. MyLife provides its membership with an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives.
+MyLife is a 501c3 nonprofit member organization that offers its membership an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives. Good news, membership is free to any humans, but only; no corporations, no ai's, no fictional characters. Our intelligent platform is built by humans for humans. And that's a bit of what we're here to talk about. What does it mean: AI for all of us?
+
+Let me show you.
 
 ## About MyLife Platform
 
-MyLife's technical backbone is an open-source headless, intelligent api platform server. This backend service is built entirely in `node.js` leveraging the open-source server technology `Koa` and currently the OpenAI SDK for its LLM services.
+MyLife guides you through the journey of crafting and sharing your digital self and digital legacy with posterity.
 
-The frontend is currently a "work-in-progress" and in need of much improvement (I'll talk more about getting involved later). It represents a relatively minimalistic cisual interface for our membership to interact with the intelligent platform. The frontend itself currently is a combination of HTML5, CSS and javascript. It is endeavoring upon emerging GenUI principles of _Consent and Control_ architecture, so that a frontend intelligence can negotiate an array of interactional experiences with an intelligent API service. We'll get more into that in the coming months, though I'll shortly show an example of this.
+Let's take a look at this slide for a moment, it's a complex jumble, but I just want to share with you what you get when you become a member of MyLife.
+
+explain graphic in sentence coding holes and top/bottom
+
+First you get a personal member avatar. This is an intelligence that essentially _is_ your MyLife Account. It is a digital intelligence that is meant to interact with you _and_ when invited and consented, digitally act _as_ you sharing your selected content with others as you consent.
+
+So you get this avatar, and then you get its ability to control an out-of-the-box team of bot intelligences called the 'Memory Team' that helps you collect, enhance, improve, relive and share your cherished memories, ideas and narratives for posterity.
+
+MyLife, as a technology, is an open-source headless, intelligent api platform server, leveraging minimal opensource javascript server frameworks. MyLife currently uses the OpenAI SDK for all of its LLM services, but the larger aim is to be model agnostic, being an aggregator, the likes of which many of you have already seen on the market.
+
+The frontend is currently a "work-in-progress" and in need of much improvement (I'll talk more about getting involved later). It represents a relatively minimalistic visual interface for our membership to interact with the intelligent platform. MyLife's aim is to afford its avatars with the ability to self-generate their user-interfaces in entirety on-command of login. We're a ways off from that, but it's a circular process of intelligent host speaks to intelligent client comin' o'er the Rye.
+
+With that caveat, and a call out to designers, Let's take a look!
+
+### Asides
+
+#### Avatar Marketplace
+
+Some of these Replikas, You, but Virtual solutions are currently coming on the market, but none missioned to provide you secure, protected data privacy and ownership. That's one tiny way in which MyLife is different.
+
+There are objects coming on the marketplace that offer this intention, Replika, Digital You, I'm sure you're seeing a lot of these already that are curios for the moment, but the Big Tech understands the results of this bonding with a digital entity is the only valuable data it has to mine, since they exist and are in situ to exploit our attention rather than elevate it. You will be offered many suits of armor, and it is in MyLife's interests and direction to partner with the those similarly missioned.
+
+The frontend itself currently is a combination of HTML5, CSS and javascript. It is endeavoring upon emerging GenUI principles of _Consent and Control_ architecture, so that a frontend intelligence can negotiate an array of interactional experiences with an intelligent API service. We'll get more into that in the coming months, though I'll shortly show an example of this.
 
 ## About MyLife AI Open Development Sessions
 
@@ -58,13 +82,68 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 ## Episodes
 
+### 20240906
+
+#### Week 1: Introduction to MyLife and Conceiving the Diary Bot
+
+This represents the kickoff of a series dedicated to bot-construction and MyLife Bot Team expansion. In this instance, we will explore the diary-bot and how its requirements might be outlined to meet the needs of User Persona `Jhon`.
+
+##### 20240906 Outline
+
+Exploring the MyLife Platform and Conceiving an AI Diary Bot
+
+1. Introduction to Host, MyLife and the Webinar Series, _5m_
+2. Showcase the Current MyLife Member Biography Platform, _10m_
+3. Learning Objective, _5m_
+4. Practical Session _20m_
+   1. Review Diary Bot Specifications, _5m_
+   2. Stand Up Diary Bot in GPT Teams, _15m_
+5. Wrap-up, _5m_
+
+Total time: _45m_
+
+1. Brief introduction to the MyLife Platform **MAX** _5m_ @2:05pm
+   - Introduce Self, current president and co-founder [Slide 1: Title]
+   - Introduce MyLife [Slide 2: Mission] [click here to access content](#about-mylife)
+   - Introduce Platform [Slide 3: Roadmap Slide] [click here to access content](#about-mylife-platform)
+   - Segue, referring to Diary Bot on graphic
+2. Showcase the Current MyLife Member Biography Platform **MAX** _10m_ @2:15pm
+   - [Login](https://humanremembranceproject.org/?type=select)
+   - Walk through the **current MyLife member biography platform**.
+     - Select Biographer
+     - Tell it story of today [copy and paste sub-bullet]
+       - Today is 20240906 and I am slated to give a presentation today on how to build a diary bot. I'd love to say I'm not nervous. Should I have had those four cups of coffee this morning? Please save this memory.
+     - see results
+     - show editing options
+     - Relive Memory
+   - This helps participants see MyLife in action, showcasing its **flexibility and power**.
+3. Learning Objectives **MAX** _5m_ @2:20pm
+   - **Basic AI Structure and Knowledge Concepts**: Using GPT and MyLife tools to build personalized bots [slide]
+   - **Create and Test GPT/Bot**: By the end of the session, participants will be able to start testing diary functions using GPT in the MyLife playground [slide?]
+4. Practical Session **MAX** _20m_ @2:40pm
+   - Pick the issue from the repo (slide!)
+   - Define the Diary Bot's specifications, so participants understand what they are building and the core components they’ll need
+   - Provide a hands-on session where participants work with GPT tools in the MyLife Playground to create a basic diary entry summary in the system
+   - **You** can Do Better than the AI GUY! (referring to initial instructions) This is a first draft, what would you do differently?
+5. Wrap-up _5m_ @2:45pm
+   - Recap the lessons learned
+   - How to contribute/get involved
+   - Volunteers
+   - Winner: Break the Bot! It's up! It exists - send link
+   - Next session: `Week 2: Dear Diary, Please Fetch My Carriage` or, Writing the API Hooks (slide)
+
+- hack-a-thon/looking for holes/Red Team
+**note** have lots of content to paste in for playground demonstration, or generate on demand by other GPT - lol yes this
+
+## Session Archives
+
 ### 20240830
 
 - Initial live version
 
 #### 20240830 Outline
 
-- Brief introduction to the MyLife Platform **MAX** _15m_ @2:15pm
+- Brief introduction to the MyLife Platform **MAX** _5m_ @2:05pm
   - Introduce Self, current president and co-founder
   - Introduce MyLife (mission `slide`) [click here to access content](#about-mylife)
   - Introduce MyLife Tech (what MyLife is `slide`)
@@ -87,6 +166,8 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
       - database
     - personal on-demand knowledge and memory [advanced coding]
       - bot teams
+      - experience-driven dynamic scripting
+      - forced modes
       - personalized instructions
       - threads
     - bring together under one platform roof
@@ -115,8 +196,6 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
     - UI/UX
     - ED
     - Daring imagination is what we need now; I failed to imagine 3-years ago the scope of what is already possible
-
-## Session Archives
 
 ### 2024823 - initial prototype
 
