@@ -118,19 +118,23 @@ Total time: _45m_
      - Relive Memory
    - This helps participants see MyLife in action, showcasing its **flexibility and power**.
 3. Learning Objectives **MAX** _5m_ @2:20pm
-   - **Basic AI Structure and Knowledge Concepts**: Using GPT and MyLife tools to build personalized bots [slide]
-   - **Create and Test GPT/Bot**: By the end of the session, participants will be able to start testing diary functions using GPT in the MyLife playground [slide?]
+   - **Basic AI Structure and Knowledge Concepts**: Using GPT and MyLife tools to build personalized bots [Slide 4: Roadmap Slide]
+   - **SHARE** Edge [TAB: Public MyLife GPT](https://chatgpt.com/g/g-rEjoOt9hN-mylife)
+   - **Create and Test GPT/Bot**: By the end of the session, participants will be able to start testing diary functions using GPT in the MyLife playground
 4. Practical Session **MAX** _20m_ @2:40pm
-   - Pick the issue from the repo (slide!)
-   - Define the Diary Bot's specifications, so participants understand what they are building and the core components they’ll need
+   - MyLife Repo: Show & Copy/Paste into Zoom [TAB: MyLife Code Repo](https://github.com/MyLife-Services/mylife-maht)
+     - https://github.com/MyLife-Services/mylife-maht
+   - MyLife Current Alpha Project: [TAB: MyLife Alpha Project](https://github.com/orgs/MyLife-Services/projects/13/views/1)
+   - Review Diary Bot Issue [TAB: MyLife Issue #347](https://github.com/MyLife-Services/mylife-maht/issues/347)
+   - Explain specifications and how they will be included
    - Provide a hands-on session where participants work with GPT tools in the MyLife Playground to create a basic diary entry summary in the system
    - **You** can Do Better than the AI GUY! (referring to initial instructions) This is a first draft, what would you do differently?
 5. Wrap-up _5m_ @2:45pm
    - Recap the lessons learned
-   - How to contribute/get involved
-   - Volunteers
+   - How to contribute/get involved [Slide 7: What We Need Now()]
+   - Volunteers, Thank Steve, Sheila, Mark, Avani
    - Winner: Break the Bot! It's up! It exists - send link
-   - Next session: `Week 2: Dear Diary, Please Fetch My Carriage` or, Writing the API Hooks (slide)
+   - Next session: `Week 2: Dear Diary, Please Fetch My Carriage` or, Writing the API Hooks
 
 - hack-a-thon/looking for holes/Red Team
 **note** have lots of content to paste in for playground demonstration, or generate on demand by other GPT - lol yes this
