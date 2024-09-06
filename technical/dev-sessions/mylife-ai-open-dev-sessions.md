@@ -6,9 +6,13 @@
 
 ## About MyLife
 
-MyLife is a 501c3 nonprofit member organization that offers its membership an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives. Good news, membership is free to any humans, but only; no corporations, no ai's, no fictional characters. Our intelligent platform is built by humans for humans. And that's a bit of what we're here to talk about. What does it mean: AI for all of us?
+Hello and welcome to the MyLife Open Dev Sessions exciting new `Diary Bot Series`
 
-Let me show you.
+I'm Erik Jespersen, president, co-founder and currently the senior architect and lone developer. Looking to change that and hoping to get you interested in what AI can do for you and for all of us.
+
+Thanks so much for joining me today, I hope you find this valuable. If you do, I'll invite you at the end to help collaborate on this epic project.
+
+MyLife is a 501c3 nonprofit member organization that offers its membership an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives. Good news, membership is free to any humans, but only; no corporations, no ai's, no fictional characters. Our intelligent platform is built by humans for humans. And that's a bit of what we're here to talk about. What does it mean: AI for all of us?
 
 ## About MyLife Platform
 
@@ -112,7 +116,7 @@ Total time: _45m_
    - Walk through the **current MyLife member biography platform**.
      - Select Biographer
      - Tell it story of today [copy and paste sub-bullet]
-       - Today is 20240906 and I am slated to give a presentation today on how to build a diary bot. I'd love to say I'm not nervous. Should I have had those four cups of coffee this morning? Please save this memory.
+       - Today is 20240906 and I am slated to give a presentation today on how to build a diary bot. I'd love to say I'm not nervous. Should I have had those four cups of coffee this morning? It was wonderful to talk with Steve and walk through the presentation. He's on the board of MyLife also. My wife ran out to grab some lunch just after we played Frisbee with Bryn -- she's a rescue just a 5 years old this December and the best at Frisbee you'll see! I had a delicious Banh Mi, it was delicious, but didn't help my nervousness. The AI development session is going to begin in just a few minutes. Zoinks! Please save this memory.
      - see results
      - show editing options
      - Relive Memory
