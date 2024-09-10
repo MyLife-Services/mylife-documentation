@@ -26,16 +26,79 @@ I seem to keep forgetting to mention that the reason I keep harping on this last
 
 ## MyLife Platform Milestones
 
-These represent milestones that affect business growth and structure and is inclusive of the underlying state of the services, so each phase or milestone will have subordinate evolving business needs (for artifacts or resources) as well as development and maintenance (operational) needs (for MVP (tech-wise) or resources). We are yet to pencil in anything but near-term timelines, but can outline requirements and resources required to achieve.
+These represent milestones that affect business growth and structure and is inclusive of the underlying state of the services, so each phase or milestone will have subordinate evolving business needs (for artifacts or resources) as well as development and maintenance (operational) needs (for MVP (tech-wise) or resources). 
 
-Alpha Internal
-Alpha Pilot
-Wide Alpha Release(s)
-Beta Test
-- Volunteer Launch (?) - internal->external celebration (i.e., limited public release)
-Public Release
-Video/Intro/Walkthrough/how to use
-3rd party approach
+### Milestone: Alpha Pilot
+#### Goal:
+This top-level milestone represents the state where MyLife platform's core features are developed and tested using by internal and external initial Pilot Members. This is currently arranged as a Project in GitHub @MyLife Pilot Alpha Build (github.com).
+Against this project we articulate this milestone to represent a completed MVP that has been tested and reviewed by a core group of alpha member testers. This milestone is also managed inside of our open-source GitHub environment: MyLife Alpha Pilot Milestone (github.com)
+
+#### Core Features:
+- List the essential features to be built.
+
+| Feature/Functionality | Status |
+| --- | --- |
+| Register | In Testing |
+| Validate Registration/Create Account | In Testing |
+| Collect and Store Memory | In Testing |
+| Curate and Edit Memory | In Testing |
+| Relive Memory | In Testing |
+
+
+#### Criteria to Complete the Milestone:
+1. Core features are fully developed and tested.
+2. No critical bugs that block functionality are present.
+3. Finalize Stakeholder list
+4. Stakeholders Outreach and communication
+5. Stakeholder Feedback received and reviewed
+6. Identify and implement Stakeholder Feedback
+7. Gain Stakeholders approval
+
+#### Deliverables:
+1. Core features deployed to the production environment.
+2. A plan for the Beta milestone is shared with stakeholders.
+3. Documentation (e.g., user manuals or training videos) are available.
+
+#### Stakeholder feedback:
+
+| Feedback | Action required (YES/NO) | Status | Open/Inprogress/Closed | Comments |
+|---|---|---|---|---|
+|  |  |  |  |  |
+
+
+### Beta Milestone
+#### Goal:
+In the Beta milestone, feedback from Alpha is applied, and all platform features should be developed and tested with a broader range of users.
+#### Additional Features:
+- List the additional features built on top of the core functionalities.
+
+| Feature/Functionality | Status |
+| --- | --- |
+|  |  |
+
+#### Criteria to Complete the Milestone:
+1. All features are fully developed and tested.
+2. No critical bugs that block functionality are present.
+3. Stakeholders Outreach and communication
+4. Stakeholder Feedback received and reviewed
+5. Identify and implement Stakeholder Feedback
+6. Gain Stakeholders approval
+
+
+#### Deliverables:
+All features deployed to production.
+Updated documentation (e.g., user guides or training materials).
+
+#### Stakeholder feedback:
+
+| Feedback | Action required (YES/NO) | Status | Open/Inprogress/Closed | Comments |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |  |
+
+### Final Launch Milestone
+#### Goal:
+The final milestone includes launching the complete platform to the public, ensuring all features are available and functioning smoothly.
+
 
 ## Organizational Milestones
 
