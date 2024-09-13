@@ -1,8 +1,8 @@
 # MyLife AI Open Development Sessions
 
 - [Episodes](#episodes)
-  - [current session](#20240906)
-  - [archives](#session-archives)
+  - [current session](#20240913)
+  - [archives](#episodes)
 
 ## About MyLife
 
@@ -84,11 +84,144 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 [Live Event Zoom Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
 
+## Upcoming Episodes
+
+### 20240913
+
+#### Diary Bot Series Week 2
+
+##### Headless Diary Bot
+
+##### 20240913 Introduction
+
+Hello, and welcome to today's session of the `MyLife Open Dev Sessions`! I'm Erik Jespersen, president, co-founder, and senior architect here at `MyLife`. I'm also the sole developer working on this project - for now - and I'm excited to share more about what AI can do for you and for all of us.
+
+Today, we are continuing the scintillating "Diary Bot Series". Last week, we built our diary bot prototype in OpenAI predominantly to test the type of instructions that would work. Our indefatigueable volunteer Lakshmi has tested the bot and has some updates. This week we are going to incorporate those changes _and_ assign functionality to our prototype so that it can send summaries of your entries to `MyLife`!
+
+Before we get into the tech today, which still requires **no traditional computer coding skills**, thanks so much for joining me today--I really hope you find this valuable. If you do, I'll invite you at the end to help collaborate on this epic project. I have found this work rewarding and educational in ways I couldn't have imagined, and I'm ready to share some of that learning and labor with you.
+
+- [Slide 2: Mission]
+
+`MyLife` is a 501c3 nonprofit member organization that offers its membership an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives. Good news, membership is free to any humans! Our intelligent platform is built by humans for humans.
+
+What is this personal platform that can help cature and share your most cherished nostalgia and ideas with posterity? How is it used? Well, here are just a few of the use cases we've already been building towards with our initial functionality.
+
+- [Slide 3: Use Cases]
+
+From someone suffering memory loss, or even just boredom, perhaps living far away from their family wishing to remember and relive for themselves cherished memories bygone... and then share them with their loved ones. To someone wanting to leave behind their thoughts and emotions for the young children, just growing up in this crazy over-digitalized world they will inherit... To someone with a desire to on-demand have a partner in self-reflection, processing of ideas and emotions, divining conclusions about themselves, and sharing that interaction and its outcomes for themselves in the near or far future... To someone struggling with their identity, desiring a private, protected intelligent space to work through their frustrations and frictions...
+
+Built by us for us. We are many and varied in our needs, and so each of our "MyLife"'s will be our own to use, manage and consent as we wish.
+
+So how do we do this? We built a headless intelligent platform to allow you to store, protect, **and make** intelligent your narratives. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. This is why AI is **not** a fad and how AI will change the world.
+
+##### 20240913 MyLife Showcase
+
+Now? Less expository, more demonstration. Let's take a look behind the scenes at the `MyLife` Platform.
+
+- **Walkthrough** [Chrome]
+  - [Login](https://humanremembranceproject.org/?type=select) as `system-one`
+  - Explain Interface
+    - this is all what you get when you become a member of mylife
+    - explain Member Avatar: include intelligent client, your intelligent account, digital you. Avatars already coming on the market we are an aggregator, so if you want to use ours, or use another party (or some combination) that is intentional in the platform design
+    - Explain Bot Team: team of intelligences here to help you do the work of being human! Start with our cherished memories and narratives as well as innermost thoughts. The stuff you DON'T want to be sending to Google.
+    - Select Biographer and show/explain options
+    - chat area and UX
+  - share story of today [copy and paste sub-bullet]
+    - Today is 20240913 I'm still cramming to get today's diary bot series done, it's looking good, but time squanders and fleets. I've got the opening script and my pieces, I just need to organize them and then wait for Joan and Hugh to come pick Margaret up for the beach, which I cannot go to today, for this MyLife work. Which is totally fine. I mean it. Really. No sarcasm. I do love it, but on a day like today, with beating heating sun, a known part of me would prefer to be there with my friends. But this is important to me, and it's a great learning experience for me, and a way to build more information about how the platform works without having to directly write all the documentation myself, as a lot of this is coming out in last-minute slides and loudmouthed scripting. Not yet _too_ nervous, would like to keep it that way! Please save this memory.
+  - show editing options
+  - show activation contextualization (how we might contextualize anything)
+  - Relive Memory
+
+##### 20240913 Learning Objectives
+
+- **Headless**: What it means, sure, any frontend, but we need to think about the future and what happens when Intelligent platforms will talk to intelligent clients, and your MyLife Member Avatar (explained earlier) is exactly such a "smart" client. Any "semi-"intelligent consumer can conduct your consented business with MyLife. By end of this, when we make the OpenAI GPT prototype Diary Bot the main interface through which one integrates with MyLife.
+- **"static" knowledge** focus for today, with allusions to dynamic (json schema)
+- **Connecting Dots and Bots**: Using GPT and MyLife API (extant functionality) to connect prototype from last week to MyLife. No code environment.
+- **Test GPT/Bot**: Use public links to test and improve (which include feedback)
+
+##### 20240913 Practical Session
+
+**IMPORTANT**: Never show `mbr_id` for any entity, and if so, in worst case, test case of Spritz.
+
+- [review master issue with Diary Bot Specifications](https://github.com/MyLife-Services/mylife-maht/issues/347)
+  - scroll to week 2: Headless Diary Bot
+  - Share in Zoom
+- [show and explain JSON Schema Ticket](https://github.com/MyLife-Services/mylife-maht/issues/355)
+- [review previous instructions](https://github.com/MyLife-Services/mylife-maht/issues/348#issuecomment-2334520687)
+- [review feedback from Lakshmi](https://github.com/MyLife-Services/mylife-maht/issues/349#issuecomment-2339091319)
+- [review Diary Bot Prototype updates](https://chatgpt.com/g/g-rSCnLVUKd-mylife-diary-bot-prototype)
+  - Go over how individual instructions were updated, included or moved to interface resolution (ex. Flagging for now)
+- click through to actions describe what they do
+  - **NOTE** sometimes need to destroy all actions and start again
+  - Authentication in GPT
+  - [demonstrate original Schema in GitHub also](https://github.com/MyLife-Services/mylife-maht/blob/base/inc/yaml/mylife_biographer-bot_openai.yaml)
+  - Test in GPT area
+- Test on public GPT
+  - keyValidation
+  - test story
+- Confirm Save in `MyLife` database (talk through while doing)
+  - find ID in VSCode Server log
+  - Azure find entry
+  - Copy and Paste into Notepad
+  - erase id, mbr_id
+  - share document
+- **You** can Do Better than the AI GUY! (referring to initial instructions) This is a first draft, what would you do differently? Of course you can, even if just because you prefer to have yours act a little differently than the MyLife vanilla version.
+- You have just built a diary assistant that has direct access to populate your MyLife account. Bravo! Now wait until you learn how to build one _inside_ of MyLife starting next week!
+
+##### 20240913 Wrap-Up
+
+- **Lessons learned:** You built your own Bot! And that's part of what we mean with headless, any interface can be connected through validation and verification to our system by design. And further, we are tailoring that design towards an end-state where we will have intelligent clients handshaking, validating, negotiating, contracting and otherwise interacting with our intelligent platform with their human driver at the helm.
+- **Get Involved!**
+  - We need you!  
+  - [Slide 7: What We Need Now()]
+  - Volunteers are already incredible, only too few in number: Special thanks this week to Steve, Sheila, Mark, Avani, Lakshmi, Russ, Todd Nilson from Clocktower Advisors, Diane Tarshis from Startup Distillery and our ED candidates!
+- Winner: Break the Bot! It's up! It exists
+  - [share link in Zoom](https://chatgpt.com/g/g-rSCnLVUKd-mylife-diary-bot-prototype)
+- Next session: `Week 3: Dear Diary, Please Fetch My Carriage` or, Writing New API Hooks, like redacting
+
+##### 20240913 Outline
+
+1. Introduction to Host, Session, MyLife and the Webinar Series, _5m_
+2. Showcase the Current MyLife Member Biography Platform, _10m_
+3. Learning Objectives, _5m_
+4. Practical Session _20m_
+   1. Diary Bot in GPT, _10m_
+   2. MyLife Validation, _10m_
+5. Wrap-up, _5m_
+
+Total time: _45m_
+
+1. Brief introduction to the MyLife Platform **MAX** _5m_ @2:05pm
+   - Introduce Self, current president and co-founder [Slide 1: Title]
+   - Introduce MyLife [Slide 2: Mission] [click here to access content](#about-mylife)
+   - Introduce Use Cases and Platform [slide 3: Use Cases]
+2. Showcase the Current MyLife Member Biography Platform **MAX** _10m_ @2:15pm
+   - [Login](https://humanremembranceproject.org/?type=select)
+   - Walk through the **current MyLife member biography platform**.
+   - This helps participants see MyLife in action, showcasing its **flexibility and power**.
+3. Learning Objectives **MAX** _5m_ @2:20pm
+   - **Headless**: What it means, example of what we've done
+   - **"static" knowledge** focus for today, with allusions to dynamic (json schema)
+   - **Connecting Dots**: Using GPT and MyLife API (extant functionality) to connect prototype from last week to MyLife. No code environment.
+   - **Test GPT/Bot**: Use public links to test and improve (which include feedback)
+4. Practical Session **MAX** _20m_ @2:40pm
+5. Wrap-up _5m_ @2:45pm
+   - Recap the lessons learned
+   - How to contribute/get involved [Slide 7: What We Need Now()]
+   - Volunteers, Thank Steve, Sheila, Mark, Avani
+   - Winner: Break the Bot! It's up! It exists - send link
+   - Next session: `Week 3: Dear Diary, Please Fetch My Carriage` or, Writing New API Hooks, like redacting
+
+- hack-a-thon/looking for holes/Red Team
+**note** have lots of content to paste in for playground demonstration, or generate on demand by other GPT - lol yes this
+
 ## Episodes
 
 ### 20240906
 
-#### Week 1: Introduction to MyLife and Conceiving the Diary Bot
+#### Diary Bot Series Week 1
+
+##### Introduction to MyLife and Conceiving the Diary Bot
 
 This represents the kickoff of a series dedicated to bot-construction and MyLife Bot Team expansion. In this instance, we will explore the diary-bot and how its requirements might be outlined to meet the needs of User Persona `Jhon`.
 
@@ -142,8 +275,6 @@ Total time: _45m_
 
 - hack-a-thon/looking for holes/Red Team
 **note** have lots of content to paste in for playground demonstration, or generate on demand by other GPT - lol yes this
-
-## Session Archives
 
 ### 20240830
 
