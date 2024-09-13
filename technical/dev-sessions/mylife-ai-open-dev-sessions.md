@@ -94,7 +94,7 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 ##### 20240913 Introduction
 
-Hello, and welcome to today's session of the `MyLife Open Dev Sessions`! I'm Erik Jespersen, president, co-founder, and senior architect here at `MyLife`. I'm also the sole developer working on this project - for now - and I'm excited to share more about what AI can do for you and for all of us.
+Hello, and welcome to today's session of the `MyLife Open Dev Sessions`! I'm Erik Jespersen, president, co-founder, and senior architect here at `MyLife`. I'm excited to share more about what AI can do for you and for all of us.
 
 Today, we are continuing the scintillating "Diary Bot Series". Last week, we built our diary bot prototype in OpenAI predominantly to test the type of instructions that would work. Our indefatigueable volunteer Lakshmi has tested the bot and has some updates. This week we are going to incorporate those changes _and_ assign functionality to our prototype so that it can send summaries of your entries to `MyLife`!
 
