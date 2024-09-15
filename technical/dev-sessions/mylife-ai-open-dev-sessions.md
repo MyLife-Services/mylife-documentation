@@ -1,82 +1,9 @@
 # MyLife AI Open Development Sessions
 
 - [Episodes](#episodes)
-  - [current session](#20240913)
+  - [current session](#20240920)
   - [archives](#episodes)
-
-## About MyLife
-
-Hello and welcome to the MyLife Open Dev Sessions exciting new `Diary Bot Series`
-
-I'm Erik Jespersen, president, co-founder and currently the senior architect and lone developer. Looking to change that and hoping to get you interested in what AI can do for you and for all of us.
-
-Thanks so much for joining me today, I hope you find this valuable. If you do, I'll invite you at the end to help collaborate on this epic project.
-
-MyLife is a 501c3 nonprofit member organization that offers its membership an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives. Good news, membership is free to any humans, but only; no corporations, no ai's, no fictional characters. Our intelligent platform is built by humans for humans. And that's a bit of what we're here to talk about. What does it mean: AI for all of us?
-
-## About MyLife Platform
-
-MyLife guides you through the journey of crafting and sharing your digital self and digital legacy with posterity.
-
-Let's take a look at this slide for a moment, it's a complex jumble, but I just want to share with you what you get when you become a member of MyLife.
-
-explain graphic in sentence coding holes and top/bottom
-
-First you get a personal member avatar. This is an intelligence that essentially _is_ your MyLife Account. It is a digital intelligence that is meant to interact with you _and_ when invited and consented, digitally act _as_ you sharing your selected content with others as you consent.
-
-So you get this avatar, and then you get its ability to control an out-of-the-box team of bot intelligences called the 'Memory Team' that helps you collect, enhance, improve, relive and share your cherished memories, ideas and narratives for posterity.
-
-MyLife, as a technology, is an open-source headless, intelligent api platform server, leveraging minimal opensource javascript server frameworks. MyLife currently uses the OpenAI SDK for all of its LLM services, but the larger aim is to be model agnostic, being an aggregator, the likes of which many of you have already seen on the market.
-
-The frontend is currently a "work-in-progress" and in need of much improvement (I'll talk more about getting involved later). It represents a relatively minimalistic visual interface for our membership to interact with the intelligent platform. MyLife's aim is to afford its avatars with the ability to self-generate their user-interfaces in entirety on-command of login. We're a ways off from that, but it's a circular process of intelligent host speaks to intelligent client comin' o'er the Rye.
-
-With that caveat, and a call out to designers, Let's take a look!
-
-### Asides
-
-#### Avatar Marketplace
-
-Some of these Replikas, You, but Virtual solutions are currently coming on the market, but none missioned to provide you secure, protected data privacy and ownership. That's one tiny way in which MyLife is different.
-
-There are objects coming on the marketplace that offer this intention, Replika, Digital You, I'm sure you're seeing a lot of these already that are curios for the moment, but the Big Tech understands the results of this bonding with a digital entity is the only valuable data it has to mine, since they exist and are in situ to exploit our attention rather than elevate it. You will be offered many suits of armor, and it is in MyLife's interests and direction to partner with the those similarly missioned.
-
-The frontend itself currently is a combination of HTML5, CSS and javascript. It is endeavoring upon emerging GenUI principles of _Consent and Control_ architecture, so that a frontend intelligence can negotiate an array of interactional experiences with an intelligent API service. We'll get more into that in the coming months, though I'll shortly show an example of this.
-
-## About MyLife AI Open Development Sessions
-
-MyLife AI Open Development Sessions offer a free, inclusive invitation to anyone interested in harnessing AI for human-centered solutions, led by the expert team behind the nonprofit, open-source MyLife Member Services Platform. This configurable, intelligent API system empowers developers, creators, and individuals alike to contribute to a global humanist network that ensures privacy, posterity, and accessibility for all.
-
-This series is designed to benefit anyone, from seasoned developers to beginners, with or without traditional coding experience. Discover how AI can drive not just technological, but also societal progress through equitable, ethical practices.
-
-Join us for free and be part of the movement to ensure every human legacy is digitally preserved and celebrated in perpetuity.
-
-[Live Event Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
-
-## Dev Session Format
-
-- Brief introduction to the MyLife Platform [powerpoint] & [MyLife-Website](https://humanremembranceproject.org)
-  - Introduce Self
-  - Introduce MyLife (mission slide)
-  - Introduce MyLife Tech (what it is slide)
-  - Introduce Theme and Segueway (interface slides)
-  - Demo
-    - Yes one per session in my own _personal_ bio, since I'm doing it and it's true
-- Learning Objectives
-  - put a birdbrain on it!
-- Practical Session
-  - expect and outline certain outcomes
-  - vet material for privacy
-  - demonstrate engagement with products and bots
-  - Include **Maht** in development
-- Wrap-Up
-  - Thank you! For watching!
-  - how contribute?
-    - Volunteers!
-  - why contribute?
-  - [github repository](https://github.com/MyLife-Services/mylife-maht)
-  - call for talent
-
-- [ ] Create backup slip - Focus on thanks and volunteer appreciation
+- [Live Event Zoom Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
 
 ## Presentation
 
@@ -85,6 +12,79 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 [Live Event Zoom Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
 
 ## Upcoming Episodes
+
+### 20240920
+
+#### Diary Bot Series Week 3
+
+##### Writing API Service Hooks for Diary Functionality
+
+##### 20240920 Introduction
+
+Hello, and welcome to today's session of the `MyLife Open Dev Sessions`! I'm Erik Jespersen, president, co-founder, and senior architect here at `MyLife`. I'm excited to share more about what AI can do for you and for all of us.
+
+Today, we are continuing the critic-acclaimed "Diary Bot Series". Our aim is to create Diary Bot functionality into our baseline platform, and to demonstrate how easy and scalable it is, we'll build it directly in plain view, coding this for you. Come join and collaborate with us, it's easy.
+
+So last week, we left our GPT Diary Bot prototype in ill-frequented cyberspace to mature and receive feedback. That journey, at times like Voyager 2, is somewhat independent from our current trajectory, without minimizing its value and importance.
+
+At `MyLife`, we will also offer Diary Bot functionality directly to our membership, rather than needing to rely on an OpenAI interface. So we'll need to do several things unto themselves not unfamiliar to most any coder (yes, we're moving into the requires coding ability sections!), according to our specifications:
+
+1. Create a front-end way to display Diary Bot and render and set the options
+2. Connect the Bot to a Team (here memory and spiritual teams)
+3. Generate Bot and instructions and instances On-Demand
+4. Create Intelligent API endpoint exposures where MyLife System Avatar responds to requests
+
+Before we get any further, thanks so much for joining me today--I really hope you find this valuable. If you do, I'll invite you at the end to help collaborate on this epic project. It's been a lot of things, emotionally and professionally, working on this endeavor, but boring or simple or simple-minded have never been one of them.
+
+Let's kick _all_ the butts. I mean bots. I mean butts.
+
+- [Slide 2: Mission]
+
+`MyLife` is a 501c3 nonprofit member organization that offers its membership, at no charge, an intelligent ai-assisted platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and share them with others. We are not affiliated with any paid, premium or freemium service, we're trying to coax you with--what you see is exactly what we're trying to achieve.
+
+What is this? `MyLife` is a personal platform that can help cature and share your most cherished nostalgia and ideas with posterity. How is it used? Well, before I show the interface, here are just a few of the use cases we've already been building towards with our initial functionality.
+
+- [Slide 3: Use Cases]
+
+We built this to help those suffering mild memory loss, and better want to capture, relive and identify with stories that make them whole, that they _themselves_ want to hear again... to those wanting to leave behind a time capsule for their two young children you know are about to inherit an over-digitalized and over-infomated world--let this be a time capsule to remember what it was like before the internet, before AI... to those who would benefit from an on-demand partner in self-reflection, in an intentionally private digital sanctuary (where else does _this_ exist?!) to process ideas and emotions, and struggling to come to conclusions about themselves...
+
+It's for all of us. Built by us for us. We are many and varied in our needs.
+
+We begin by building a headless intelligent platform for all of us to use that helps elicit, store, protect, and ultimately **make** intelligent your narratives. According to your explicit consents. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. For any wondering, this is just one reason why AI is **not** a fad but is illustrative of how AI will _change_ the world.
+
+##### 20240920 MyLife Showcase
+
+- **Walkthrough** [Chrome]
+  - [Login](https://humanremembranceproject.org/?type=select) as `system-one`
+  - Explain Interface
+    - this is all what you get when you become a member of mylife
+    - explain Member Avatar: include intelligent client, your intelligent account, digital you. Avatars already coming on the market we are an aggregator, so if you want to use ours, or use another party (or some combination) that is intentional in the platform design
+    - Explain Bot Team: team of intelligences here to help you do the work of being human! Start with our cherished memories and narratives as well as innermost thoughts. The stuff you DON'T want to be sending to Google so they can own.
+    - Select Biographer and show/explain options
+    - chat area and UX
+  - share story of today [copy and paste sub-bullet]
+    - Today is 20240920;  Please save this memory.
+  - introduce `scrapbook`
+    - show editing options
+    - show activation contextualization (how we might contextualize anything)
+    - **Relive Memory**
+
+##### 20240920 Outline
+
+1. Introduction to Host, Session, MyLife and the Webinar Series, _5m_
+2. Showcase the Current MyLife Member Biography Platform, _10m_
+3. Learning Objectives, _5m_
+   - How MyLife creates bots using OpenAI GPTs
+     - OpenAI `.js` SDK
+   - How MyLife designs instructions
+   - How MyLife assigns instructions
+   - How MyLife assigns functions
+4. Practical Session _20m_
+   1. Diary Bot in GPT, _10m_
+   2. MyLife Validation, _10m_
+5. Wrap-up, _5m_
+
+## Episodes
 
 ### 20240913
 
@@ -214,8 +214,6 @@ Total time: _45m_
 
 - hack-a-thon/looking for holes/Red Team
 **note** have lots of content to paste in for playground demonstration, or generate on demand by other GPT - lol yes this
-
-## Episodes
 
 ### 20240906
 
@@ -404,3 +402,77 @@ Total time: _45m_
 
 - Maht: Our work is like a puzzle, where each piece—whether it’s a single line of code or a new instruction set—helps complete a picture of human empowerment
 - Maht: Empowerment isn’t about giving someone power over others—it’s about helping them harness their power for one's betterment and the greater good, driven by integrity and a sense of purpose
+
+## About MyLife
+
+Hello and welcome to the MyLife Open Dev Sessions exciting new `Diary Bot Series`
+
+I'm Erik Jespersen, president, co-founder and currently the senior architect and lone developer. Looking to change that and hoping to get you interested in what AI can do for you and for all of us.
+
+Thanks so much for joining me today, I hope you find this valuable. If you do, I'll invite you at the end to help collaborate on this epic project.
+
+MyLife is a 501c3 nonprofit member organization that offers its membership an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives. Good news, membership is free to any humans, but only; no corporations, no ai's, no fictional characters. Our intelligent platform is built by humans for humans. And that's a bit of what we're here to talk about. What does it mean: AI for all of us?
+
+## About MyLife Platform
+
+MyLife guides you through the journey of crafting and sharing your digital self and digital legacy with posterity.
+
+Let's take a look at this slide for a moment, it's a complex jumble, but I just want to share with you what you get when you become a member of MyLife.
+
+explain graphic in sentence coding holes and top/bottom
+
+First you get a personal member avatar. This is an intelligence that essentially _is_ your MyLife Account. It is a digital intelligence that is meant to interact with you _and_ when invited and consented, digitally act _as_ you sharing your selected content with others as you consent.
+
+So you get this avatar, and then you get its ability to control an out-of-the-box team of bot intelligences called the 'Memory Team' that helps you collect, enhance, improve, relive and share your cherished memories, ideas and narratives for posterity.
+
+MyLife, as a technology, is an open-source headless, intelligent api platform server, leveraging minimal opensource javascript server frameworks. MyLife currently uses the OpenAI SDK for all of its LLM services, but the larger aim is to be model agnostic, being an aggregator, the likes of which many of you have already seen on the market.
+
+The frontend is currently a "work-in-progress" and in need of much improvement (I'll talk more about getting involved later). It represents a relatively minimalistic visual interface for our membership to interact with the intelligent platform. MyLife's aim is to afford its avatars with the ability to self-generate their user-interfaces in entirety on-command of login. We're a ways off from that, but it's a circular process of intelligent host speaks to intelligent client comin' o'er the Rye.
+
+With that caveat, and a call out to designers, Let's take a look!
+
+### Asides
+
+#### Avatar Marketplace
+
+Some of these Replikas, You, but Virtual solutions are currently coming on the market, but none missioned to provide you secure, protected data privacy and ownership. That's one tiny way in which MyLife is different.
+
+There are objects coming on the marketplace that offer this intention, Replika, Digital You, I'm sure you're seeing a lot of these already that are curios for the moment, but the Big Tech understands the results of this bonding with a digital entity is the only valuable data it has to mine, since they exist and are in situ to exploit our attention rather than elevate it. You will be offered many suits of armor, and it is in MyLife's interests and direction to partner with the those similarly missioned.
+
+The frontend itself currently is a combination of HTML5, CSS and javascript. It is endeavoring upon emerging GenUI principles of _Consent and Control_ architecture, so that a frontend intelligence can negotiate an array of interactional experiences with an intelligent API service. We'll get more into that in the coming months, though I'll shortly show an example of this.
+
+## About MyLife AI Open Development Sessions
+
+MyLife AI Open Development Sessions offer a free, inclusive invitation to anyone interested in harnessing AI for human-centered solutions, led by the expert team behind the nonprofit, open-source MyLife Member Services Platform. This configurable, intelligent API system empowers developers, creators, and individuals alike to contribute to a global humanist network that ensures privacy, posterity, and accessibility for all.
+
+This series is designed to benefit anyone, from seasoned developers to beginners, with or without traditional coding experience. Discover how AI can drive not just technological, but also societal progress through equitable, ethical practices.
+
+Join us for free and be part of the movement to ensure every human legacy is digitally preserved and celebrated in perpetuity.
+
+[Live Event Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
+
+## Dev Session Format
+
+- Brief introduction to the MyLife Platform [powerpoint] & [MyLife-Website](https://humanremembranceproject.org)
+  - Introduce Self
+  - Introduce MyLife (mission slide)
+  - Introduce MyLife Tech (what it is slide)
+  - Introduce Theme and Segueway (interface slides)
+  - Demo
+    - Yes one per session in my own _personal_ bio, since I'm doing it and it's true
+- Learning Objectives
+  - put a birdbrain on it!
+- Practical Session
+  - expect and outline certain outcomes
+  - vet material for privacy
+  - demonstrate engagement with products and bots
+  - Include **Maht** in development
+- Wrap-Up
+  - Thank you! For watching!
+  - how contribute?
+    - Volunteers!
+  - why contribute?
+  - [github repository](https://github.com/MyLife-Services/mylife-maht)
+  - call for talent
+
+- [ ] Create backup slip - Focus on thanks and volunteer appreciation
