@@ -61,3 +61,10 @@
         - Penetration Testing: Perform periodic penetration testing to evaluate the security of the codebase and infrastructure.
 
 By following these high-level outlines, MyLife can significantly enhance the security of its codebase against both internal and external threats, ensuring a robust and resilient development environment.
+
+incorporate @sheikita thinking regarding Risk Management around:
+
+- Hallucination strategy
+- Data privacy
+- securitization
+- prescription/diagnostics out of scope

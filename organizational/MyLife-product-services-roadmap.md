@@ -29,11 +29,14 @@ I seem to keep forgetting to mention that the reason I keep harping on this last
 These represent milestones that affect business growth and structure and is inclusive of the underlying state of the services, so each phase or milestone will have subordinate evolving business needs (for artifacts or resources) as well as development and maintenance (operational) needs (for MVP (tech-wise) or resources). 
 
 ### Milestone: Alpha Pilot
-#### Goal:
+
+#### Goal
+
 This top-level milestone represents the state where MyLife platform's core features are developed and tested using by internal and external initial Pilot Members. This is currently arranged as a Project in GitHub @MyLife Pilot Alpha Build (github.com).
 Against this project we articulate this milestone to represent a completed MVP that has been tested and reviewed by a core group of alpha member testers. This milestone is also managed inside of our open-source GitHub environment: MyLife Alpha Pilot Milestone (github.com)
 
-#### Core Features:
+#### Core Features
+
 - List the essential features to be built.
 
 | Feature/Functionality | Status |
@@ -45,7 +48,8 @@ Against this project we articulate this milestone to represent a completed MVP t
 | Relive Memory | In Testing |
 
 
-#### Criteria to Complete the Milestone:
+#### Criteria to Complete the Milestone
+
 1. Core features are fully developed and tested.
 2. No critical bugs that block functionality are present.
 3. Finalize Stakeholder list
@@ -54,7 +58,8 @@ Against this project we articulate this milestone to represent a completed MVP t
 6. Identify and implement Stakeholder Feedback
 7. Gain Stakeholders approval
 
-#### Deliverables:
+#### Deliverables
+
 1. Core features deployed to the production environment.
 2. A plan for the Beta milestone is shared with stakeholders.
 3. Documentation (e.g., user manuals or training videos) are available.
