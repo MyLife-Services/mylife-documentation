@@ -13,11 +13,26 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 ## Upcoming Episodes
 
+### Serial Arcs
+
+- Diary Bot
+  1. Birth of a Diary Bot: based on specifications create flat OpenAI Diary Bot prototype from specifications
+  2. Headless Diary Bot: Connect this working Diary Bot prototype with MyLife Backend via `actions`
+  3. Head Transplant: from specifications (add two+ internal MyLife endpoints #4) and prototype instructions, build and show how Diary bot instructions are stored and realized in the MyLife platform
+  4. API interface: Take those two+ functions and build them out as endpoint
+  5. Frontend - looking like 2 episodes
+     - container
+     - entries
+     - options
+     - build associated instruction-commands + options?
+  6. Team: add new Diary Bot as default to memory team
+- one-off episodes on bug-fixing [example: refresh of screen handled by backend]
+
 ### 20240920
 
 #### Diary Bot Series Week 3
 
-##### Writing API Service Hooks for Diary Functionality
+##### A Head Transplant
 
 ##### 20240920 Introduction
 
@@ -25,14 +40,7 @@ Hello, and welcome to today's session of the `MyLife Open Dev Sessions`! I'm Eri
 
 Today, we are continuing the critic-acclaimed "Diary Bot Series". Our aim is to create Diary Bot functionality into our baseline platform, and to demonstrate how easy and scalable it is, we'll build it directly in plain view, coding this for you. Come join and collaborate with us, it's easy.
 
-So last week, we left our GPT Diary Bot prototype in ill-frequented cyberspace to mature and receive feedback. That journey, at times like Voyager 2, is somewhat independent from our current trajectory, without minimizing its value and importance.
-
-At `MyLife`, we will also offer Diary Bot functionality directly to our membership, rather than needing to rely on an OpenAI interface. So we'll need to do several things unto themselves not unfamiliar to most any coder (yes, we're moving into the requires coding ability sections!), according to our specifications:
-
-1. Create a front-end way to display Diary Bot and render and set the options
-2. Connect the Bot to a Team (here memory and spiritual teams)
-3. Generate Bot and instructions and instances On-Demand
-4. Create Intelligent API endpoint exposures where MyLife System Avatar responds to requests
+So last week, we enabled our GPT Diary Bot to invite member feedback and store it directly in `MyLife`, illustrating what headless means and creating our intelligent, well semi-intelligent, API consumer, Diary Bot. This episode will see the transplant of the GPT prototype brains _into_ the MyLife instructioning system. 
 
 Before we get any further, thanks so much for joining me today--I really hope you find this valuable. If you do, I'll invite you at the end to help collaborate on this epic project. It's been a lot of things, emotionally and professionally, working on this endeavor, but boring or simple or simple-minded have never been one of them.
 
@@ -69,6 +77,67 @@ We begin by building a headless intelligent platform for all of us to use that h
     - show activation contextualization (how we might contextualize anything)
     - **Relive Memory**
 
+##### 20240920 Learning Objectives
+
+I'll move on to Learning Objectives for today. Get your surgical gloves out, friends, we're about to perform a Diary Bot _head transplant_!
+
+- **GitHub Repository**
+
+We are an open-source public platform, so you can always visit our [codebase on GitHub](https://github.com/MyLife-Services/mylife-maht) to review tickets or progress or you can chat architecture and some engineering directly with our [intelligent codebase GPT](https://chatgpt.com/g/g-oAvQvGv5f-gpt-maht) in desperate need an of an update.
+
+- [Slide 4: Member Login Initialization]
+
+- **MyLife Bots**
+
+Here's a peek behind the curtain at what you get when you become a member of MyLife. What's going on here? This shows a high-level process illustration of some of the things that happen under the hood when you become a member. First off, you receive a Member Avatar, who is the safe preserver of your data. Once built and assigned to you as a member, it creates core intelligences personalized and availably _only to you_ to help you on your journey to store your narratives and legacy. This inital team of intelligences is called the Memory Team and is designed to help you capture biographical and introspective content. So it creates an initial biographer intelligence who is assigned a combination of dynamic clues and options to both tailor _and_ guardrail, maybe focus is a fine word to use, the member interactive intelligent experience.
+
+We'll dive into the specifics of how we will perform this instructional head transplant in the practical portion, so for the moment, I want to go over the types of "knowledge" we prepare our intelligences with and how. Some are unique to MyLife, but most are germain to almost all Large Language Models (or LLMs).
+
+We think in terms of three types of artificial intelligence that drive our bots.
+
+- Static Knowledge, which we've demonstrated as assigning natural language instruction sets and files
+- Dynamic Knowledge, which we demonstrated last week in assigning functions and functionality with MyLife. This refers to the actions and functions that contribute to the capabilities and performance of an intelligence.
+- **Personalized Interactive Knowledge**, which we're going to examine a bit today. This dynamic personalization helps not only secure your data, but also promotes an evolving intuitive experience for you, the member.
+
+In our case today, we'll be focused on Interactive Knowledge which reflects the most agile customization of knowledge and context for our bots and how we implement it. We'll see how MyLife personalizes initial instructions to valuably shape the conversation and context-awareness. We'll see a bit how threads are used to both maintain consistency and provide a layer of security for your content, and we'll touch on how Dynamic Options can help round out a member's preferences for bot interaction.
+
+To follow along today, I recommend you have some experience coding with javascript.
+
+Let's dive in!
+
+##### 20240920 Practical Session
+
+- [Pick issue for this week](https://github.com/MyLife-Services/mylife-maht/issues/368)
+- How MyLife creates bot intelligences using OpenAI GPTs
+  - Member Avatar generates bots for member with a personal factory (with access to datacore)
+    - `avatar.mBot()` modular function that determines whether it needs to update a bot in avatar memory or create one; here we're looking at creating, so we look to the factory.
+      - => `factory.createBot()` passthrough for modular function
+      - => `factory.mCreateBot()` modular function that validates incoming creation request, gathers and compiles instructions and tools, creates with LLM provider, and saves to MyLife.
+      - => `factory.mCreateBotInstructions()` modular function that compiles instructions based on created bot type.
+      - => `factory.mGetAIFunctions()` modular function that assigns functions based on created bot type.
+      - => `factory.mCreateBotLLM()` modular function that saves bot to llm provider.
+        - => `llmServices.createBot()` simple sdk call (in comment of issue)
+      - => `dataservices.createBot()` factory calls dataservices to push document
+- How MyLife designs and assigns instructions
+  - [factory.mCreateBotInstructions()](https://github.com/MyLife-Services/mylife-maht/blob/6eeef0fbc362b00c18118313730962f139362082/inc/js/mylife-agent-factory.mjs#L1214)
+  - [instructions in system database definition](https://github.com/MyLife-Services/mylife-maht/blob/625897d24e331e04b5e797bef1dc5788af68b0b3/inc/json-schemas/intelligences/biographer-intelligence-1.4.json)
+- Convert Instructions
+  - `prefix` add flags in addition to interests: `"## interests\n## flags\n"`
+  - `general` use notepad and wordwrap to review key functionality and map to new Diary Bot instructions
+  - `replacements` like birthdate and name
+  - `references` like `## flags`
+  - `greetings` determine greetings
+- How MyLife designs and assigns functions referenced in instructions
+  - [`factory.mGetAIFunctions()`](https://github.com/MyLife-Services/mylife-maht/blob/6eeef0fbc362b00c18118313730962f139362082/inc/js/mylife-agent-factory.mjs#L1422)
+  - [`globals.getGPTJavascriptFunction()`](https://github.com/MyLife-Services/mylife-maht/blob/21dfce3e8e0b3cfd051f90a858e84f164e60a4aa/inc/js/globals.mjs#L251)
+    - [globals constant mAiJsFunctions](https://github.com/MyLife-Services/mylife-maht/blob/6eeef0fbc362b00c18118313730962f139362082/inc/js/globals.mjs#L5) needs to be addressed and put into database, but this defines the functions that should be available to various bots. In this case we need to add one for `obscureEntry` which will specifically be designed to accept two parameters - the first would be the itemId, and the second would be an array of names that should be disguised; note that these could become objects with relations in order to update the `relationships` dynamic array as well.
+
+Well, it's "that" easy for now, but we have just moved the essential brains from our prototype to our MyLife incubator. Great work on your first head transplant!
+
+##### 20240920 Wrap-Up
+
+
+
 ##### 20240920 Outline
 
 1. Introduction to Host, Session, MyLife and the Webinar Series, _5m_
@@ -80,8 +149,8 @@ We begin by building a headless intelligent platform for all of us to use that h
    - How MyLife assigns instructions
    - How MyLife assigns functions
 4. Practical Session _20m_
-   1. Diary Bot in GPT, _10m_
-   2. MyLife Validation, _10m_
+   1. Show llm-provider 
+   2. Touch on migrateChat() as a requirement for functions
 5. Wrap-up, _5m_
 
 ## Episodes
