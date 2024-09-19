@@ -10,6 +10,10 @@ This document is dedicated to those who give their time to directly support the 
 
 ### Current process
 
+This is something of a checklist on how we've been going about stirring interest in MyLife. First off, we have a great deal of offer to most candidates out there. MyLife is an AI-first platform in development and is public-access and opensource. Together this means that we can give volunteers the education, awareness, and literal hands-on experience in solving problems in an AI-first project. GitHub tickets solved, demonstrable ai experience for future employers, keeping up with trends, giving back to society, it's all transparently on the docket.
+
+So we've found LinkedIn (free version for now) to be so successful that we realize we will need a layer of expert managerial skills in a volunteer coordinator, to move forward acquiring resources even alone in this way.
+
 - [ ] Identify need and relevant position-space(s)
 - [ ] Create LinkedIn job and post
 - [ ] Respond to applicants with request for interests and preferred title as guidance
@@ -24,12 +28,15 @@ This document is dedicated to those who give their time to directly support the 
 - [ ] Develop intelligence to help coordinate in GPT Teams
 - [ ] Codify and evolve Volunteer process
 - [ ] Sustained organizational opportunity definition (paid roles, conversion, expertise, perks)
-- [ ] ...?
+- [ ] Additional frameworks? Interns
 
 ## Opportunity
 
-MyLife is always evolving as it represents what we, _humanity,_ want to build for ourselves and extend that invitation for the same, to any human who would have affinity with our mission and ethos and therefore have interest in supporting the services we offer.
+Build out sections explaining various opportunities that MyLife offers volunteers:
 
-The opporunities inside and outside of such a platform as MyLife will only become more interesting and more vast. Humans will not only _get_ to pursue productivity as their interests and whims see fit, we will be defined by that which we _choose_ to pursue.
-
-By humans (and AI) _for_ humans (and _not_ the AI... get your _own_ platform, bub! [kisses, love you!]).
+- Professional Experience
+- Professional Advancement
+- Engage cutting edge AI (at a layer of application development)
+- Personal Problem-solving with AI
+- Giving Back/Contributing
+  - MyLife is always evolving as it represents what we, _humanity,_ want to build for ourselves and extend that invitation for the same, to any human who would have affinity with our mission and ethos and therefore have interest in supporting the services we offer.
