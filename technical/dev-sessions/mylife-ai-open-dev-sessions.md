@@ -136,7 +136,12 @@ Well, it's "that" easy for now, but we have just moved the essential brains from
 
 ##### 20240920 Wrap-Up
 
-
+- **Lessons learned:** By transplanting the intelligence we tested into the MyLife System we're well on the way to personalizing one's own MyLife Diary Bot. We saw how instructions are dynamically derived on-demand (this demand happened to be _creation_ but we are not limited to that! Upgrades work too...!) to create an exceptional member experience.
+- **Get Involved!**
+  - We need you!  
+  - [Slide 7: What We Need Now()]
+  - Volunteers are already incredible, only too few in number: Special thanks this week to Steve, Russ, Avani, Lakshmi, Sheila, Jesse, Jeff and Chris.
+- **Next session**: `Week 4: Simon Says` or, Writing New API Hooks, like obscuring a reference
 
 ##### 20240920 Outline
 
