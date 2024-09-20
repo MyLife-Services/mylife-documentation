@@ -28,11 +28,79 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
   6. Team: add new Diary Bot as default to memory team
 - one-off episodes on bug-fixing [example: refresh of screen handled by backend]
 
+### 20240927
+
+#### Diary Bot Series Week 4
+
+##### What the Sigma?
+
+##### 20240927 Introduction
+
+Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and senior architect here at `MyLife`. Our aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
+
+Today we are continuing, laboring on if you must, with the "Diary Bot Series"... our ultimate aim, and we're halfway there!, is to create generally available Diary Bot functionality inside of MyLife. MyLife is highly configurable and scalable with a little bit of effort to create the intelligent solutions that work for you, your loved ones, and your professional clients.
+
+- [Slide 1: Pipeline tunnels]
+
+So last week we transplanted the brains we'd built inside of our OpenAI GPT Diary Bot prototype into the MyLife data structure and code respository, correctly building and assigning member content in the system. Mouthfully, but simply, we merely performed some sensible copy/paste and mild content development. Today, well, today we are going to walk through a couple of tunnels together.
+
+Enormous Tunnels! Vast Tunnels! A tunneleers delight-time! Also something for unnecessary 3D enthusiasts.
+
+- [Slide 2: Mission]
+
+`MyLife` is a 501c3 nonprofit member organization that offers its membership, at no charge, an intelligent ai-assisted platform that helps them collect and preserve their cherished memories, stories, media, and ideas for posterity as their digital legacy. `MyLife` is not affiliated with any paid, premium or freemium service, we're simply trying to coax you with what we have!--what you see is exactly what we're trying to achieve.
+
+What is this? How is it used? Well, before I show the interface, here are just a few of the use cases we've already been building towards with our initial functionality.
+
+- [Slide 3: Use Cases]
+
+If you're someone lonely, perhaps in a retirement community, suffering from or worried about memory loss, or if you know someone in this condition, `MyLife` will help capture their story.
+
+Or someone struggling to understand themselves, their identity and how they want to show up in the world? Or maybe you know someone who is? `MyLife` provides a safe and private sanctuary for such self-investigation and awareness.
+
+Or someone who wants to leave behind an imprint of their art and ideas--we're all becoming quite aware that digital ghosts will be animated with corporate intelligences in order to model your behavior, and that is **not the face-to-the-future** you want to imagine for yourself? `MyLife` is the antidote. First-persona accounting of their truth, embolstered and animated for posterity by intelligent bots.
+
+It's for all of us. Built by us for us. We are many and varied in our needs.
+
+We began here at `MyLife` by building a headless intelligent opensource and free platform for all of us to use that helps elicit, store, protect, and ultimately **make** intelligent your narratives. According to your explicit consents. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. For any wondering, this is just one reason why AI is **not** a fad but is illustrative of how AI will _change_ the world. This is one way we will build empathy and compassion and begin to dispel large frameworks of domination, fear and anguish.
+
+It's Kumbaya, and it's _literally_ here.
+
+##### 20240927 MyLife Showcase
+
+- [double-slide if possible, where Edge is one side, and bot team slide the other or I guess I can just ensmall them both instead of my face!]
+- **Walkthrough** [Edge]
+  - [Login](https://humanremembranceproject.org/?type=select) as `system-one`
+  - Explain Interface
+    - this is all what you get when you become a member of mylife
+    - explain Member Avatar: include intelligent client, your intelligent account, digital you. Avatars already coming on the market we are an aggregator, so if you want to use ours, or use another party (or some combination) that is intentional in the platform design
+    - Explain Bot Team: team of intelligences here to help you do the work of being human! Start with our cherished memories and narratives as well as innermost thoughts. The stuff you DON'T want to be sending to Google so they can own.
+    - Select Biographer and show/explain options
+    - chat area and UX
+  - share story of today [copy and paste sub-bullet]
+    - Today is 20240920; it's been a rush from the beginning, I want to head off to the Cape tonight Brewster area to meet friends, and bring my dog Bryndy. We'll have a wonderful time, but meanwhile I need to allay all my butterflies about today's presentation. I think I'm good, we'll get started shortly. Please save this memory.
+  - introduce `scrapbook`
+    - show editing options
+    - show activation contextualization (how we might contextualize anything)
+    - **Relive Memory**
+
+##### 20240927 Learning Objectives
+
+Today we're going to peruse the pipeline, investigate the tunnel 
+
+- **GitHub Repository**
+
+We are an open-source public platform, so you should feel encouraged to visit our [codebase on GitHub](https://github.com/MyLife-Services/mylife-maht) to review tickets or progress or you can chat architecture and some engineering directly with our [intelligent codebase GPT](https://chatgpt.com/g/g-oAvQvGv5f-gpt-maht), who, mind you, is in desperate need of a mind update.
+
+- [Slide 4: Member Login Initialization]
+
+## Episodes
+
 ### 20240920
 
 #### Diary Bot Series Week 3
 
-##### A Head Transplant
+##### Head Transplant
 
 ##### 20240920 Introduction
 
@@ -71,7 +139,7 @@ We begin by building a headless intelligent platform for all of us to use that h
     - Select Biographer and show/explain options
     - chat area and UX
   - share story of today [copy and paste sub-bullet]
-    - Today is 20240920;  Please save this memory.
+    - Today is 20240920; it's been a rush from the beginning, I want to head off to the Cape tonight Brewster area to meet friends, and bring my dog Bryndy. We'll have a wonderful time, but meanwhile I need to allay all my butterflies about today's presentation. I think I'm good, we'll get started shortly. Please save this memory.
   - introduce `scrapbook`
     - show editing options
     - show activation contextualization (how we might contextualize anything)
@@ -89,7 +157,7 @@ We are an open-source public platform, so you can always visit our [codebase on 
 
 - **MyLife Bots**
 
-Here's a peek behind the curtain at what you get when you become a member of MyLife. What's going on here? This shows a high-level process illustration of some of the things that happen under the hood when you become a member. First off, you receive a Member Avatar, who is the safe preserver of your data. Once built and assigned to you as a member, it creates core intelligences personalized and availably _only to you_ to help you on your journey to store your narratives and legacy. This inital team of intelligences is called the Memory Team and is designed to help you capture biographical and introspective content. So it creates an initial biographer intelligence who is assigned a combination of dynamic clues and options to both tailor _and_ guardrail, maybe focus is a fine word to use, the member interactive intelligent experience.
+Here's a peek behind the curtain at what you get when you become a member of MyLife. What's going on here? This shows a high-level process illustration of some of the things that happen under the hood when you become a member. First off, you receive a Member Avatar, who is the safe preserver of your data and functional controller of your experience. Once built and assigned to you, it creates core intelligences personalized and available _only to you_ to help you store your narratives and legacy. This inital team of intelligences is called the Memory Team and is designed specifically to help you capture biographical and introspective content. So for that team, it creates an initial biographer intelligence who is assigned a combination of dynamic clues and options to both tailor _and_ guardrail, maybe focus is a fine word to use, the member interactive intelligent experience on what you need to accomplish.
 
 We'll dive into the specifics of how we will perform this instructional head transplant in the practical portion, so for the moment, I want to go over the types of "knowledge" we prepare our intelligences with and how. Some are unique to MyLife, but most are germain to almost all Large Language Models (or LLMs).
 
@@ -130,7 +198,7 @@ Let's dive in!
 - How MyLife designs and assigns functions referenced in instructions
   - [`factory.mGetAIFunctions()`](https://github.com/MyLife-Services/mylife-maht/blob/6eeef0fbc362b00c18118313730962f139362082/inc/js/mylife-agent-factory.mjs#L1422)
   - [`globals.getGPTJavascriptFunction()`](https://github.com/MyLife-Services/mylife-maht/blob/21dfce3e8e0b3cfd051f90a858e84f164e60a4aa/inc/js/globals.mjs#L251)
-    - [globals constant mAiJsFunctions](https://github.com/MyLife-Services/mylife-maht/blob/6eeef0fbc362b00c18118313730962f139362082/inc/js/globals.mjs#L5) needs to be addressed and put into database, but this defines the functions that should be available to various bots. In this case we need to add one for `obscureEntry` which will specifically be designed to accept two parameters - the first would be the itemId, and the second would be an array of names that should be disguised; note that these could become objects with relations in order to update the `relationships` dynamic array as well.
+    - [globals constant mAiJsFunctions](https://github.com/MyLife-Services/mylife-maht/blob/6eeef0fbc362b00c18118313730962f139362082/inc/js/globals.mjs#L5) needs to be addressed and put into database, but this defines the functions that should be available to various bots. In this case we need to add one for `obscure` which will specifically be designed to accept two parameters - the first would be the itemId, and the second would be an array of names that should be disguised; note that these could become objects with relations in order to update the `relationships` dynamic array as well.
 
 Well, it's "that" easy for now, but we have just moved the essential brains from our prototype to our MyLife incubator. Great work on your first head transplant!
 
@@ -157,8 +225,6 @@ Well, it's "that" easy for now, but we have just moved the essential brains from
    1. Show llm-provider 
    2. Touch on migrateChat() as a requirement for functions
 5. Wrap-up, _5m_
-
-## Episodes
 
 ### 20240913
 
