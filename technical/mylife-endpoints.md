@@ -9,6 +9,11 @@
 
 Here is the description of all MyLife API intelligent endpoints accessible to independent intelligent systems or burgeoning clients.
 
+- [API GET Endpoints](#api-get-endpoints)
+- [API HEAD Endpoints](#api-head-endpoints)
+- [API PATCH Endpoints](#api-patch-endpoints)
+- [API POST Endpoints](#api-post-endpoints)
+
 ### API GET Endpoints
 
 - **/alerts**
@@ -92,6 +97,9 @@ Here is the description of all MyLife API intelligent endpoints accessible to in
 
 ## Authentication Endpoints
 
+- [Authentication GET Endpoints](#authentication-get-endpoints)
+- [Authentication POST Endpoints](#authentication-post-endpoints)
+
 ### Authentication GET Endpoints
 
 - **/select**
@@ -115,6 +123,12 @@ Here is the description of all MyLife API intelligent endpoints accessible to in
   - Signup a new member
 
 ## Member Endpoints
+
+- [Member DELETE Endpoints](#member-delete-endpoints)
+- [Member GET Endpoints](#member-get-endpoints)
+- [Member PATCH Endpoints](#member-patch-endpoints)
+- [Member POST Endpoints](#member-post-endpoints)
+- [Member PUT Endpoints](#member-put-endpoints)
 
 ### Member DELETE Endpoints
 
