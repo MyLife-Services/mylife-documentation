@@ -39,53 +39,53 @@ Here is the description of all MyLife API intelligent endpoints accessible to in
 
 ### API PATCH Endpoints
 
-- **PATCH /experiences/:mid/experience/_:eid_/cast**
+- **/experiences/:mid/experience/_:eid_/cast**
   - => `experienceCast(mid, eid)`
   - Retrieves the cast of an experience
   - `:mid` is the member ID (for validation) and `:eid` is the experience ID.
-- **PATCH /experiences/:mid/experience/_:eid_/end**
+- **/experiences/:mid/experience/_:eid_/end**
   - => `experienceEnd(mid, eid)`
   - Ends a specific experience
   - `:mid` is the member ID and `:eid` is the experience ID
-- **PATCH /experiences/:mid/experience/_:eid_/manifest**
+- **/experiences/:mid/experience/_:eid_/manifest**
   - => `experienceManifest(mid, eid)`
   - Retrieves the manifest of a specific experience
   - `:mid` is the member ID and `:eid` is the experience ID. This can act as a proxy for both cast and navigation
-- **PATCH /experiences/:mid/experience/_:eid_/navigation**
+- **/experiences/:mid/experience/_:eid_/navigation**
   - => `experienceNavigation(mid, eid)`
   - Retrieves the navigation for a specific experience
   - `:mid` is the member ID and `:eid` is the experience ID
-- **PATCH /experiences/:mid/experience/_:eid_**
+- **/experiences/:mid/experience/_:eid_**
   - => `experience(mid, eid)`
   - Updates or progresses the state of a specific experience
   - `:mid` is the member ID and `:eid` is the experience ID
 
 ### API POST Endpoints
 
-- **POST /challenge/:mid**
+- **/challenge/:mid**
   - => `challenge(mid)`
   - Challenges the access with a passphrase
   - `:mid` is the member ID
-- **POST /entry/:mid**
+- **/entry/:mid**
   - => `entry(mid)`
   - Submits a journal entry for the member
   - `:mid` is the member ID
-- **POST /keyValidation/:mid**
+- **/keyValidation/:mid**
   - => `keyValidation(mid)`
   - Validates the API key for a specific member
   - `:mid` is the member ID
-- **POST /memory/:mid**
+- **/memory/:mid**
   - => `memory(mid)`
   - Creates or manages a memory entry for the member
   - `:mid` is the member ID
-- **POST /obscure/:iid**
+- **/obscure/:iid**
   - => `obscure(iid)`
   - Obscures a specific item
   - `:iid` is the item ID
-- **POST /register**
+- **/register**
   - => `register()`
   - Registers a new member via API (outward-extension functionality)
-- **POST /upload/:mid**
+- **/upload/:mid**
   - => `upload(mid)`
   - Handles a file upload for a specific member
   - `:mid` is the member ID
