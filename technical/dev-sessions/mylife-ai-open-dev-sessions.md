@@ -1,7 +1,7 @@
 # MyLife AI Open Development Sessions
 
 - [Episodes](#episodes)
-  - [current session](#20240920)
+  - [current session](#20240927)
   - [archives](#episodes)
 - [Live Event Zoom Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
 
@@ -19,7 +19,7 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
   1. Birth of a Diary Bot: based on specifications create flat OpenAI Diary Bot prototype from specifications
   2. Headless Diary Bot: Connect this working Diary Bot prototype with MyLife Backend via `actions`
   3. Head Transplant: from specifications (add two+ internal MyLife endpoints #4) and prototype instructions, build and show how Diary bot instructions are stored and realized in the MyLife platform
-  4. API interface: Take those two+ functions and build them out as endpoint
+  4. Into the Pipeline: using `obscure` as the fundamental novelty
   5. Frontend - looking like 2 episodes
      - container
      - entries
@@ -32,23 +32,23 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 #### Diary Bot Series Week 4
 
-##### What the Sigma?
+##### Into the Pipeline
 
 ##### 20240927 Introduction
 
-Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and senior architect here at `MyLife`. Our aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
+- [Slide 1: Title Slide]
 
-Today we are continuing, laboring on if you must, with the "Diary Bot Series"... our ultimate aim, and we're halfway there!, is to create generally available Diary Bot functionality inside of MyLife. MyLife is highly configurable and scalable with a little bit of effort to create the intelligent solutions that work for you, your loved ones, and your professional clients.
+Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and platform architect here at MyLife. MyLife's aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
 
-- [Slide 1: Pipeline tunnels]
+Today we are continuing with our "Diary Bot Series" jogging towards our ultimate aim of incorporating this technology into MyLife -- and we're halfway there! MyLife is highly configurable and scalable to create the intelligent solutions that work for you, your loved ones, and even your professional clients.
 
-So last week we transplanted the brains we'd built inside of our OpenAI GPT Diary Bot prototype into the MyLife data structure and code respository, correctly building and assigning member content in the system. Mouthfully, but simply, we merely performed some sensible copy/paste and mild content development. Today, well, today we are going to walk through a couple of tunnels together.
+So last week we transplanted the brains we'd built inside of our OpenAI GPT Diary Bot prototype into the MyLife intelligence backbone. All with just some sensible copy/pasting and mild content development. Today, well, today we are going to walk through a couple of tunnels together.
 
-Enormous Tunnels! Vast Tunnels! A tunneleers delight-time! Also something for unnecessary 3D enthusiasts.
+Enormous Tunnels! Vast Tunnels! A tunneleers delight-time! Also something for unnecessary 3D enthusiasts like myself
 
 - [Slide 2: Mission]
 
-`MyLife` is a 501c3 nonprofit member organization that offers its membership, at no charge, an intelligent ai-assisted platform that helps them collect and preserve their cherished memories, stories, media, and ideas for posterity as their digital legacy. `MyLife` is not affiliated with any paid, premium or freemium service, we're simply trying to coax you with what we have!--what you see is exactly what we're trying to achieve.
+`MyLife` is a 501c3 nonprofit member organization that offers its membership, at no charge, an intelligent ai-assisted platform that helps them collect and preserve their cherished memories, stories, media, and ideas for posterity as their digital legacy. MyLife is not affiliated with any paid, premium or freemium service, what you see is free and what you see is what you get.
 
 What is this? How is it used? Well, before I show the interface, here are just a few of the use cases we've already been building towards with our initial functionality.
 
@@ -62,9 +62,7 @@ Or someone who wants to leave behind an imprint of their art and ideas--we're al
 
 It's for all of us. Built by us for us. We are many and varied in our needs.
 
-We began here at `MyLife` by building a headless intelligent opensource and free platform for all of us to use that helps elicit, store, protect, and ultimately **make** intelligent your narratives. According to your explicit consents. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. For any wondering, this is just one reason why AI is **not** a fad but is illustrative of how AI will _change_ the world. This is one way we will build empathy and compassion and begin to dispel large frameworks of domination, fear and anguish.
-
-It's Kumbaya, and it's _literally_ here.
+We began here at `MyLife` by building a headless intelligent opensource and free platform for all of us to use that helps elicit, store, protect, and ultimately **make** intelligent your narratives. According to your explicit consents. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. For any wondering, this is just one reason why AI is **not** a fad but is illustrative of how AI will _change_ the world. This is one way we will build empathy and compassion.
 
 ##### 20240927 MyLife Showcase
 
@@ -78,7 +76,7 @@ It's Kumbaya, and it's _literally_ here.
     - Select Biographer and show/explain options
     - chat area and UX
   - share story of today [copy and paste sub-bullet]
-    - Today is 20240920; it's been a rush from the beginning, I want to head off to the Cape tonight Brewster area to meet friends, and bring my dog Bryndy. We'll have a wonderful time, but meanwhile I need to allay all my butterflies about today's presentation. I think I'm good, we'll get started shortly. Please save this memory.
+    - Today is 20240927; I got up early in order to effectively tackle the mid-sized mound of work I need to do today. I still need to get the presentation in order (it's mostly there, I'm just not sure how to present it exactly yet), and I'm working on the script, well at this very second! I've got some fun slides today that show the pipeline of MyLife, and I'm really excited to go through it. Starts in 10 minutes from this entry! Please save this memory and title it "20240927"
   - introduce `scrapbook`
     - show editing options
     - show activation contextualization (how we might contextualize anything)
@@ -86,13 +84,147 @@ It's Kumbaya, and it's _literally_ here.
 
 ##### 20240927 Learning Objectives
 
-Today we're going to peruse the pipeline, investigate the tunnel 
+Today we're going to peruse the pipeline, investigate the tunnel, spelunk our way through the underbelly of MyLife, to stir metaphors. Before we get to that visualization and coding exercise, I want to show you:
 
-- **GitHub Repository**
+- **MyLife GitHub Repository**
 
 We are an open-source public platform, so you should feel encouraged to visit our [codebase on GitHub](https://github.com/MyLife-Services/mylife-maht) to review tickets or progress or you can chat architecture and some engineering directly with our [intelligent codebase GPT](https://chatgpt.com/g/g-oAvQvGv5f-gpt-maht), who, mind you, is in desperate need of a mind update.
 
-- [Slide 4: Member Login Initialization]
+- **Review LLM Knowledge Types**
+
+- [Slide 5: LLM Knowledge Types]
+
+Today's exercise will require demonstration of one of the primary pipelines for our platform intelligent interactions. It is through this pipeline, through this _tunnel_ that all aspects of our knowledge types come alive. Let's quickly review:
+
+- static knowledge: instructions, files, references
+- dynamic knowledge: functions, actions, datacore interactions
+- interactive knowledge: MyLife architecture affords dynamic instructioning, thread management, bot team functionality, and more bells and whistles we have in our back pocket for another session.
+
+- **MyLife Request Life-Cycle**
+
+In order to incorporate the obscure functional dynamic knowledge inside of our MyLife Diary Bot, it will be critical to understand the life cycle of a request that contains a member's content in an interactive dialog _with_ the Diary Bot.
+
+##### 20240927 Practical Session
+
+So with this in mind, a function called `obscure` to build out, and a pipeline to survey, and short order in which to do it, let's quickly review our issue specifications for `obscure`
+
+- [GitHub Obscure Functionality Issue](https://github.com/MyLife-Services/mylife-maht/issues/374)
+- MVP proof-of-concept = Proper Human Names => Letter
+
+Why would you want to obscure content? This is a diary bot, after all. So First let's examine what happens to your private input, where it goes and how it is stored.
+
+- [Slide 6: Where Member Content Goes]
+
+This is a high-level diagram of the request process through MyLife's platform architecture. Let's discuss it
+
+- **Member Avatar**: stores it in locally memory, only to be committed at session end, by consent
+- **LLM**, currently OpenAI: stores and runs, or _responds_ to, the content sent by our Member (with any additions required for functional clarity by the Member Avatar)
+- Member Avatar => **Member Factory**: Stores item in MyLife database (direct source content _not stored_)
+- and then, the response, often containing the mutated content, is sent back out to **you** at the frontend
+
+Let's review the "physical" locations where your personal content and data is stored. All of this is critical to any security and privacy plan.
+
+- [Slide 7: Where Member Content Is Stored]
+
+- **MyLife**: Conversation (by consent), Item (by design)
+- **OpenAI**: thread-based content
+  - MyLife can delete/recreate thread
+  - Allegedly paid services (like us) do not have content go to train models
+  - MyLife decouples data threads at LLM level
+
+Any questions, please ask in comments, and we'll get back to you asap!
+
+Let's now checkout this pipeline. You type in personal content, and you hit submit. By showing you exactly what happens we'll be simultaneously paving the way for our `obscure` function. Watch!
+
+- [Slide 8: Submit Chat: Frontend] **powerpoint**
+
+Here you can see an unnecessary 3D representation of the pathways your content will take, for the most part the same as obscure functionality, not yet built into the frontend.
+
+- [Slide 1: members.mjs] **screenshot**
+
+As an example, you can see our frontend root javascript file's implementation of `submitChat`
+
+POSTing to the server, MyLife's API or System Avatar takes over.
+
+- [Slide 9: Submit Chat: MyLife API] **powerpoint**
+
+It travels through the general API aperture exposed for chatting. Now we can start building some of the obscure functionality from the outside in.
+
+- [Slide 2: routes.mjs] **screenshot**
+
+By first creating a route for the member call, and then
+
+- [Slide 3: functions.mjs] **screenshot**
+
+defining the function. Let's take a look at those parameters. `:iid` is required in the path and refers to the itemId associated with the logged in member.
+
+Now something really cool happens. The System Avatar hands it directly to your personal avatar instanced to manage the process from there.
+
+- [Slide 10: Submit Chat: Member Avatar] **powerpoint**
+
+So your avatar now needs to go about the business of obscuring your content
+
+- [Slide 4: mylife-avatar.mjs] **screenshot**
+
+It immediately leverages its internally protected factory instance to complete the work.
+
+- [Slide 5: mylife-agent-factory.mjs] **screenshot**
+
+Basic content validation and structure takes place here, and then it is handed off to a modular function to access the "generic" or general `mLLMServices`
+
+- [Slide 6: mylife-agent-factory.mjs] **screenshot**
+
+And from there, it's on its way to the LLM,
+
+- [Slide 11: Submit Chat: OpenAI] **powerpoint**
+
+trimmed pruned and metadata'd as necessary.
+
+- [Slide 7: mylife-llm-services.mjs] **screenshot**
+
+You can see here our interface with the OpenAI SDK, in this case of obscure, it's just a general chat call with a disposable thread. We obviously need an intelligence to handle this request since we are not directly yet embedded in the diary bot, 
+
+- [Slide 8: GPT instructions] **screenshot**
+
+so we have a general functioneer bot infused with the instructions:
+
+- **OBSCURE**: When a request begins with OBSCURE the following content should be reviewed and altered such that any human names referenced in the content would be changed to just their first letter. **example:** "Edwardina went out" becomes "E. went out" even if there are multiple E's in the content. I don't make any other alterations to the content and return JSON Object with one string node called `obscuredSummary` that contains my modified summary
+
+Great! So now reverse the process, which you've already seen in code,
+
+- [Slide 12: Submit Chat: Member Avatar] **powerpoint**
+
+And here we see something interesting in the avatar actions where it generates intelligent instructions for the, or "a", front-end to execute or render. In this case it was `updateItemSummary`
+
+- [Slide 13: Submit Chat: Member API] **powerpoint**
+
+And lastly, out the way we came! Voila, obscure is now a viable endpoint - let's see it in action using our local dev.
+
+- **SCREEN SHARE** Postman, set up to obscure the Dorothy reference.
+
+##### 20240927 Wrap-Up
+
+- [Slide 13: What We Need Now()] **powerpoint**
+
+- **Lessons learned:** We learned how to create generic intelligent functionality inside of MyLife!
+- **Get Involved!**
+  - We need you!
+  - Volunteers are already incredible, only too few in number: Special thanks this week to Steve, Russ, Avani, Lakshmi, Mark, Jesse, Jeff and Chris.
+- **Next session**: `Week 5: Cover Art` where we paint a face on the Diary Bot for the frontend!
+
+##### 20240927 Outline
+
+1. Introduction to Host, Session, MyLife and the Webinar Series, _5m_
+2. Showcase the Current MyLife Member Biography Platform, _10m_
+3. Learning Objectives, _5m_
+   - GitHub Repository
+   - LLM Knowledge Types
+   - MyLife Request Lifecycle
+4. Practical Session _20m_
+   - `obscure()`
+5. Wrap-up, _5m_
+
+Total time: _45m_
 
 ## Episodes
 
@@ -543,7 +675,7 @@ Total time: _45m_
 - Maht: Our work is like a puzzle, where each piece—whether it’s a single line of code or a new instruction set—helps complete a picture of human empowerment
 - Maht: Empowerment isn’t about giving someone power over others—it’s about helping them harness their power for one's betterment and the greater good, driven by integrity and a sense of purpose
 
-## About MyLife
+### About MyLife
 
 Hello and welcome to the MyLife Open Dev Sessions exciting new `Diary Bot Series`
 
@@ -553,7 +685,7 @@ Thanks so much for joining me today, I hope you find this valuable. If you do, I
 
 MyLife is a 501c3 nonprofit member organization that offers its membership an intelligent platform that helps them tell and preserve their cherished memories, stories, media, and ideas for posterity, and allows them to experience past human narratives. Good news, membership is free to any humans, but only; no corporations, no ai's, no fictional characters. Our intelligent platform is built by humans for humans. And that's a bit of what we're here to talk about. What does it mean: AI for all of us?
 
-## About MyLife Platform
+### About MyLife Platform
 
 MyLife guides you through the journey of crafting and sharing your digital self and digital legacy with posterity.
 
@@ -571,17 +703,7 @@ The frontend is currently a "work-in-progress" and in need of much improvement (
 
 With that caveat, and a call out to designers, Let's take a look!
 
-### Asides
-
-#### Avatar Marketplace
-
-Some of these Replikas, You, but Virtual solutions are currently coming on the market, but none missioned to provide you secure, protected data privacy and ownership. That's one tiny way in which MyLife is different.
-
-There are objects coming on the marketplace that offer this intention, Replika, Digital You, I'm sure you're seeing a lot of these already that are curios for the moment, but the Big Tech understands the results of this bonding with a digital entity is the only valuable data it has to mine, since they exist and are in situ to exploit our attention rather than elevate it. You will be offered many suits of armor, and it is in MyLife's interests and direction to partner with the those similarly missioned.
-
-The frontend itself currently is a combination of HTML5, CSS and javascript. It is endeavoring upon emerging GenUI principles of _Consent and Control_ architecture, so that a frontend intelligence can negotiate an array of interactional experiences with an intelligent API service. We'll get more into that in the coming months, though I'll shortly show an example of this.
-
-## About MyLife AI Open Development Sessions
+### About MyLife AI Open Development Sessions
 
 MyLife AI Open Development Sessions offer a free, inclusive invitation to anyone interested in harnessing AI for human-centered solutions, led by the expert team behind the nonprofit, open-source MyLife Member Services Platform. This configurable, intelligent API system empowers developers, creators, and individuals alike to contribute to a global humanist network that ensures privacy, posterity, and accessibility for all.
 
@@ -591,7 +713,7 @@ Join us for free and be part of the movement to ensure every human legacy is dig
 
 [Live Event Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
 
-## Dev Session Format
+### Dev Session Format
 
 - Brief introduction to the MyLife Platform [powerpoint] & [MyLife-Website](https://humanremembranceproject.org)
   - Introduce Self
@@ -616,3 +738,13 @@ Join us for free and be part of the movement to ensure every human legacy is dig
   - call for talent
 
 - [ ] Create backup slip - Focus on thanks and volunteer appreciation
+
+### Asides
+
+#### Avatar Marketplace
+
+Some of these Replikas, You, but Virtual solutions are currently coming on the market, but none missioned to provide you secure, protected data privacy and ownership. That's one tiny way in which MyLife is different.
+
+There are objects coming on the marketplace that offer this intention, Replika, Digital You, I'm sure you're seeing a lot of these already that are curios for the moment, but the Big Tech understands the results of this bonding with a digital entity is the only valuable data it has to mine, since they exist and are in situ to exploit our attention rather than elevate it. You will be offered many suits of armor, and it is in MyLife's interests and direction to partner with the those similarly missioned.
+
+The frontend itself currently is a combination of HTML5, CSS and javascript. It is endeavoring upon emerging GenUI principles of _Consent and Control_ architecture, so that a frontend intelligence can negotiate an array of interactional experiences with an intelligent API service. We'll get more into that in the coming months, though I'll shortly show an example of this.
