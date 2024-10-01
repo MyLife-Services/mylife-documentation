@@ -28,6 +28,94 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
   6. Team: add new Diary Bot as default to memory team
 - one-off episodes on bug-fixing [example: refresh of screen handled by backend]
 
+### 20241004
+
+#### Diary Bot Series Week 5
+
+##### Cover Art
+
+##### 20241004 Introduction
+
+- [Slide 1: Title Slide]
+
+Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and platform architect here at MyLife. MyLife's aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
+
+In our ongoing "Diary Bot Series," it's time to put a face to the figure. Last week we explored the MyLife backend pipeline for LLM Engagement and today we create the interface elements needed to engage meaningfully with our Diary Bot.
+
+- [Slide 2: Mission]
+
+`MyLife` is a 501c3 nonprofit member organization that offers its membership, at no charge, an intelligent ai-assisted platform that helps them collect and preserve their cherished memories, stories, media, and ideas for posterity as their digital legacy. MyLife is not affiliated with any paid, premium or freemium service, what you see is free and what you see is what you get.
+
+What is this? How is it used? Well, before I show the interface, here are just a few of the use cases we've already been building towards with our initial functionality.
+
+- [Slide 3: Use Cases]
+
+If you're someone lonely, perhaps in a retirement community, suffering from or worried about memory loss, or if you know someone in this condition, `MyLife` will help capture their story.
+
+Or someone struggling to understand themselves, their identity and how they want to show up in the world? Or maybe you know someone who is? `MyLife` provides a safe and private sanctuary for such self-investigation and awareness.
+
+-- insert content about student?
+
+It's for all of us. Built by us for us. We are many and varied in our needs.
+
+We began here at `MyLife` by building an intelligent opensource and free platform for all of us to use that helps elicit, store, protect, and ultimately **make** intelligent your narratives. According to your explicit consents. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. That is the power we bring to bear at `MyLife`.
+
+##### 20241004 MyLife Showcase
+
+MyLife **Walkthrough**
+
+- [SCREENSHARE Chrome](https://humanremembranceproject.org)
+- Introduce **Q**
+- Demonstrate Login
+- Introduce **Interface**
+  - this is all what you get when you become a member of mylife
+- Introduce **Member Avatar**
+  - Intelligent client, your intelligent account, digital you.
+  - Avatars already coming on the market we are an aggregator, so if you want to use ours, or use another party (or some combination) that is intentional in the platform design
+- Introduce **Bot Team**
+  - Team of intelligences here to help you do the work of being human! Start with our cherished memories and narratives as well as innermost thoughts. The stuff you DON'T want to be sending to Google so they can own.
+  - Select **Biographer**
+  - Explain how options work
+  - Copy/Paste story of today below
+    - Today is 20241004; Please save this memory and title it "20241004"
+- Introduce **Scrapbook**
+  - show editing options
+  - show activation contextualization (how we might contextualize anything)
+- Demonstrate **Tutorial**
+  - Fun, yes? But implies how relive memories are being cast (in progress)
+- Demonstrate **Relive Memory**
+  - Emphasize it will use same tech as `Tutorial`
+
+##### 20241004 Learning Objectives
+
+Now that we have our functional pipelines available to the Diary Bot (in utero imaginato) phantom, we need to build a way to access it. To Lakshmi's point, Lakshmi is one of our fantastic volunteers, you can already access some of this functionality through the OpenAI GPT prototype; by the way, you heard it here first, or at least _I_ did, that OpenAI is going public so that they can be bought by Microsoft. But there's no scrapbook over there, so...! Frontend it is. So we start as always with
+
+- **MyLife GitHub Repository**
+
+We are an open-source public platform, so you should feel encouraged to visit our [codebase on GitHub](https://github.com/MyLife-Services/mylife-maht) to review tickets or progress or you can chat architecture and some engineering directly with our [intelligent codebase GPT](https://chatgpt.com/g/g-oAvQvGv5f-gpt-maht).
+
+- **MyLife Frontend Technology**
+
+This is the one to skip. No. Don't skip it. I mean, I think you'll experience, as we investigate this, how fragile our very notions of frontend really are at the moment in the age of artificial intelligences that can dynamic permute code and text like HTML and CSS. Frontend will never be the same, it can never be the same, and here's MyLife's gap: I've never been good at it, and I haven't had the time to dedicate to realizing an efficient and sensible "intelligent client" model yet. It's organically _emerging_ through the concept of developing the Member Avatar into _exactly that engine_, but of course, for the moment, _I'm_ starting from the backend.
+
+So if you're not into laughing at others' misfortune, then don't continue with this episode, because MyLife has definitely been injured for lack of a forward-thinking frontend UX and UI designer. Is that you? Call me.
+
+##### 20241004 Practical Session
+
+- [GitHub Frontend Specifications](https://github.com/MyLife-Services/mylife-maht/issues/381)
+
+##### 20241004 Wrap-Up
+
+- [Slide 13: What We Need Now()] **powerpoint**
+
+- **Lessons learned:** We learned how to create generic intelligent functionality inside of MyLife!
+- **Get Involved!**
+  - We need you!
+  - Volunteers are already incredible, only too few in number: Special thanks this week to Steve, Russ, Avani, Lakshmi, Mark, Jesse, Jeff and Chris.
+- **Next session**: `Week 6: All Together Now!` where we put the diary bot on a team, connecting the dots and accessing the dynamic instructions until we have a member-functional Diary Bot intelligence!
+
+## Episodes
+
 ### 20240927
 
 #### Diary Bot Series Week 4
@@ -66,8 +154,7 @@ We began here at `MyLife` by building a headless intelligent opensource and free
 
 ##### 20240927 MyLife Showcase
 
-- [double-slide if possible, where Edge is one side, and bot team slide the other or I guess I can just ensmall them both instead of my face!]
-- **Walkthrough** [Edge]
+- **Walkthrough** [Chrome]
   - [Login](https://humanremembranceproject.org/?type=select) as `system-one`
   - Explain Interface
     - this is all what you get when you become a member of mylife
@@ -225,8 +312,6 @@ And lastly, out the way we came! Voila, obscure is now a viable endpoint - let's
 5. Wrap-up, _5m_
 
 Total time: _45m_
-
-## Episodes
 
 ### 20240920
 

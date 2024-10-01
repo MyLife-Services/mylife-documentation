@@ -4,6 +4,10 @@
 
 ![MyLife Platform Member Interface](/alpha-team/assets/png/interface.png)
 
+Initial Author: @sheikita
+
+Contributors: @Mookse, @Vudum, @stratfordCircle, [Q](https://humanremembranceproject.org)
+
 ### Purpose
 
 The purpose of this document is to outline the functional and cosmetic requirements for the MyLife Alpha Pilot. This document serves as a comprehensive guide for the development team, volunteers, and board members involved in the project, detailing the essential features, user experience elements, and technical specifications necessary to deliver the minimum viable product (MVP). The objective is to ensure that all stakeholders have a clear understanding of the project goals and the requirements needed to achieve a successful alpha pilot.
@@ -82,7 +86,7 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
 1. **Member Registration and Account Creation**
    - Via MyLife's corporate intelligence _Q_, pilot team will register and create their accounts
    - login and explore interface
-2. **Capture and Collect Memories**
+2. **Collect Memories**
    - Allows members to upload and interactively input their memories, which are then stored in a secured data memory bank.
    - Upload photos, videos, and documents.
    - Interactive intelligent biographer that guides members through the memory input process with prompts and questions.
@@ -96,17 +100,17 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
    - AI-driven storytelling.
    - Real-time interjections ability for updates by the member.
    - Integration of multimedia elements into the performance.
-5. **Share Memories**
+5. **Share Memories** (beta)
    - Similar to reliving, but tailored to sharing another member's memory. Experiences can be crafted for posterity or specific audiences.
    - Sharing settings to control audience access.
    - AI-driven narrative performances of shared memories.
    - Customizable experience based on member preferences and natural language specifications.
-6. **Build Memories**
+6. **Build Memories** (beta)
    - Allows collaborative updating and fleshing out of memories, creating a network of interconnected stories, lessons, and ideas/
    - Collaboration tools for multiple members.
    - Shared editing and contribution features.
    - Notification and version control for updates.
-7. **Forget Memories**
+7. **Forget Memories** (beta)
    - Deletion or dismissing of bots, threads or memories
 
 ### User Stories

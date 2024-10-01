@@ -10,7 +10,7 @@
 
 **Hi!**
 
-Thank you so much for participating in this internal alpha for us to gather feedback on how the MyLife platform prototype is currently succeeding against our product expectations (_Minimal Viable Product_, aka _MVP_).
+Thank you so much for participating in this internal alpha to gather feedback on how the MyLife platform prototype is currently succeeding against our product expectations (_Minimal Viable Product_, aka _MVP_).
 
 This is a momentous step for us, and it's all thanks to your participation and contributions, and will continue to be. Taking this time will make all the difference in our near future.
 
@@ -786,11 +786,73 @@ Please add here, or just above, any other issues or errors or features you deem 
 
 ## Appendix
 
+- [Acknowledgments](#acknowledgments)
+- [Source Documentation and References](#source-documentation)
+- [Out-of-Scope Test Cases](#test-cases-out-of-scope)
+
+### Acknowledgments
+
+Below are some of the original Documentation issues that related to the creation of this document and its versioning. Specific thanks goes out to Lakshmi, @Vudum, who power-housed the test cases and other elements of this document into existence. Kudos!
+
 - [Original Issue #28](https://github.com/MyLife-Services/mylife-documentation/issues/28)
 - [Original Test Sheet](https://docs.google.com/spreadsheets/d/1PHF6q5Bh5LufrtutfYY46PeADGNo6WpLgIQbrdokqUQ/edit?gid=1378114951#gid=1378114951)
 
+### Source Documentation
+
+- [Alpha Pilot MVP](https://github.com/MyLife-Services/mylife-documentation/blob/base/alpha-team/alpha-pilot-mvp.md)
+- [MyLife Services Platform Requirements Definition (PRD)](https://github.com/MyLife-Services/mylife-documentation/blob/base/alpha-team/mylife-platform-PRD.md)
+- [Pre-Pilot Testing Prompts](#pre-pilot-testing-prompts)
+
+#### Pre-Pilot Testing Prompts
+
+Our initial internal board testing began in April, which has produced the current version. While we have retained feedback, here is the context for that testing.
+
+``` markdown
+# MyLife Alpha Pilot Testing Prompts
+
+[original Doc here](https://docs.google.com/document/d/1BPGohQo4x4J_wjKwzZ877Pw7JTijrH_eMxN-Cr8OWYU/edit#heading=h.ebbnptjz6ugp)
+
+## MyLife Platform Testing
+
+The pre-alpha is live and functional! I have currently removed the welcome tutorial so that we can shore up some final pieces/issues with the interface itself. Won’t be perfect or pretty-faced upon first dance, but their feet will move.
+
+This document is meant to collect our feedback (and thank you all of us board members!) on the first iteration of the platform we will invite our alpha users into. 
+
+The key is in the ignition. Briefly read through these instructions and begin the journey.
+
+---
+
+Please note: prompts are granular for the (not us) Alpha Testers. Board member testers are encouraged to add prompt ideas, or just engage with the focus description for their testing. 
+
+---
+
+**Focus**: Platform interface, Biographer Bot and Collection Interactions
+**Description**: 
+Without a tutorial, aim is for board to review the pre-alpha interface, interacting specifically with the biographer bot and collections bot to tell and capture narrative.
+Below are a list of prompts, please go through each of these, and comment below or use a comment on the right hand side with any comments surrounding implementation or errors encountered. Implementation really covers everything else: language, ease-of-use, UI/UX, functionality, you name it, your thoughts on the process. If you’d like copy and paste this at the end of the document for a personalized version to work on. Thoughts on process improvement welcome, I’m afraid I’m bastardizing Emily’s intent!
+
+**Due Date:**
+
+
+### Prompts
+
+1. Go to https://humanremembranceproject.org/ and login at the top-right and follow instructions. Confirm that you have an interface. If not, best to tell Erik directly via Slack, but you can comment on the process here.
+2. Navigate to the Biographer Bot by clicking on its name, and the icon should turn yellow and it will introduce itself. Begin engaging via chat.
+3. Navigate to Biographer Bot options by clicking on the caret “arrow” next to its scrolling name. Review the options, make some changes and hit ‘update’ to save them to server. They should be retained next time you log in.
+4. Share a memory via chat with Biographer Bot. Review for yourself how this encounter is positive and negative.
+5. At some point during conversation, it should give you a summary of your content and it will have saved a story to the database. If this doesn’t seem clear, notate your thoughts and ideas here
+6. Navigate to Library/Collection caret “arrow” to open options for the library bot. You can, but do not need to make it “active” with its icon yellow. On the Story Collection tab, click the “refresh” icon on the right and you should see your list populate with items.
+7. Click on stories in list to see summary, and then close them. How might you want this functionality to work more comprehensively?
+
+Thank you! Have fun with it for now and make more stories. Any other thoughts, ideas for bots or structural upheaval, please let us know below.
+
+```
+
+### Test Cases Out-of-Scope
+
 The following categories are not currently relevant to the internal member experience unless new.
 
+``` markdown
 ### Register Test Cases
 
 #### Test Case: Newsletter
@@ -875,3 +937,5 @@ The following categories are not currently relevant to the internal member exper
 ##### Create Account Results
 
 ##### Create Account Additional Observations
+
+```

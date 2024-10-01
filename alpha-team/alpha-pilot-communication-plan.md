@@ -1,4 +1,4 @@
-# MyLife Communication plan for Platform Pilot
+# MyLife Communication plan for Alpha Pilot
 
 Initial Author: @Vudum
 

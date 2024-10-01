@@ -2,7 +2,7 @@
 
 Product Name: MyLife Member Services Platform
 
-Initial Authors: @Mookse, @sheikita, Q (MyLife corporate intelligence)
+Initial Authors: @Mookse, @sheikita, [Q](https://humanremembranceproject.org)
 
 Contributors: @stratfordCircle, @gipaalvarez
 
