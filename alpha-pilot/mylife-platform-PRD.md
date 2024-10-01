@@ -47,6 +47,8 @@ The alpha version of the MyLife Member Services Platform is designed to be the f
 
 The alpha version meets the mission by offering intuitive input methods, interactive content prompts, templates, and automated curation hints from metadata. This ensures that every individual, regardless of technical or literacy proficiency, can contribute to and benefit from the platform, preserving their unique stories for future generations.
 
+- [MyLife Alpha Project Plan](https://github.com/MyLife-Services/mylife-documentation/blob/base/alpha-pilot/alpha-pilot-project-plan.md)
+
 ### Purpose of This Document
 
 This Product Requirements Document (PRD) outlines the specific requirements and goals for the MyLife Member Services Platform, with a focus on the alpha pilot version. It serves a dual purpose: to guide the development team with detailed technical and functional specifications, and to showcase to donors and the general public how the platform aligns with MyLife's nonprofit humanist mission.
