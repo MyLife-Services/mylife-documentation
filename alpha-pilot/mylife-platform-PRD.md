@@ -1,6 +1,4 @@
-# MyLife Member Services Platform Product Requirements Documentation
-
-Product Name: MyLife Member Services Platform
+# MyLife Member Services Platform Requirements Documentation
 
 Initial Authors: @Mookse, @sheikita, [Q](https://humanremembranceproject.org)
 
