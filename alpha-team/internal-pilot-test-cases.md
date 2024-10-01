@@ -775,6 +775,14 @@ Interests:
 ## Known Issues
 
 - **Session timeout**: Upon session timeout the browser does not bring member to login screen, but leaves interface up as if it were working.
+- **Updating Memories Issues**: [GitHub Issue #369](https://github.com/MyLife-Services/mylife-maht/issues/369) outlines an instance of the problem, but on occasion the Biographer will fail to run the correct sequence to 1) Retrieve a Summary from MyLife, and b) Update that Summary with its new information. It will now let you know how far it got in the process, and I am actively working on this bug, there are a few different ways to fix it, and I want to make the most scalable decision.
+- **General Error Handling**: Altogether this is a mess and needs to be improved. Usually the last thing to get prioritized.
+
+### Issue Prioritization
+
+Please add here, or just above, any other issues or errors or features you deem important to be considered for fixes or incorporation into the platform. Then please use either the rest of this space or some ranking method of your choosing to let us know the importance of these various issues in your mind.
+
+---
 
 ## Appendix
 
