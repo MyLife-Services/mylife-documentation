@@ -774,6 +774,9 @@ Interests:
 
 ## Known Issues
 
+- **Updating memory title**: Double-Click on "Active: <Memory title>" is not enabling to edit the title of the memory, found in [GitHub Issue #379](https://github.com/MyLife-Services/mylife-maht/issues/379).
+- **Member is unable to save memory in original language**: Add a memory in a different language, but when the memory is opened, it does not display in its original language, found in [GitHub Issue #378](https://github.com/MyLife-Services/mylife-maht/issues/378).
+- **Failure to follow through when reporting significant events**: When asked for significant events on a specific day, the bot promises to search further but delivers incorrect results. It should ensure accuracy by checking all sources and providing reliable information. We are currently not paying for web searches, but that is something we could do. Found in [GitHub Issue #261](https://github.com/MyLife-Services/mylife-maht/issues/261)
 - **Session timeout**: Upon session timeout the browser does not bring member to login screen, but leaves interface up as if it were working.
 - **Updating Memories Issues**: [GitHub Issue #369](https://github.com/MyLife-Services/mylife-maht/issues/369) outlines an instance of the problem, but on occasion the Biographer will fail to run the correct sequence to 1) Retrieve a Summary from MyLife, and b) Update that Summary with its new information. It will now let you know how far it got in the process, and I am actively working on this bug, there are a few different ways to fix it, and I want to make the most scalable decision.
 - **General Error Handling**: Altogether this is a mess and needs to be improved. Usually the last thing to get prioritized.
