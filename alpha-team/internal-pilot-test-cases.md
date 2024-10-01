@@ -53,7 +53,7 @@ Quick links to various functional testing areas:
 
 ### Account Management Test Cases
 
-#### Account Management: Login
+#### Test Case: Login
 
 ##### Login Preconditions
 
@@ -785,4 +785,85 @@ The following categories are not currently relevant to the internal member exper
 
 ### Register Test Cases
 
+#### Test Case: Newsletter
+
+##### Newsletter Preconditions
+
+- Visitor (by email address) is not a member of MyLife
+
+##### Newsletter Test Steps
+
+1. Open [MyLife Homepage](https://humanremembranceproject.org/)
+2. Use the sidebar to enter the visitor's name and email
+3. Click **Submit**
+4. Verify that the sidebar changes to reflect receipt of the information
+
+##### Newsletter Success Conditions
+
+- Sidebar changes content to information about membership
+- Data is added to the MyLife database
+
+##### Newsletter Results
+
+##### Newsletter Additional Observations
+
+---
+
+#### Test Case: Register
+
+##### Register Preconditions
+
+- Visitor (by email address) is not a member of MyLife
+
+##### Register Test Steps
+
+1. Open [MyLife Homepage](https://humanremembranceproject.org/)
+2. Type and submit **"register me"** on the homepage
+3. **Verify** that MyLife asks the visitor to enter the following details:
+   - Avatar Name (3 to 32 characters)
+   - Email Address
+   - Your Name (3 to 64 characters)
+   - "Once I have this information, I'll proceed with your registration!"
+4. Enter the above details in the chat and submit
+5. Verify that a message is displayed indicating that MyLife will contact the visitor via email within a week
+
+##### Register Success Conditions
+
+- MyLife confirms that the visitor will receive an email within a week
+- Visitor receives an email with the link to confirm registration
+
+##### Register Results
+
+##### Register Additional Observations
+
+---
+
 ### Create Account Test Case
+
+#### Test Case: Create Account
+
+##### Create Account Preconditions
+
+- Visitor (by email address) is not a member of MyLife
+- Visitor has successfully [registered](#test-case-register)
+- Visitor has received identifying url
+
+##### Create Account Test Steps
+
+1. Follow personal url to [MyLife Homepage](https://humanremembranceproject.org/?vld=)
+2. **Enter** email address to confirm registration
+3. _Q_ should ask for date of birth and passphrase
+4. **Provide** date of birth and case-sensitive passphrase
+5. _Q_ informs of success
+6. [Test Case Login](#test-case-login)
+
+##### Create Account Success Conditions
+
+- Visitor confirmed as registered member
+- Member Account created
+- Member Avatar created
+- Memory Team created
+
+##### Create Account Results
+
+##### Create Account Additional Observations
