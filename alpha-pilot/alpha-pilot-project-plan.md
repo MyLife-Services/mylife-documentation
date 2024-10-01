@@ -18,3 +18,7 @@ The Alpha version meets the mission by offering intuitive input methods, interac
 
 - [Project Tracker](https://1drv.ms/x/s!Asw9c7yc92_HhcJq8axDYlWXWoVx_A?e=pMgHNB) (view only)
 - [Codebase Releases](https://github.com/MyLife-Services/mylife-maht/releases)
+
+## Testing Plan
+
+- [Internal Pre-Pilot Testing Plan](https://github.com/MyLife-Services/mylife-documentation/blob/base/alpha-pilot/internal-pilot-test-cases.md)
