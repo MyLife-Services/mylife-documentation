@@ -41,7 +41,9 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and platform architect here at MyLife. MyLife's aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
 
-In our ongoing "Diary Bot Series," it's time to put a face to the figure. Last week we explored the MyLife backend pipeline for LLM Engagement and today we create the interface elements needed to engage meaningfully with our Diary Bot.
+Today I'm broadcasting from the Beverly Library - thanks for letting me use the facilities!
+
+In our ongoing "Diary Bot Series," it's time to put a face to the intelligent and personalitied figure. Last week we explored the MyLife backend pipeline for LLM Engagement and today we create the frontend interface elements needed to engage meaningfully with our Diary Bot.
 
 - [Slide 2: Mission] **powerpoint**
 
@@ -55,7 +57,7 @@ If you're someone lonely, perhaps in a retirement community, suffering from or w
 
 Or someone struggling to understand themselves, their identity and how they want to show up in the world? Or maybe you know someone who is? `MyLife` provides a safe and private sanctuary for such self-investigation and awareness.
 
--- insert content about military?
+Or someone in the military deployed to a remote location, or a veteran working through their memories? Or maybe you know someone who is? `MyLife` provides a **secure, supportive platform to document, preserve, and share their personal experiences and stories**, offering tools for introspection, legacy-building, and connection with loved ones—whether during deployment or after returning home.
 
 It's for all of us. Built by us for us. We are many and varied in our needs.
 
@@ -65,7 +67,7 @@ We began here at `MyLife` by building an intelligent opensource and free platfor
 
 MyLife **Walkthrough**
 
-- [SCREENSHARE Chrome](https://humanremembranceproject.org)
+- [SCREENSHARE **Chrome**](https://humanremembranceproject.org)
 - Introduce **Q**
 - Demonstrate Login
 - Introduce **Interface**
@@ -78,7 +80,7 @@ MyLife **Walkthrough**
   - Select **Biographer**
   - Explain how options work
   - Copy/Paste story of today below
-    - Today is 20241004; Please save this memory and title it "20241004"
+    - Today is 20241004; Boy the morning has rushed by without a call from Steve who has left on a jetplane for Texas to be with Russ and other old friends for the long weekend. Drinking some water, prepping, as this text indicates, for the webinar today where we give the Diary a face. Testing now, so far so good! Had some lunch from Delphine's, a quick ham on baguette which was nonetheless delicious. Then I headed to the library and at the last minute one of the study rooms became available - so here I am! Please save this memory and title it "October Opens"
 - Introduce **Scrapbook**
   - show editing options
   - show activation contextualization (how we might contextualize anything)
@@ -125,14 +127,45 @@ The future is here!
 
 - [GitHub Frontend Specifications](https://github.com/MyLife-Services/mylife-maht/issues/381)
 
+- [Slide 6: Modifying HTML for the Diary Bot] **powerpoint**
+  - **Diary Bot Bar** and **Bot Options**
+  - Describe `Getting Started` Button
+- [Slide 7: Modifying HTML for the Diary Bot] **powerpoint**
+  - Shell of **Diary Bot Bar** and **Bot Options**
+  - Shell for **Entry** in scrapbook
+- [Slide 8: Diary Bot Container Code Updates] **powerpoint**
+  - Turnkey for other options such as **name** and **interests**
+  - `Getting Started` Code
+- [Slide 9: Diary Bot Container Code Updates] **powerpoint**
+  - Review `Getting Started` Code
+- [Slide 10: Scrapbook and Item Updates] **powerpoint**
+  - Scrapbook needs `mAvailableCollections` to include Entry
+  - Collection Item type `entry` needs access to obscure functionality
+- [Slide 11: Scrapbook and Item Updates] **powerpoint**
+  - Building the Collection Item `entry`
+- [Slide 12: Frontend Diary Bot Assets] **powerpoint**
+  - Thumbnails in `.png` format (seen here)
+  - CSS management
+- [Slide 13: Frontend Diary Bot Assets] **powerpoint**
+  - Review `.css` code
+- [Slide 14: Phantom Diary Bot] **powerpoint**
+  - Next week we bring it all together, so here we need to create a synthetic Diary Bot for our test member
+- [Slide 15: Phantom Diary Bot in MyLife] **powerpoint**
+  - JSON Cosmos Document for bot
+- [Slide 16: Phantom Diary Bot in LLM] **powerpoint**
+  - Postman image of Diary bot for our test user
+- [Slide 17: General Functioneer in LLM] **powerpoint**
+  - General Functioneer Explanation for `obscure`
+- [CHROME: Local Dev Version with Flip] **NEW** **screenshare**
+
 ##### 20241004 Wrap-Up
 
-- [Slide 6: What We Need Now()] **powerpoint**
+- [Slide 18: What We Need Now()] **powerpoint**
 
 - **Lessons learned:** We learned how to create generic intelligent functionality inside of MyLife!
 - **Get Involved!**
   - We need you!
-  - Volunteers are already incredible, only too few in number: Special thanks this week to Steve, Russ, Avani, Lakshmi, Mark, Jesse, Jeff and Chris.
+  - Volunteers are already incredible, especially as we are testing the pilot! only too few in number: Special thanks this week to Sheila, Steve, Russ, Avani, Lakshmi, Mark, Jesse, Jeff and Chris.
 - **Next session**: `Week 6: All Together Now!` where we put the diary bot on a team, connecting the dots and accessing the dynamic instructions until we have a member-functional Diary Bot intelligence!
 
 ## Episodes
