@@ -3,7 +3,6 @@
 - [Episodes](#episodes)
   - [current session](#20240927)
   - [archives](#episodes)
-- [Live Event Zoom Link](https://us02web.zoom.us/meeting/tZAsduuvrz8qEtKQLZbVlsfuktejbb6iBS6T/ics?icsToken=98tyKuGsrzooHdWRsBGBRpwIBYj4a-3zmClfj7d2rTPfARZfcQXjPfZHOLB9RtHy)
 
 ## Presentation
 
@@ -32,29 +31,31 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 #### Diary Bot Series Week 5
 
+- [LinkedIn Event](https://www.linkedin.com/events/buildadiarybot-partfive-mylifea7245506294151884802/)
+
 ##### Cover Art
 
 ##### 20241004 Introduction
 
-- [Slide 1: Title Slide]
+- [Slide 1: Title Slide] **powerpoint**
 
 Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and platform architect here at MyLife. MyLife's aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
 
 In our ongoing "Diary Bot Series," it's time to put a face to the figure. Last week we explored the MyLife backend pipeline for LLM Engagement and today we create the interface elements needed to engage meaningfully with our Diary Bot.
 
-- [Slide 2: Mission]
+- [Slide 2: Mission] **powerpoint**
 
 `MyLife` is a 501c3 nonprofit member organization that offers its membership, at no charge, an intelligent ai-assisted platform that helps them collect and preserve their cherished memories, stories, media, and ideas for posterity as their digital legacy. MyLife is not affiliated with any paid, premium or freemium service, what you see is free and what you see is what you get.
 
 What is this? How is it used? Well, before I show the interface, here are just a few of the use cases we've already been building towards with our initial functionality.
 
-- [Slide 3: Use Cases]
+- [Slide 3: Use Cases] **powerpoint**
 
 If you're someone lonely, perhaps in a retirement community, suffering from or worried about memory loss, or if you know someone in this condition, `MyLife` will help capture their story.
 
 Or someone struggling to understand themselves, their identity and how they want to show up in the world? Or maybe you know someone who is? `MyLife` provides a safe and private sanctuary for such self-investigation and awareness.
 
--- insert content about student?
+-- insert content about military?
 
 It's for all of us. Built by us for us. We are many and varied in our needs.
 
@@ -88,6 +89,8 @@ MyLife **Walkthrough**
 
 ##### 20241004 Learning Objectives
 
+- [Slide 4: Learning Objectives] **powerpoint**
+
 Now that we have our functional pipelines available to the Diary Bot (in utero imaginato) phantom, we need to build a way to access it. To Lakshmi's point, Lakshmi is one of our fantastic volunteers, you can already access some of this functionality through the OpenAI GPT prototype; by the way, you heard it here first, or at least _I_ did, that OpenAI is going public so that they can be bought by Microsoft. But there's no scrapbook over there, so...! Frontend it is. So we start as always with
 
 - **MyLife GitHub Repository**
@@ -98,7 +101,25 @@ We are an open-source public platform, so you should feel encouraged to visit ou
 
 This is the one to skip. No. Don't skip it. I mean, I think you'll experience, as we investigate this, how fragile our very notions of frontend really are at the moment in the age of artificial intelligences that can dynamic permute code and text like HTML and CSS. Frontend will never be the same, it can never be the same, and here's MyLife's gap: I've never been good at it, and I haven't had the time to dedicate to realizing an efficient and sensible "intelligent client" model yet. It's organically _emerging_ through the concept of developing the Member Avatar into _exactly that engine_, but of course, for the moment, _I'm_ starting from the backend.
 
+- [Slide 5: MyLife Service Consent and Control Architecture]
+
 So if you're not into laughing at others' misfortune, then don't continue with this episode, because MyLife has definitely been injured for lack of a forward-thinking frontend UX and UI designer. Is that you? Call me.
+
+Let's talk about this slide. The ultimate vision, rapidly nearing term, is a landscape where intelligent platforms that offer services engage with known or independent _client_ intelligences that consume the platform's API services.
+
+So we are building our tools with the assumption of an architecture you see described here, which we'll enforce collaboratively with eco and exosystem partners.
+
+- **Stage One**: _Negotiation Handshake_
+- **Stage Two**: _Experience Exchange_
+- **Stage Three**: _Conclude_
+
+**Negotiation Handshake** allows the two entities looking to make a connection and engage in an experience or data exchange a format via which to negotiate consents and groundrules, compromise frameworks, and inject necessary protocols. In other words, you don't know how to render a set of experiential scenes? Let our avatar show you...
+
+**Experience Exchange** is completely undertaken with the consensual liberties outlined in the negotiation. We propose this command and control architecture where the server drives the nature of the experience and data acquisition requests, and leaves it to the intelligent client to pantomime these requests in ways befitting their operator.
+
+**Conclude** is the process for finalizing data storage, exchanging keys or receipts and human-in-the-loop requirements.
+
+The future is here!
 
 ##### 20241004 Practical Session
 
@@ -106,7 +127,7 @@ So if you're not into laughing at others' misfortune, then don't continue with t
 
 ##### 20241004 Wrap-Up
 
-- [Slide 13: What We Need Now()] **powerpoint**
+- [Slide 6: What We Need Now()] **powerpoint**
 
 - **Lessons learned:** We learned how to create generic intelligent functionality inside of MyLife!
 - **Get Involved!**
@@ -119,6 +140,8 @@ So if you're not into laughing at others' misfortune, then don't continue with t
 ### 20240927
 
 #### Diary Bot Series Week 4
+
+- [LinkedIn Event](https://www.linkedin.com/events/buildadiarybot-partfour-mylifea7244939845918224384/)
 
 ##### Into the Pipeline
 
@@ -316,6 +339,8 @@ Total time: _45m_
 ### 20240920
 
 #### Diary Bot Series Week 3
+
+- [LinkedIn Event](https://www.linkedin.com/events/buildadiarybot-partthree-mylife7242598596003381248/)
 
 ##### Head Transplant
 
