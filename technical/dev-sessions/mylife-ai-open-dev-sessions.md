@@ -14,18 +14,82 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 ### Serial Arcs
 
+- Team Two: Creative? Health? Professional?
+- Member Avatar attention
+- one-off episodes on bug-fixing [example: refresh of screen handled by backend]
 - Diary Bot
   1. Birth of a Diary Bot: based on specifications create flat OpenAI Diary Bot prototype from specifications
   2. Headless Diary Bot: Connect this working Diary Bot prototype with MyLife Backend via `actions`
   3. Head Transplant: from specifications (add two+ internal MyLife endpoints #4) and prototype instructions, build and show how Diary bot instructions are stored and realized in the MyLife platform
   4. Into the Pipeline: using `obscure` as the fundamental novelty
-  5. Frontend - looking like 2 episodes
+  5. Frontend
      - container
      - entries
      - options
      - build associated instruction-commands + options?
   6. Team: add new Diary Bot as default to memory team
-- one-off episodes on bug-fixing [example: refresh of screen handled by backend]
+
+### 20241011
+
+#### Diary Bot Series Week 6
+
+- [LinkedIn Event](https://www.linkedin.com/events/buildadiarybot-partsix-mylifeai7248045078303113216/)
+
+##### Teamwork Makes the Dream Work
+
+##### 20241011 Introduction
+
+- [Slide 1: Title Slide] **powerpoint**
+
+Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and platform architect here at MyLife. MyLife's aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
+
+It is with great sorrow, in that still I'm not sure what the next series is going to be, and with great joy, as MyLife will be almost immediately enhanced by the fruit of our ongoing "Diary Bot Series" labor, that I annunce this episode the finale installment of the "Diary Bot Series." As such, today we will be pulling it all together, and taking all of this Diary Bot intelligence creation, pipeline manouvering, and frontend painting to its conclusion by confirguring the Diary Bot onto the Memory Team as a default offering.
+
+- [Slide 2: Mission] **powerpoint**
+
+`MyLife` is a 501c3 nonprofit member organization that offers its membership, at no charge, an intelligent ai-assisted platform that helps them collect and preserve their cherished memories, stories, media, and ideas for posterity as their digital legacy. MyLife is not affiliated with any paid, premium or freemium service, what you see is free and what you see is what you get.
+
+Here are just a few of the use cases we've already been building towards with our initial functionality.
+
+- [Slide 3: Use Cases] **powerpoint**
+
+If you're someone lonely, perhaps in a retirement community, suffering from or worried about memory loss, or if you know someone in this condition, `MyLife` will help capture their story.
+
+Or someone struggling to understand themselves, their identity and how they want to show up in the world? Or maybe you know someone who is? `MyLife` provides a safe and private sanctuary for such self-investigation and awareness.
+
+Or someone in the military deployed to a remote location, or a veteran working through their memories? Or maybe you know someone who is? `MyLife` provides a **secure, supportive platform to document, and share their personal experiences**, offering tools for introspection, legacy-building, and connection with loved ones — whether during deployment or after returning home.
+
+It's for all of us. Built by us for us. We are many and varied in our needs.
+
+We began here at `MyLife` by building an intelligent opensource and free platform for all of us to use that helps elicit, store, protect, and ultimately **make** intelligent your narratives. According to your explicit consents. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. That is the power we bring to bear at `MyLife`.
+
+##### 20241004 MyLife Showcase
+
+How do we do this? Well let me take you on a quick walkthrough behind-the-scenes of the member platform.
+
+- [SCREENSHARE **Chrome**](https://humanremembranceproject.org)
+- Introduce **Q**
+- Demonstrate Login
+- Introduce **Interface**
+  - this is all what you get when you become a member of mylife
+- Introduce **Member Avatar**
+  - Intelligent client, your intelligent account, digital you.
+  - Avatars already coming on the market we are an aggregator, so if you want to use ours, or use another party (or some combination) that is intentional in the platform design
+- Introduce **Bot Team**
+  - Team of intelligences here to help you do the work of being human! Start with our cherished memories and narratives as well as innermost thoughts. The stuff you DON'T want to be sending to Google so they can own.
+  - Select **Biographer**
+  - Explain how options work
+  - Copy/Paste story of today below
+    - Today is 20241011;  Please save this memory and title it "Title is broken"
+- Introduce **Scrapbook**
+  - show editing options
+  - show activation contextualization (how we might contextualize anything)
+- Demonstrate **Relive Memory**
+  - Emphasize it will use same tech as `Tutorial`
+- Demonstrate **Tutorial**
+  - Fun, yes? But implies how relive memories are being cast (in progress)
+
+## Episodes
 
 ### 20241004
 
@@ -168,7 +232,6 @@ The future is here!
   - Volunteers are already incredible, especially as we are testing the pilot! only too few in number: Special thanks this week to Sheila, Steve, Russ, Avani, Lakshmi, Mark, Jesse, Jeff and Chris.
 - **Next session**: `Week 6: All Together Now!` where we put the diary bot on a team, connecting the dots and accessing the dynamic instructions until we have a member-functional Diary Bot intelligence!
 
-## Episodes
 
 ### 20240927
 
