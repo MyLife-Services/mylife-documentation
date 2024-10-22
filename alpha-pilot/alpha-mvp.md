@@ -1,4 +1,4 @@
-# MyLife Alpha Pilot Minimum Viable Product (MVP) Requirements Document
+# MyLife Alpha Minimum Viable Product (MVP) Requirements Document
 
 ## Introduction
 
