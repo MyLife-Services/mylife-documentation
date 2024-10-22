@@ -14,8 +14,14 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 ### Serial Arcs
 
-- Team Two: Creative? Health? Professional?
+- Team Two
+  - Creative? Health? Career? Legacy?
 - Member Avatar attention
+- Experience Building
+- MyLife System Avatar Agents
+  - Relationship Manager (?!)
+  - Consent Manager
+  - Asset Manager
 - one-off episodes on bug-fixing [example: refresh of screen handled by backend]
 - Diary Bot
   1. Birth of a Diary Bot: based on specifications create flat OpenAI Diary Bot prototype from specifications
@@ -43,7 +49,7 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 Hello, and welcome to today's session of `MyLife AI Open Development`! I'm Erik Jespersen, president and platform architect here at MyLife. MyLife's aim is to put you, and all of us, in control of our AI-experiences for our own private, personal and collective wellbeing.
 
-It is with great sorrow, in that still I'm not sure what the next series is going to be, and with great joy, as MyLife will be almost immediately enhanced by the fruit of our ongoing "Diary Bot Series" labor, that I annunce this episode the finale installment of the "Diary Bot Series." As such, today we will be pulling it all together, and taking all of this Diary Bot intelligence creation, pipeline manouvering, and frontend painting to its conclusion by confirguring the Diary Bot onto the Memory Team as a default offering.
+It is with great sorrow, in that still I'm not sure what the next series is going to be, and with great joy, as MyLife will be almost immediately enhanced by the fruit of our ongoing "Diary Bot Series" labor, that I announce this episode the final installment of the "Diary Bot Series." As such, today we will be pulling it all together, and taking all of this Diary Bot intelligence creation, pipeline manouvering, and frontend painting to its conclusion by confirguring the Diary Bot onto the Memory Team as a default offering.
 
 - [Slide 2: Mission] **powerpoint**
 
@@ -61,15 +67,13 @@ Or someone in the military deployed to a remote location, or a veteran working t
 
 It's for all of us. Built by us for us. We are many and varied in our needs.
 
-We began here at `MyLife` by building an intelligent opensource and free platform for all of us to use that helps elicit, store, protect, and ultimately **make** intelligent your narratives. According to your explicit consents. AI can make anything linguistically intelligent, including abstractions like: a story, a memory, an idea. That is the power we bring to bear at `MyLife`.
-
-##### 20241004 MyLife Showcase
+##### 20241011 MyLife Showcase
 
 How do we do this? Well let me take you on a quick walkthrough behind-the-scenes of the member platform.
 
 - [SCREENSHARE **Chrome**](https://humanremembranceproject.org)
 - Introduce **Q**
-- Demonstrate Login
+- Demonstrate `login`
 - Introduce **Interface**
   - this is all what you get when you become a member of mylife
 - Introduce **Member Avatar**
@@ -80,7 +84,7 @@ How do we do this? Well let me take you on a quick walkthrough behind-the-scenes
   - Select **Biographer**
   - Explain how options work
   - Copy/Paste story of today below
-    - Today is 20241011;  Please save this memory and title it "Title is broken"
+    - Today is 20241011; Another Friday already! I've been hoofing it hard this week to imprive the thread pipeline both for security and for ease of transfering data from MyLife NoSQL to LLM providers, and not rely on their storage. Went well! More to do, but closing the tickets, and I'll get the chance to look at the feedback later today, and then test how the new pipeline has ameliorated it.\nI admit, I'm excited for today's session, as the Diary Bot is passing the basic tests, and it will be a fun demo to see it all built out like that.\nPlease save this memory and title it "Both Morning and Title Have Broken"
 - Introduce **Scrapbook**
   - show editing options
   - show activation contextualization (how we might contextualize anything)
@@ -88,6 +92,87 @@ How do we do this? Well let me take you on a quick walkthrough behind-the-scenes
   - Emphasize it will use same tech as `Tutorial`
 - Demonstrate **Tutorial**
   - Fun, yes? But implies how relive memories are being cast (in progress)
+
+##### 20241011 Learning Objectives
+
+- [Slide 4: Learning Objectives] **powerpoint**
+
+- **MyLife GitHub Repository**
+
+We are an open-source public platform, so you should feel encouraged to visit our [codebase on GitHub](https://github.com/MyLife-Services/mylife-maht) to review tickets or progress or you can chat architecture and some engineering directly with our [intelligent codebase GPT](https://chatgpt.com/g/g-oAvQvGv5f-gpt-maht).
+
+- [Slide 5: Digital Life in the Age of Intelligences] **powerpoint**
+
+- **More a Lecture Than a Lesson**
+
+I'm sorry, friends and neighbors, to have to be the one to guarantee you that our digital lives are soon to become much more complicated and fraught... disinformation, _intelligently-designed_ disinformation, phantom scams using loved ones... The good news - we'll be able to build _just the right kind of intelligences_ beside us to present and share the journey through that thicketed landscape with us, the humans.
+
+Web pages? How quaint. the Digital Future Experience will be an immediate intelligent on-demand multimedia presentation of web-captured data that has been compiled into information bundles by a trusted source. A protector and projector of our root digital experiences.
+
+You know, like a friend. A know-it-all but demure friend in this case. But who will truly _trust_ to be our good and close friends in the unfolding new universe where everything has an intelligence?
+
+I offer a micro-rant.
+
+Amazon? Google? X?! Let's say no. We _need_ to say no. Their end human beneficiaries represent a microscopic fraction of our totality. We will be presented with the need to adjust our thinking to where we ally through consensual affinity with institutions rather than being subject to their control and dominion.
+
+I don't listen to Sam Altman, so when I see blurbs that he expects to disrupt capitalism, this is the way in which I agree with that statement, and it is always the way we present to you as a prototype format for a way to protect ourselves in the most effective way possible for the momentous change that is coming. For those who are afraid, MyLife is the way to not be afraid, but join in harnessing the power for our own personal _and_ collective benefit to pursue the surplus global society we ought to have for all of the hard toil pursued for generations to offer us this opportunity.
+
+Once the Diary Bot is a connected member of the Memory, we'll have demonstrated another aspect of how the Member Avatar fulfills its role as protector of your data, so that you are in control of how your data is shared. The Member Avatar protects your data and projects the experiences of that data (maybe, let's say a memory, or a diary entry) according to your design. Your Member Avatar wuoild 
+
+Who's _your_ protector now? Who do _you_ pay to service and maintain your data in the cloud and online? Is your data safe in their "elite" collection as they fervantly train their own LLMs, hungry for human-volitioned content? Are they your best or only primary controllers available?, these dictative preservers of your private data who make you wade through their algorithms like so much muck just to get to what matters to you? Once they have your human intelligence capital, won't they just turn the outcome loose on you to sift through even your pockets looking for change? Can we say no, instead?
+
+##### 20241011 Practical Session
+
+- [Slide 6: Assign Diary Functions and Update Teams] **powerpoint**
+
+Somewhere inside of MyLife is the idea that a Diary Bot could be created. We've planted that seed and now it's time to reap the harvest. We will begin by assigning the functions, both common and unique like `obscure`, to the Diary Bot `type` in the personal factory. Then we assign the bot to the Team or Teams that can offer the core support such an intelligence. Right now, it's just the Memory Team that can manage a Diary Bot.
+
+- [Slide 7: Eligibility for New Team Members] **powerpoint**
+
+Now that the Team Definition is configured and the instructionset input (lo these many sessions!) we just need a way to demand ourselves a new Diary Bot! Very simple, no? Yes and no.
+
+To demand a Diary Bot we will also need to leverage the calls to both remove it (since it is optional), and take advantage of its unique requirements to decouple from one llm-provider thread to another. And that's where it gets more complicated, but I'm going to walk us _swiftly_ past these gnarled roots.
+
+Here we have the request from the frontend to add a Diary Bot to the Memory Team. This has been enabled through activating some latent team functionality. So, of course, it's your Member Avatar that picks up the request and determines the viability of this bot in this context.
+
+- [Slide 8: New Avatar Function: retireChat (frontend)] **powerpoint**
+
+So the frontend icon declares its type and id with a request to the backend...
+
+- [Slide 9: New Avatar Function: retireChat (backend)] **powerpoint**
+
+And here's the backend receipt which performs that action, focusing on migrateChat(), which by the way _double-purposes_ as a way to most effectively inject dynamic instructions into a static context, like OpenAI currently.
+
+- [Slide 10: New Avatar Function: retireBot (frontend)] **powerpoint**
+
+RetireBot is entirely similar, and once triggered,
+
+- [Slide 11: New Avatar Function: retireBot (backend)] **powerpoint**
+
+not only does it remove all traces of the bot from MyLife and the LLM, it also erases its accompanying thread from the LLM system (any previous thread should already have been erased by migrateChat)
+
+So let's test it out! I have hitherto destroyed all of Flip's previous diaries, both organically and inorganically. So let's check it out... did any of this work?!
+
+- [Slide 12: Diary] **powerpoint**
+- [Slide 13: DIARY] **powerpoint**
+- [Slide 14: BOT] **powerpoint**
+- [Slide 15: BABY!] **powerpoint**
+- [SCREENSHARE **Chrome**](https://https://mylife.ngrok.app/members)
+
+##### 20241004 Wrap-Up
+
+- [Slide 16: What We Need Now()] **powerpoint**
+
+- **Review Lessons learned:** We learned it all - from beginning to end (and more) on how to create intelligent functionality inside of MyLife! It's only going to get easier from here, I assure you.
+- **Get Involved!**
+  - We need you!
+  - Volunteers are already incredible, especially as we're closing our testing of the pre-alpha pilot! only too few in number: Special thanks this week to Sheila, Russ, Steve, Ken, Avani, Lakshmi, Mark, Jesse, Jeff, Gina and Chris.
+- **Next session**: Dunno. Figure it out. Off next week, wedding of wonderful friends. Two weeks, tho, here are some ideas.
+  - Build-A(nother)-Bot Workshop, but with custom internal bots
+  - New Bot Team, could be: Legacy, Health, Creative, Career...?
+  - Member Avatar Enhancements!! Important... but, exciting?
+  - Experience Creation, A New Type of Art: this is really something for everyone, as it would give us a peek at how we would begin to design our own memories for sharing with ourselves to relive or others to experience
+  - MyLife System Agents, such as: Relationship, Consent, Asset, ...?; the lifeblood and glue of any system, particularly useful for those who want to use MyLife platform for professional customizations
 
 ## Episodes
 
@@ -231,7 +316,6 @@ The future is here!
   - We need you!
   - Volunteers are already incredible, especially as we are testing the pilot! only too few in number: Special thanks this week to Sheila, Steve, Russ, Avani, Lakshmi, Mark, Jesse, Jeff and Chris.
 - **Next session**: `Week 6: All Together Now!` where we put the diary bot on a team, connecting the dots and accessing the dynamic instructions until we have a member-functional Diary Bot intelligence!
-
 
 ### 20240927
 
