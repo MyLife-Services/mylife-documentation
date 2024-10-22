@@ -1,6 +1,6 @@
 # MyLife Product/Services Roadmap
 
-Articilate Differences and similarities between MyLife Platform, Products, Services and Milestones
+Articulate Differences and similarities between MyLife Platform, Products, Services and Milestones
 This is wide open to interpretation at this point, but the aim here are to just firehose the lines of development (org or tech) so that we break them into their own priorities and individual roadmaps, to which different volunteers can ally themselves with.[each available for oversight opportunity at many different levels and are most certainly divisible] these can be leasable to organizations or other non-human service providers (meaning internally that a MyLife Member's avatar is the equivalent of a human service provider by proxy so "covered" by our MyLife Avatars, they are an extension of the MyLife System Avatar service)
 
 ## MyLife Products
