@@ -49,10 +49,8 @@ The constitution sets forth the core values and guiding principles of MyLife. It
 
 For any questions or further information, please contact:
 
-- **Erik Jespersen** - President & Treasurer
-- **Kenneth Williams** - Vice-President
-- **Stephen Kenney** - Technology Director
-- **Samuel Collins** - Secretary
+- **Erik Jespersen** - President & Treasurer @mookse
+- **Stephen Kenney** - Technology Director @stratfordcircle
 
 Thank you for contributing to MyLife. Together, we are building a lasting legacy for humanity.
 
