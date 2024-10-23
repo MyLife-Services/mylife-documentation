@@ -28,16 +28,12 @@ I seem to keep forgetting to mention that the reason I keep harping on this last
 
 These represent milestones that affect business growth and structure and is inclusive of the underlying state of the services, so each phase or milestone will have subordinate evolving business needs (for artifacts or resources) as well as development and maintenance (operational) needs (for MVP (tech-wise) or resources). 
 
-### Milestone: Alpha Pilot
-
-#### Goal
-
-This top-level milestone represents the state where MyLife platform's core features are developed and tested using by internal and external initial Pilot Members. This is currently arranged as a Project in GitHub @MyLife Pilot Alpha Build (github.com).
-Against this project we articulate this milestone to represent a completed MVP that has been tested and reviewed by a core group of alpha member testers. This milestone is also managed inside of our open-source GitHub environment: MyLife Alpha Pilot Milestone (github.com)
+### Milestone: Pilot Release (Completed)
+This milestone represents the initial phase where the MyLife platform's core features were developed and tested by a limited group of internal users. The Pilot Release has now been completed and reviewed.
 
 #### Core Features
 
-- List the essential features to be built.
+Following core features were tested and are ready to be reviewed under the closed pilot stage.
 
 | Feature/Functionality | Status |
 | --- | --- |
@@ -48,21 +44,38 @@ Against this project we articulate this milestone to represent a completed MVP t
 | Relive Memory | In Testing |
 
 
+### Milestone: Pilot Closed (Open)
+#### Goal
+This milestone captures the state of the platform after the completion of pilot release testing. It involves gathering and filing issues and functionality recognition for the Alpha phase. This milestone will remain open until the board and management review all results and sign off on the Alpha functionality.
+
+#### Core Features
+Features that were validated during the pilot release.
+
+
 #### Criteria to Complete the Milestone
+All issues from the Pilot phase have been reviewed and finalized.
+Board and management sign-off on Alpha functionality.
 
-1. Core features are fully developed and tested.
-2. No critical bugs that block functionality are present.
-3. Finalize Stakeholder list
-4. Stakeholders Outreach and communication
-5. Stakeholder Feedback received and reviewed
-6. Identify and implement Stakeholder Feedback
-7. Gain Stakeholders approval
+### Milestone: Alpha MVP Release (Open)
+#### Goal
+The Alpha MVP Release milestone represents the development, recruitment, and testing of the MyLife platform's MVP (Minimum Viable Product) by Alpha team members. This phase focuses on testing core functionalities, recruiting Alpha members, validating the platform, and incorporating stakeholder feedback.
 
-#### Deliverables
+#### Core Features
+Features are same as pilot release.
 
-1. Core features deployed to the production environment.
-2. A plan for the Beta milestone is shared with stakeholders.
-3. Documentation (e.g., user manuals or training videos) are available.
+
+#### Criteria to Complete the Milestone
+- Complete testing through Alpha members, with test reports available.
+- All bugs are filed and documented for resolution.
+
+### Milestone: Alpha MVP Closed (Open)
+#### Goal
+This milestone represents the formal closure of the Alpha MVP phase, ensuring that all feedback and issues have been addressed and that the platform is ready for Beta release.
+
+#### Criteria to Complete the Milestone
+- Alpha feedback and issues from stakeholders have been addressed.
+- Final MVP is reviewed and signed off by management.
+- Alpha documentation is complete.
 
 #### Stakeholder feedback:
 
