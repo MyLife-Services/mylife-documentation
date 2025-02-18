@@ -110,7 +110,7 @@ The MyLife `Memories Team` envisions a platform where members can seamlessly cra
    - Collaboration tools for multiple members.
    - Shared editing and contribution features.
    - Notification and version control for updates.
-7. **Forget Memories** (beta)
+7. **Forget Memories**
    - Deletion or dismissing of bots, threads or memories
 
 ### User Stories
