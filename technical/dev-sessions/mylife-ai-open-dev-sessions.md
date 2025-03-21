@@ -14,26 +14,21 @@ Currently on Zoom, promoted through LinkedIn personal account, as MyLife does no
 
 ### Serial Arcs
 
+- Experience Building
+  1. Overview
+  2. Script-Building and Bots
+  3. Input Mechanics and Config
+  4. Frontend Portrayal
+  5. Storing and Sharing
 - Team Two
   - Creative? Health? Career? Legacy?
 - Member Avatar attention
-- Experience Building
 - MyLife System Avatar Agents
   - Relationship Manager (?!)
   - Consent Manager
   - Asset Manager
+  - Evolution Agent: legacy and prompts based upon evaluation of usage/alterations over time combined with missions, intents and long-term stategies articulated at 
 - one-off episodes on bug-fixing [example: refresh of screen handled by backend]
-- Diary Bot
-  1. Birth of a Diary Bot: based on specifications create flat OpenAI Diary Bot prototype from specifications
-  2. Headless Diary Bot: Connect this working Diary Bot prototype with MyLife Backend via `actions`
-  3. Head Transplant: from specifications (add two+ internal MyLife endpoints #4) and prototype instructions, build and show how Diary bot instructions are stored and realized in the MyLife platform
-  4. Into the Pipeline: using `obscure` as the fundamental novelty
-  5. Frontend
-     - container
-     - entries
-     - options
-     - build associated instruction-commands + options?
-  6. Team: add new Diary Bot as default to memory team
 
 ### 20241011
 
