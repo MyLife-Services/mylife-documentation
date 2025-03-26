@@ -7,7 +7,7 @@ This is wide open to interpretation at this point, but the aim here are to just 
 
 Describe MyLife Products, leasable/saleable AI-enabled solutions for purpose (teams), marketing (experiences), safe self-representation (non-human, or pay-to-play human?), and the API platform technology itself, which is configurable to an ever-increasingly easy degree. Include ideas of eco-and exo systems (eco shares human validations or hosted pipelines on offer with opportunities for humans but are not for-profit by nature, exo then is for-profit and reserach.)
 
-**MyLife Products**
+Products:
 
 - Bot Teams (customizable, leaseable)
 - Experience technology (non-customizable(but "infinite" capacity inside scripting mechanic), leaseable)
