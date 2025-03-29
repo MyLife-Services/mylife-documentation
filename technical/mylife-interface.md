@@ -1,4 +1,6 @@
-# MyLife Interface Help Document
+# MyLife Interface
+
+This is a help document that outlines the components of the MyLife Member Platform Baseline Frontend Interface.
 
 ## Elements of the Interface
 
@@ -12,20 +14,35 @@
 
 ## 1. Navigation Header
 
-The Navigation Header is the primary access point for users to explore the various features and sections of the MyLife platform. This area provides quick and easy access to essential functions and information. The intelligence behind this navigation bar is _Q_, MyLife's corporate intelligence.
+The Navigation Header is the primary access point for Visitors to explore the various features and sections of the MyLife platform. This area provides quick and easy access to essential functions and information.
+
+The intelligence behind this navigation bar is _Q_, MyLife's corporate intelligence.
 
 ### 1. Key Features
 
-- **MyLife Logo**: Located on the left side, the logo serves as a link to the main dashboard or homepage. It also reinforces the MyLife brand, reminding users of the platform’s mission to preserve human experiences digitally.
-- **About**: This link provides users with detailed information about the MyLife platform, its mission, the team behind the platform and more.
-- **Walkthrough**: Clicking this link guides users to a walkthrough article, helping them understand how to use the platform’s features effectively.
-- **Donate**: This link allows users to contribute financially to support the MyLife mission, reinforcing the platform’s nonprofit status and commitment to providing free services.
-- **Version**: The version number (`v.0.0.xx`) indicates the current version of the platform.
-- **Logout**: Located on the right side, this button allows users to securely log out of their account when they are done using the platform.
+- **MyLife Logo**: Located on the left side, the logo, an icon of a dandelion spreading blown seeds, serves as a link to the main dashboard or homepage. It also reinforces the MyLife brand, reminding Visitors of the platform’s mission to preserve individual human experiences digitally.
+- **About**: This link triggers a frontend routine where _Q_ describes MyLife's mission, team and values. On smaller screens, this will be nested in a hamburger menu.
+- **Walkthrough**: Clicking this link guides Visitors to a walkthrough article, helping them understand how to use the platform’s features effectively. On smaller screens, this will be nested in a hamburger menu.
+- **Donate**: This link allows Visitors to contribute financially to support the MyLife mission, reinforcing the platform’s nonprofit status and commitment to providing free services. On smaller screens, this will be nested in a hamburger menu.
+- **Logout**: Located on the right side, this button allows Visitors to securely log out of their account when they are done using the platform. On smaller screens, this will be nested in a hamburger menu.
+- **Version**: The version number (`v.x.x.xx`) indicates the current version of the platform being used.
 
 ## 2. Main Chat
 
 The **Main Chat System** is the central hub for interactive communication with the MyLife platform. It allows members to engage verbally or textually with various digital assistants (such as their avatar or biographers), helping them curate their digital legacy.
+
+The chat system consists of the following stacked embedded entities which take up half or more of the interface width.
+
+- id: chat-container
+  - id: chat-refresh
+  - id: chat-system
+  - id: chat-separator
+    - id: chat-active-items; array of active items
+    - id: audio-popup
+  - id: chat-input-container
+    - id: audio-icon
+    - id: chat-input-text; member input textbox
+    - id: chat-input-submit; submit button
 
 ### 2. Key Features
 
@@ -33,7 +50,7 @@ The **Main Chat System** is the central hub for interactive communication with t
 - **Hover Actions:** When a member hovers over a chat bubble, an icon appears allowing them to **copy** the content to their clipboard
 - **Text Input Field:** At the bottom of the chat system, members can type their messages or commands, facilitating continuous interaction with their digital assistants.
 - **Submit Button:** After typing a message, members click the "Submit" button to send it, prompting an immediate response from the system.
-- **Refresh Button:** At the top right corner of the chat system, there is a **Refresh Button**. Clicking this button clears the current chat screen, allowing members to start a new conversation or reset the interface without losing previous interactions.
+- **Refresh Icon:** At the top right corner of the chat system, there is a **Refresh** recycle icon. Clicking this icon clears the current chat screen, allowing members to start a new conversation or reset the interface without losing previous interactions.
 
 ## 3. Sidebar
 
