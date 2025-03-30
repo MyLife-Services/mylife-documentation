@@ -1341,13 +1341,18 @@ AI is essential for creating personalized learning experiences, providing instan
 
 ### Metrics
 
-- User Engagement: Daily active users (DAU), session duration.
-- Retention: Monthly retention rate.
+- Member Engagement: Daily active members and session duration.
+- Member Contributions: Daily document creation (+avg by member)
+- Retention: Monthly Active Member rate
 
 ### AI-specific Metrics
 
-- Model Accuracy: Precision and recall of AI recommendations.
-- Response Time: Average time to provide feedback.
+- Model Accuracy: Precision and recall of AI recommendations
+- Coherence: ability to cogently portray and assess information and member experience
+- Facility and utility of greetings, getting started (make button!)
+- Response Time: Average time to provide feedback
+- Diversity and creativity metrics for experiences
+- Increasing pace of sophistication in executive function and portrayal mechanics
 
 ### North Star Metric
 

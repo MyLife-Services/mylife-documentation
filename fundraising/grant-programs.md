@@ -112,7 +112,7 @@ Platform security, Individual privacy, consensual privacy, and larger concepts l
 
 #### Decentralization
 
-Of Platform, of data, of AI.
+Platform, AI, LLMs (aggregator, interoperable), database, concept, technical work
 
 #### Human-Generated Content Marketplace/UBI
 
