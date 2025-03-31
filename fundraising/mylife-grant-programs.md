@@ -1,6 +1,15 @@
 # Grant Programs
 
-This is a first draft of MyLife Grant Preparedness documentation regarding the projects and programs for which we will seek funding. The board is requested to use this document to determine 
+This is a first draft of MyLife Grant Preparedness documentation regarding the projects and programs for which we will seek funding. The board is requested to use this document to determine the top 3 items to begin this grant-seeking process.
+
+On Wednesday, March 26, 2025, the board decided to initially focus on:
+
+1. _MyLife Beta Technical Programs_\
+Grants to help us financially build, implement and maintain Beta usage. This could include anything from increasing direct member demographic inclusions and/or cultural segments to extending its functionality to a more decentralized technical environment, leaving us quite open to possibilities.
+2. _Digital Legacy Education Programs_\
+Here we are the experts. This references any program we could imagine to educate the public on matters of their digital legacy, and the ethical questions of digital dignity, equity and justice. These principles are at our core, so whether this looks like digital campaigns or creative interactive technical ones, or whatever, we can guide the conversation.
+3. _Ethical AI Research/Outreach Programs_\
+This sword is double-edged intentionally. We are looking for partners in this space of all ilk, those that can provide us technical benefit, like [anonime.io](https://autonomi.com/) or Permanent.org to think tank (influencers?) engines that can support our mission in a connected ecosystem manner. But additionally we are able to _be_ the case study for already extant entities, like _AI 2030_. So we are both looking outward to express our mission and vision to be seen as much as be the target of research itself.
 
 ## MyLife Mission
 
