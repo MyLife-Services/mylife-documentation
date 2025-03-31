@@ -1326,8 +1326,12 @@ AI is essential for creating personalized learning experiences, providing instan
 ## Challenges
 
 - Ensuring the AI models are accurate and unbiased.
-- Acquiring enough quality data for training the models.
 - Maintaining user engagement over time.
+- Propose new QA mechanics for articulating and testing the valid range of acceptable model behaviors and establish remediation options and associated pipelines to address and evolve
+- Analogies and ease of use
+- UAT of novel narrative mechanics
+- Ensure unbiased, truthful content
+- Maintaining user engagement over time
 
 ## Positioning
 
@@ -1352,11 +1356,13 @@ AI is essential for creating personalized learning experiences, providing instan
 - Facility and utility of greetings, getting started (make button!)
 - Response Time: Average time to provide feedback
 - Diversity and creativity metrics for experiences
-- Increasing pace of sophistication in executive function and portrayal mechanics
+- Increasing and keeping pace of sophistication in executive function and portrayal mechanics
 
 ### North Star Metric
 
-- User Success Rate: Percentage of members achieving their study goals.
+- _**The way 21st century humanity is remembered**_
+  - **Global public utility** participating in a human-centric ecosystem of like-minded institutional technologies offering humanity the inteliigent tools we need to be successful now and in the future.
+- **Member Satisfaction**: We are the builders and we are the audience; this must be something _we_ want... to save what matters to _each of us_.
 
 ## Launching
 
