@@ -97,15 +97,24 @@ Below are the programs, sometimes projects, that are capable of being stretched 
 
 #### MyLife Alpha Program
 
-Refers to the fully manifest product “currently”
+Refers to currently manifest platform offering and the upcoming Wide-Alpha Project already in operation.
 
 #### MyLife Beta Program
 
-Refers to upcoming Beta project, itself including Development, Security Improvements, UI/UX, mobility, QA, feedback, and more
+Refers to upcoming Beta project at large, as described more in-detail for the grant support material, this encompassess: Functional Development, Security Improvements, UI/UX, mobility, QA, feedback, project-managerial, operational, and more.
 
 #### Digital Legacy Management
 
-From time-capsules as functionality to improved member experiences, to education about, includes 
+MyLife is a free, internet-based intelligent platform to help members capture, shape and consensually share their most precious memories and learned wisdom with posterity.
+
+MyLife was founded with the idea that we all needed better control over how we'll appear to future generations; a Frankenstein of angry Facebook posts, drunken grams, recipe searches, Amazon rush receipts made it clear that we should be crafting better caskets for ourselves to a future that never forgets. And that we should all have the same opportunity, or the real record of humanity would be so skewed as to disservice us all.
+
+We imagined a human network, enabled by AI, capable of democratized story-telling allowing each of us the basic free tools to capture, shape and share our most precious cares and meaningful stories.
+
+MyLife will be _defining_ this space. It is ours to intellectually greenfield based on all of our work thus far. We are experts in this because we've been ideating **and** constructing it for 5 years. From the democratization of intelligence to the data/knowledge/_wisdom_-ownership, the self-empowering work we do will lead us directly to self-sovereignty in a very real sense. As we collectively and empathically ally ourselves through affinity, consent and opportunity the prospects for a positive future together is endless, seen with our current myopia. These digital dots we connect with our own personhood, in genuinity and honesty, for the purpose of being seen, of wanting to share our wisdom with humanity. Even the young, heck the young are the worst, they spit out wordly wisdom with every sip of wine, and they're right... and right to do so. But all of us together, sharing these memory time-capsules with one another and our NL toolbases, we can find ways to manage consensus _and_ individuality, freedom _and_ constraints that make sense in a new and improved social contract. Why not? Wouldn't we really rather? Say, I contract with each of you individually to do these few things: Golden Rule It, Work for Poverty Reduction and other Maszlo-evident deficiencies _Everywhere for all_, and, I don't know, reiterate Don't Use Violence is intended to be a part of the Golden Rule, and if you see those as inconsistent, please step off to the side, and someone will be right with you to help.
+Well all of functionality in MyLife is thus crafted to improved member experiences, to education about, includes:
+Snap (collect), Shape (curate), Share and Relive (new! improved! No one else has this!) Your Cherished Memories and Stories
+Digital Dignity seeps in on this one, though is more formidable I think in the _Ethical AI_ category.
 
 #### Data and Knowledge Ownership
 
