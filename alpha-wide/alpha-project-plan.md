@@ -47,9 +47,9 @@ These are the primary milestones for completing the Alpha Project.
 
 ## MyLife Alpha Project
 
-This top-level milestone represents the state where MyLife Alpha's core features are developed internally and tested by internal volunteer Members. This is currently arranged as a Project in GitHub [MyLife Pilot Alpha Build](https://github.com/orgs/MyLife-Services/projects/13).
+This top-level milestone represents the state where MyLife Alpha's core features are developed internally and tested by internal volunteer Members. This is currently arranged as a Project in GitHub [**MyLife Alpha MVP Build**](https://github.com/orgs/MyLife-Services/projects/13).
 
-Against this project, we articulate this milestone to represent a completed MVP that has been tested and reviewed by a core group of alpha member testers. This milestone is also managed inside of our open-source GitHub environment: [MyLife Alpha Pilot Milestone](https://github.com/MyLife-Services/mylife-maht/milestone/22).
+Against this project, we articulate this milestone to represent a completed MVP that has been tested and reviewed by a core group of alpha member testers.
 
 ### Core Features
 
@@ -80,9 +80,13 @@ Against this project, we articulate this milestone to represent a completed MVP 
 
 #### Alpha Recruitment Deliverables
 
-- Alpha Team participants
+- Alpha Team participants list
 
 ### Alpha Communication Plan
+
+#### Alpha Communication Plan Criteria
+
+#### Alpha Communication Plan Deliverables
 
 ### Alpha Documentation
 
@@ -97,6 +101,8 @@ Against this project, we articulate this milestone to represent a completed MVP 
 - Documentation (e.g., user manuals or training videos) are available
 
 ### Alpha Platform Readiness
+
+This represents the milstone where the Version to be tested has been frozen and is accessible to the list of member testers defined from recruitment.
 
 #### Alpha Platform Readiness Criteria
 
@@ -114,7 +120,7 @@ Against this project, we articulate this milestone to represent a completed MVP 
 
 ### Alpha Member Testing
 
-- [Internal Testing Plan](https://github.com/MyLife-Services/mylife-documentation/blob/base/alpha-pilot/internal-pilot-test-cases.md)
+- Alpha Testing Plan
 - Alpha-Dog Access
 - Forums and Community
 
