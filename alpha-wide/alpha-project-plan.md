@@ -32,6 +32,7 @@ The Alpha version meets the mission by offering intuitive input methods, interac
 
 - [Project Tracker](https://docs.google.com/spreadsheets/d/1woS-zXaOnrUhdlyKxRfxRC1pdH1kn9V2/edit?usp=sharing&ouid=113558317644543920000&rtpof=true&sd=true) (view only)
 - [Codebase Releases](https://github.com/MyLife-Services/mylife-maht/releases)
+- [Project Management](https://mylife793176.monday.com/boards/8734169550)
 
 ## Alpha Milestones
 

@@ -21,13 +21,21 @@ This document fulfills several critical functions:
 - **Communication Tool**: It serves as a communication tool to convey the project scope, requirements, and timelines to all involved parties.
 - **Documentation**: It ensures that there is a written record of the agreed-upon features and requirements, which can be referred to throughout the development process.
 
-### MyLife Mission
+### The Need
 
-MyLife is dedicated to preserving and showcasing individual stories and memories for posterity. Our mission is to provide humanity with a durable, enduring, and free internet-based platform to collect and showcase an individual’s stories, media, and memories through a personal lens. A MyLife.org memorial will always be free and available to all, allowing loved ones, friends, and visitors to share in experiences and leave behind personalized memory tributes. Our goal is to create a living, evolving encyclopedia of our selves, ensuring that the real you is remembered forever.
+We all currently lack any cohesive method to own, store and share, securely and consensually, one's online identity or persona for posterity. With all of our digital and interconnected prowess, culturally we still have only a gravestone to demonstrate our existence for future generations. Humanity would benefit from establishing a comprehensive solution to digitally preserve each of our first-hand human experiences and reflections.
 
-### Alpha Pilot Program
+### MyLife Meets the Need
 
-The MyLife Alpha Pilot is our initial testing program, involving a select group of known members who will pilot our initial external requirements. This program aims to gather valuable feedback on the core features and user experience of the MyLife platform. By engaging with real users in this early stage, we can identify and address any issues, validate our assumptions, and make necessary improvements before a wider release.
+MyLife is a free, humanist nonprofit internet-based intelligent platform to help members digitally capture, shape and consensually share their most precious memories, learning, art and wisdom with posterity. MyLife is an agent-based (we created over a year ago, but we went with word `Bot`) platform where designed teams of Bot-Agent Intelligences are deployed to help you in _any capacity_, for example, the Memory Team helps you build a scrapbook and time capsule to the future, which includes a biographer, diarist, playwright, and more to help build your memoires or future narratives.
+
+MyLife was founded with the idea that we all needed better control over how we'll digitally appear to future generations. We worry what our data, when animated through learning AI, would create from the aggregated remains of our abandoned 'logins'--angry Facebook posts, drunken 'Grams, recipe searches, Door Dash receipts... Most assuredly a wandering Frankenstein. It became clear that we must craft better caskets for ourselves, most especially in a world bearing a future that never forgets. We must all have the same opportunity, or the real record of humanity would be so skewed as to disservice everyone.
+
+We imagined a human network, enabled by AI, capable of democratized story-telling allowing each of us the basic free tools to capture, shape and share our most precious cares and meaningful stories.
+
+### Alpha Program
+
+The MyLife Alpha is our initial testing program, involving a select group of individuals who have registered to test the MyLife platform. The Board of Directors decided that the initial target audience for this launch should be techno-ethicists who would be most interested in the code, technical stack, our mission values and principles, organizational structure _as well as_ the product and its offerings.
 
 ### What is an MVP?
 
@@ -35,12 +43,19 @@ A Minimum Viable Product (MVP) is the most pared-down version of a product that 
 
 ### Audience
 
-This document is intended for the staff of volunteers and board members involved in the MyLife Alpha Pilot project. The audience includes both non-technical and technical individuals who play a role in the development, oversight, and implementation of the platform. This includes:
+This document is intended for the member testers, staff of volunteers and board members involved in the MyLife Alpha project. The audience includes both non-technical and technical individuals who play a role in the development, oversight, or implementation of the platform. This includes:
 
+- **Techno-Ethicists:** Appreciating the tech, the mission and vision and organizational structure as much as the product platform itself.
+- **Member Invitees:** Individuals brought to platform by current volunteers.
 - **Non-Technical Staff:** Board members, project managers, and volunteers who need to understand the overall vision, objectives, and high-level requirements of the project.
 - **Technical Staff:** Developers, designers, and IT personnel who will be responsible for the technical implementation, coding, and testing of the platform.
 
 By catering to a diverse audience, this document aims to bridge the gap between the conceptual goals of the MyLife platform and the technical execution required to bring those goals to fruition.
+
+Here are some of the channels we intend to invite:
+
+- AI 2030
+- All Tech Is Human
 
 ## MyLife Alpha Product Overview
 
