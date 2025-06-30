@@ -1,17 +1,6 @@
 # Cosmos Grant
 
-* Must originate from @Mookse (single individual to start)
-
-Individuals Identified:
-
-* Russ Olivier: Co-Founder, Board Member
-* Steve Kenney: Co-Founder, Board Member, Technical Advisor
-* Avani Patel: Board Member, Blockchain, AI, Architecture
-* Ken Williams: Co-Founder, Board Member, UI/UX Designer
-* Sheila Torrico: Product Management, Project Management
-* Henry Robinson: Product Management
-* Krunal Sevak: Front- and Backend AI Orchestration-layer Development
-* Sharath Chandra: Quality Assurance, Consultant
+Today’s digital memories are often fragmented, subjective, and easily distorted by platform algorithms or bad actors—obscuring collective truth and eroding trust. *Truth in Memory* harnesses ethical, consent-driven AI on the *MyLife* platform to enable users and communities to collaboratively refine, verify, and preserve personal and shared narratives, creating a transparent, authentic archive for future generations.
 
 ## Truth in Memory through Collaborative Narratives Grant
 
@@ -55,6 +44,17 @@ Future activities (beyond initial 90 days) include:
 * Detailed research evaluations assessing broader impacts on truthfulness and user engagement
 * Community testing with diverse groups (elder care, student groups, techno-ethicists)
 * Extensibility and interoperability enhancements (A2A/MCP)
+
+#### Project Team
+
+* Russ Olivier: Co-Founder, Board Member
+* Steve Kenney: Co-Founder, Board Member, Technical Advisor
+* Avani Patel: Board Member, Blockchain, AI, Architecture
+* Ken Williams: Co-Founder, Board Member, UI/UX Designer
+* Sheila Torrico: Product Management, Project Management
+* Henry Robinson: Product Management
+* Krunal Sevak: Front- and Backend AI Orchestration-layer Development
+* Sharath Chandra: Quality Assurance, Consultant
 
 ### Success Metrics
 
